@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Particles from 'react-particles-js';
-
+import YouTube from 'react-youtube';
 import Background from '../img/hero-bg.jpg';
 
 class Home extends Component {
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    console.log('Play!!');
+    event.target.playVideo();
+    event.target.mute();
+  }
+
+  _onEnd(event) {
+    console.log('End!!');
+    event.target.playVideo();
+  }
+
   render() {
     return (
       <section
@@ -15,29 +26,25 @@ class Home extends Component {
         data-natural-height={2000}
         data-position-y="center"
       >
-        <Particles
-          params={{
-            particles: {
-              number: {
-                value: 80
-              },
-              line_linked: {
-                shadow: {
-                  enable: false,
-                  color: '#3CA9D1',
-                  blur: 5
+        <div className="video-background">
+          <div className="video-foreground">
+            <YouTube
+              videoId="aE9zjhlcmYI"
+              opts={{
+                playerVars: {
+                  // https://developers.google.com/youtube/player_parameters
+                  autoplay: 1,
+                  controls: 0,
+                  rel: 0,
+                  showinfo: 0
                 }
-              }
-            }
-          }}
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%'
-          }}
-        />
+              }}
+              className="video-iframe"
+              onReady={this._onReady}
+              onEnd={this._onEnd}
+            />
+          </div>
+        </div>
 
         <div className="overlay" />
         <div className="shadow-overlay" />
