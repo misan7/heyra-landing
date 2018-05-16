@@ -1,0 +1,35 @@
+{
+  "id": "e2eb7f8d-b37b-4db5-8c0e-4ded1662537a",
+  "name": "alarmbots.agent.answer_my_question",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.agent.answer_my_question",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "No me presiones por favor intento hacerlo lo mas rapido que puedo",
+            "Voy me había dormido, ¿que necesitas?",
+            "Ostras te pido perdón ahora lo busco",
+            "Disculpa me pongo a ello",
+            "Perdona, ¿que necesitas?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253921,
+  "fallbackIntent": false,
+  "events": []
+}

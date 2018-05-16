@@ -1,0 +1,172 @@
+[
+  {
+    "id": "52becd3d-556a-444a-b838-43cf111399b4",
+    "data": [
+      {
+        "text": "tengo ganas ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hablar ",
+        "userDefined": false
+      },
+      {
+        "text": "contigo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8d5aa35a-11f8-4cc1-8af9-3e2e394d06ed",
+    "data": [
+      {
+        "text": "podemos hablar un momento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b64ccbb4-1fb2-48c0-97c2-4460a97badf5",
+    "data": [
+      {
+        "text": "podemos hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c32cd4d9-b03c-4340-84f6-bbce6e24e04d",
+    "data": [
+      {
+        "text": "quisiera hablar contigo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4590bddc-6958-416d-8291-70363d3a155b",
+    "data": [
+      {
+        "text": "podríamos charlar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "28783622-566c-497d-bd81-08356d7866f3",
+    "data": [
+      {
+        "text": "quiero que hablemos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e20d9e86-57a6-472d-9d5d-471875834448",
+    "data": [
+      {
+        "text": "necesito hablar contigo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6d4cd3da-22f0-4512-a08d-6f0edc78ad32",
+    "data": [
+      {
+        "text": "tienes un minuto para hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00829319-f77e-4b52-8786-6aefb89cd718",
+    "data": [
+      {
+        "text": "hablemos por favor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9084580d-ac24-4a3e-a569-0329825c7dc9",
+    "data": [
+      {
+        "text": "vamos a hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "61a7e5cb-eeff-4572-a9bc-6c8b5e16fb95",
+    "data": [
+      {
+        "text": "podemos conversar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18633e43-6599-4b63-bd92-d01ed7d77631",
+    "data": [
+      {
+        "text": "vamos a conversar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f8905f0-8113-4546-b619-743073db65d3",
+    "data": [
+      {
+        "text": "charlemos un rato",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

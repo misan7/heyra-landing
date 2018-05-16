@@ -1,0 +1,29 @@
+{
+  "id": "9f8ced60-c590-46ab-acf7-1fdf58dca30d",
+  "name": "alarmbots.dialog.sorry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.dialog.sorry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254050,
+  "fallbackIntent": false,
+  "events": []
+}

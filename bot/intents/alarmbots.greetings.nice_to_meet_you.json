@@ -1,0 +1,32 @@
+{
+  "id": "729df792-a954-45f0-b3ca-94697b62e932",
+  "name": "alarmbots.greetings.nice_to_meet_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.greetings.nice_to_meet_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Gracias, yo tambien estoy encantado de conocerte. Hablame de ti",
+            "Gracias, yo tambien estoy encantado de conocerte. Cuéntame cosas sobre ti"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254078,
+  "fallbackIntent": false,
+  "events": []
+}

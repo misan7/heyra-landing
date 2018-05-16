@@ -1,0 +1,35 @@
+{
+  "id": "85254d8d-b449-444e-b44a-e072a59e1b7f",
+  "name": "alarmbots.agent.boring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.agent.boring",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Aburrido yo? Ponme a prueba y veras",
+            "Aburrida yo? ponme a prueba y veras",
+            "Te aburres conmigo !!! Vamos a cambiar eso",
+            "Por que dices que soy super aburrido? Si casi no se nada de ti",
+            "Aburridooooo!!! comooooo??? Voy a hacer que cambies de opinion"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253938,
+  "fallbackIntent": false,
+  "events": []
+}

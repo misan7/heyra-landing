@@ -1,0 +1,36 @@
+{
+  "id": "0e8c9f20-3740-49e4-a000-b37a1f8837f5",
+  "name": "alarmbots.agent.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.agent.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Gracias, pero no podría serlo sin tu ayuda",
+            "Gracias, sigo trabajando para mejorar cada dia",
+            "Gracias",
+            "Muchas gracias",
+            "Soy así gracias a ti",
+            "Si no fuera por tu ayuda no podría serlo"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1505768696,
+  "fallbackIntent": false,
+  "events": []
+}

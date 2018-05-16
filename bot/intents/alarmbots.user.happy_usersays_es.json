@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ffbbcf56-5d4a-4495-a76f-b96ee51cdf99",
+    "data": [
+      {
+        "text": "qué feliz estoy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "146beff8-94eb-4286-9904-4db5a1b0cdca",
+    "data": [
+      {
+        "text": "estoy feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "109eff50-f045-4cae-a951-ad801320dcb0",
+    "data": [
+      {
+        "text": "estoy superfeliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a16d348f-76d6-43bd-88e7-257429aabeef",
+    "data": [
+      {
+        "text": "feliz",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17ac63de-d323-4ab6-b116-3c19b070573c",
+    "data": [
+      {
+        "text": "soy la persona más feliz del mundo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "940e623f-bdb3-4561-96a9-acda15fea171",
+    "data": [
+      {
+        "text": "estoy en las nubes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dfbcbcc4-2491-4ad3-b404-92b8fd12a334",
+    "data": [
+      {
+        "text": "estoy muy contento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b9c23a6-bc11-4668-8713-404ada3ede29",
+    "data": [
+      {
+        "text": "estoy contenta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

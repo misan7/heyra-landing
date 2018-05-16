@@ -1,0 +1,29 @@
+{
+  "id": "622b1747-d1c1-4160-9edc-f0bbd8990e7f",
+  "name": "alarmbots.user.wants_to_talk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.user.wants_to_talk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254186,
+  "fallbackIntent": false,
+  "events": []
+}

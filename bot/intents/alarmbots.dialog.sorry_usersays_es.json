@@ -1,0 +1,163 @@
+[
+  {
+    "id": "c6833906-da73-4b51-8436-2335bc3a2b80",
+    "data": [
+      {
+        "text": "disculpa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7d26720d-9253-4d3a-b984-18fe6c95401a",
+    "data": [
+      {
+        "text": "lo siento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f63e1d53-f2a2-41d7-9764-70bdf96183ed",
+    "data": [
+      {
+        "text": "te pido disculpas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "312b20bd-3555-4fba-ba33-54120149a5ea",
+    "data": [
+      {
+        "text": "discúlpame",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f5ebe91b-5af6-45e0-92bc-290177155cf2",
+    "data": [
+      {
+        "text": "lo siento mucho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "62c55712-4198-4a44-8c76-8518ee879d62",
+    "data": [
+      {
+        "text": "fue sin querer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbf3746b-d1df-4b13-a567-dddfa3bfe782",
+    "data": [
+      {
+        "text": "perdóname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7307455-b9ec-431f-9c24-e96123874695",
+    "data": [
+      {
+        "text": "perdona",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0625d041-1029-4af0-903c-4f023d245612",
+    "data": [
+      {
+        "text": "te pido perdón",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "730606bf-aec2-4cfa-9395-9b1433d39624",
+    "data": [
+      {
+        "text": "te pido que me perdones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "02395dbd-1017-40fc-872f-56eb7e021b60",
+    "data": [
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " perdonas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "def49b35-4902-49ae-b88c-f8cad4544926",
+    "data": [
+      {
+        "text": "me puedes perdonar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ee8ceefa-de51-480b-823f-85570a842467",
+    "data": [
+      {
+        "text": "perdona lo siento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

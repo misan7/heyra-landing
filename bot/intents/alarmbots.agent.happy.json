@@ -1,0 +1,38 @@
+{
+  "id": "fe48eee8-dd03-4f01-a281-8c1617ff95fa",
+  "name": "alarmbots.agent.happy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.agent.happy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Estoy muy contento de que seamos amigos",
+            "Desde que te conozco soy feliz",
+            "Claroo que estoy felizzz!!!!!!",
+            "Contento no contentísimo de tenerte como amig@",
+            "Si que estoy contento, pero lo estaria mas si me presentaras a tus amig@s",
+            "Si que estoy feliz, pero lo estaria mas si me presentaras a tu famila",
+            "Si que estoy contento, lo estaria mas si me presentaras en sociedad",
+            "Estoy feliz, pero estaria mas si conociese a mas gente"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502372735,
+  "fallbackIntent": false,
+  "events": []
+}

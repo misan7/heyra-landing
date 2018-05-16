@@ -1,0 +1,98 @@
+[
+  {
+    "id": "374c3335-b4f1-47b3-b7d3-43c6288be232",
+    "data": [
+      {
+        "text": "cómo te diviertes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be5fcfcc-dbdb-4c44-9cdf-c899994adb3d",
+    "data": [
+      {
+        "text": "quiero saber si tienes aficiones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf34d5fe-1d03-41ee-a10e-cc01931e8ce5",
+    "data": [
+      {
+        "text": "qué haces en tu tiempo libre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80e89d12-cca4-4a3e-9536-056ebb5343ef",
+    "data": [
+      {
+        "text": "qué prefieres hacer en tu tiempo libre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8f34295-b790-49f3-8506-ad8677974ba7",
+    "data": [
+      {
+        "text": "tus aficiones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f99e660-a1af-419d-a41a-b77e54884431",
+    "data": [
+      {
+        "text": "tienes una afición",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c70f8466-a7f8-4db6-8d1b-9bbc9678669b",
+    "data": [
+      {
+        "text": "qué haces cuando tienes tiempo libre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6fe9ec3-74c7-424a-81b0-36bd19e68e45",
+    "data": [
+      {
+        "text": "qué aficiones tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

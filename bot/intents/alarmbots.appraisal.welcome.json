@@ -1,0 +1,29 @@
+{
+  "id": "19b87423-bd38-4ef5-a93a-351c001596b3",
+  "name": "alarmbots.appraisal.welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.appraisal.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254035,
+  "fallbackIntent": false,
+  "events": []
+}

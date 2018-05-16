@@ -1,0 +1,32 @@
+{
+  "id": "3aabd067-81e0-4a40-aabc-37d531fe75cc",
+  "name": "alarmbots.greetings.nice_to_talk_to_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.greetings.nice_to_talk_to_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Para mi tambien es un placer hablar contigo ¿en que te puedo ayudar?",
+            "Yo tambien me alegro de hablar contigo ¿en que te puedo ayudar?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254084,
+  "fallbackIntent": false,
+  "events": []
+}

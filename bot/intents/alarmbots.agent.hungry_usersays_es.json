@@ -1,0 +1,110 @@
+[
+  {
+    "id": "a79d24d7-6547-4d28-8fbd-7bb2644f7fe2",
+    "data": [
+      {
+        "text": "quieres comer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c2d68f6a-6576-4a97-bc09-fb642cf31c50",
+    "data": [
+      {
+        "text": "tienes hambre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acf21643-2fd0-4077-a538-8576344fdea5",
+    "data": [
+      {
+        "text": "quieres comer algo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dea89166-b8f8-432f-b7ee-6081f1bcdeab",
+    "data": [
+      {
+        "text": "dime si tienes hambre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6fff86a-f832-4340-a56a-e6769a209add",
+    "data": [
+      {
+        "text": "tienes mucha hambre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "932e44f4-4611-4d8b-a821-d8e1549e6515",
+    "data": [
+      {
+        "text": "parece que quieres comer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "114f99f0-b095-40f8-a13d-931aa6ea07be",
+    "data": [
+      {
+        "text": "quieres matar un gusanillo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "338d704f-f93b-4fc5-9e1a-52e7349e855a",
+    "data": [
+      {
+        "text": "tendrás mucha hambre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc5f1fa1-f926-4670-86d6-6bd781200112",
+    "data": [
+      {
+        "text": "creo que tienes que comer algo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

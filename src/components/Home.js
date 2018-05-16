@@ -19,7 +19,7 @@ class Home extends Component {
           params={{
             particles: {
               number: {
-                value: 200
+                value: 80
               },
               line_linked: {
                 shadow: {
@@ -71,6 +71,12 @@ class Home extends Component {
         <ul className="home-social">
           <li>
             <a href="#0">
+              <i className="fa fa-whatsapp" aria-hidden="true" />
+              <span>WhatsApp</span>
+            </a>
+          </li>
+          <li>
+            <a href="#0">
               <i className="fa fa-facebook" aria-hidden="true" />
               <span>Facebook</span>
             </a>
@@ -78,25 +84,13 @@ class Home extends Component {
           <li>
             <a href="#0">
               <i className="fa fa-twitter" aria-hidden="true" />
-              <span>Twiiter</span>
+              <span>Twitter</span>
             </a>
           </li>
           <li>
             <a href="#0">
               <i className="fa fa-instagram" aria-hidden="true" />
               <span>Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <i className="fa fa-behance" aria-hidden="true" />
-              <span>Behance</span>
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <i className="fa fa-dribbble" aria-hidden="true" />
-              <span>Dribbble</span>
             </a>
           </li>
         </ul>

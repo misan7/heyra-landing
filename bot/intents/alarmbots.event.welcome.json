@@ -1,0 +1,46 @@
+{
+  "id": "4340ed71-0786-4179-953a-6cb5d4e6896d",
+  "name": "alarmbots.event.welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EventWelcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¡Hola #user.alias!, soy un chatbot preparado para ser tu asistente nutricional."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Te puedo asesorar de qué y donde comer para llevar una alimentación sana y equilibrada."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524490160,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    },
+    {
+      "name": "TELEGRAM_START"
+    }
+  ]
+}

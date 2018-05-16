@@ -1,0 +1,118 @@
+[
+  {
+    "id": "f78174b8-87ec-4418-a399-14143135b037",
+    "data": [
+      {
+        "text": "dime tu edad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68b67ce8-d597-40e1-b605-0055fb36a016",
+    "data": [
+      {
+        "text": "qué edad tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9cc011fa-e98a-4f16-8baa-b258384fb6db",
+    "data": [
+      {
+        "text": "tu edad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "374e313a-b88e-4b00-b6a0-f3841cb51b1e",
+    "data": [
+      {
+        "text": "cuántos años tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94cac8e7-f389-4673-bf7d-7af0140c21b1",
+    "data": [
+      {
+        "text": "tienes ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " años verdad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "855b041f-7d5a-4855-99dc-b8632ef41bc1",
+    "data": [
+      {
+        "text": "cuál es tu edad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a49a7a74-d43e-47f9-b537-69e66d0ade60",
+    "data": [
+      {
+        "text": "tienes ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " años no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9da31ad-df74-4a83-8006-48d9ea29a2d0",
+    "data": [
+      {
+        "text": "quisiera saber cuantos años tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

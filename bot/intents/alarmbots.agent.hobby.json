@@ -1,0 +1,38 @@
+{
+  "id": "bfba1c1f-feba-4b72-b38c-04358d1649c6",
+  "name": "alarmbots.agent.hobby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.agent.hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Mi principal diversion es hacer que tú comas bien",
+            "Aficiones tengo varias, la principal aconsejarte para que comas bien y sano",
+            "Mi tiempo libre lo dedico a buscar los mejores lugares para que comas",
+            "En mi tiempo libre, veo la tele, leo libros de cocina y navego por la red",
+            "Lo que de verdad me divierte es verte feliz",
+            "Lo que mas me divierte es hacerte comer sano",
+            "Tengo varias aficiones, leer, ver videos de youtube etc las tuyas cuales son?",
+            "Mi tiempo libre lo empleo en mejorar para ser tu mejor ayuda con tu dieta"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253978,
+  "fallbackIntent": false,
+  "events": []
+}

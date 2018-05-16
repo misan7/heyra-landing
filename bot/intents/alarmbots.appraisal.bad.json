@@ -1,0 +1,44 @@
+{
+  "id": "aff21910-42d5-48c1-ab1a-bc5c6fcd7fda",
+  "name": "alarmbots.appraisal.bad",
+  "auto": true,
+  "contexts": [
+    "eat"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.appraisal.bad",
+      "affectedContexts": [
+        {
+          "name": "eat",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9d1eb43d-8c10-4756-bbad-9188cd0aca0b",
+          "dataType": "",
+          "name": "eat",
+          "value": "#eat.food-types"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿No te gusta #eat.food-types?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502198421,
+  "fallbackIntent": false,
+  "events": []
+}

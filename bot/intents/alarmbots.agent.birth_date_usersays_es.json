@@ -1,0 +1,110 @@
+[
+  {
+    "id": "c73b1e13-98bb-4f7d-b960-87e9615c0f70",
+    "data": [
+      {
+        "text": "en que fecha naciste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "f2e3bdb9-0060-4147-95a6-3ebee0325b74",
+    "data": [
+      {
+        "text": "cuándo es tu cumple",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93775ccf-0f99-4df8-b50b-6953cb3c7549",
+    "data": [
+      {
+        "text": "tu cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5bd2001-dba1-43aa-a831-5a8cb613825f",
+    "data": [
+      {
+        "text": "cuándo es tu cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2bb950bb-8652-4e38-92fa-42c592abdf1b",
+    "data": [
+      {
+        "text": "cuándo celebras tu cumple",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da8671cf-48ca-4ea8-8726-6fe4360d6761",
+    "data": [
+      {
+        "text": "cuándo naciste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "37e2ce8f-b54a-4db9-bba2-1b6597d09099",
+    "data": [
+      {
+        "text": "cuál es la fecha de tu cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd97c0a9-514a-4996-b143-9b5c5955a115",
+    "data": [
+      {
+        "text": "cuándo cumples años",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e6188ffb-7ed6-4b4f-add5-6f2b95f8bafe",
+    "data": [
+      {
+        "text": "cuándo tienes el cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "efbeb794-c850-4d4d-80b3-638e58ddac56",
+    "data": [
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " siento ",
+        "userDefined": false
+      },
+      {
+        "text": "tan",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "solo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "24835f85-6696-4123-85e7-2829ec75157f",
+    "data": [
+      {
+        "text": "soy ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "persona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " solitaria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f8c76b5a-e31a-49ec-a80b-6a0c0eeb1950",
+    "data": [
+      {
+        "text": "sólo me tengo a mí",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdc9d3aa-be14-42c8-a10e-f813aa31d40b",
+    "data": [
+      {
+        "text": "me siento solo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09f9c673-01d3-474b-94c7-df7de8e32478",
+    "data": [
+      {
+        "text": "me siento muy sola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8eb949f6-e958-40f0-b68e-cf54e151e089",
+    "data": [
+      {
+        "text": "estoy solo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acb2f6d4-66c9-4519-86c1-efe6f91aab73",
+    "data": [
+      {
+        "text": "estoy tan sola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "58b9c4a2-23e8-458c-8280-6126a661cae4",
+    "data": [
+      {
+        "text": "no tengo a nadie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe2cfcb9-3a21-434d-9c0f-82b7eb2c47c4",
+    "data": [
+      {
+        "text": "estoy más sola que nunca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

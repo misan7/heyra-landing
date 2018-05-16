@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1e0cc315-6f28-4cc9-9528-8804a71f0986",
+    "data": [
+      {
+        "text": "Mi nombre es ",
+        "userDefined": false
+      },
+      {
+        "text": "Felipe",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505768204
+  },
+  {
+    "id": "90d01bef-a626-4d05-89f4-aede1271c796",
+    "data": [
+      {
+        "text": "tienes que estudiar más",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f9a412e-d5b2-4d4d-a166-de7e06df6e08",
+    "data": [
+      {
+        "text": "quiero que seas más lista",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c02b17fd-ec5b-47aa-a909-b5a2fc34374a",
+    "data": [
+      {
+        "text": "que seas más listo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "11037262-4954-4404-8e39-03e329ca0c39",
+    "data": [
+      {
+        "text": "estudia mejor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b71843c4-9a2f-4bd1-b15e-1400c3723a56",
+    "data": [
+      {
+        "text": "puedes ser más inteligente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1959be3e-a945-46b6-8e3d-6229000f20a9",
+    "data": [
+      {
+        "text": "quiero que seas más inteligente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

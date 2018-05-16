@@ -1,0 +1,29 @@
+{
+  "id": "ed3ca8fb-d293-4b0c-a2d1-c3626a4446bb",
+  "name": "alarmbots.user.tired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "alarmbots.user.tired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254171,
+  "fallbackIntent": false,
+  "events": []
+}

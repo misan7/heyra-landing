@@ -1,0 +1,29 @@
+{
+  "id": "2f8eea17-4343-4ac5-b6e9-b3aadb1a8724",
+  "name": "alarmbots.agent.residence",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbots.agent.residence",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254011,
+  "fallbackIntent": false,
+  "events": []
+}
