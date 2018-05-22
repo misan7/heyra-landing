@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import YouTube from 'react-youtube';
 import Background from '../img/hero-bg.jpg';
+import Social from './Social';
 
 class Home extends Component {
   _onReady({ target }) {
@@ -73,32 +74,7 @@ class Home extends Component {
           </div>
           <div className="home-content__line" />
         </div>
-        <ul className="home-social">
-          <li>
-            <a href="#0">
-              <i className="fa fa-whatsapp" aria-hidden="true" />
-              <span>WhatsApp</span>
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <i className="fa fa-facebook" aria-hidden="true" />
-              <span>Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <i className="fa fa-twitter" aria-hidden="true" />
-              <span>Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <i className="fa fa-instagram" aria-hidden="true" />
-              <span>Instagram</span>
-            </a>
-          </li>
-        </ul>
+        <Social className="home-social" />
       </section>
     );
   }

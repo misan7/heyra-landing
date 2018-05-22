@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Link from 'gatsby-link';
 
+import Social from './Social';
 import Logo from '../img/logo.svg';
 
 class Navbar extends Component {
@@ -28,54 +29,37 @@ class Navbar extends Component {
             title="close"
             onClick={() => this.toggle()}
           >
-            <span>Close</span>
+            <span>Cerrar</span>
           </a>
           <div className="header-nav__content">
-            <h3>Navigation</h3>
+            <h3>Navegación</h3>
             <ul className="header-nav__list">
               <li className="current">
-                <Link to="/" onClick={() => this.toggle()}>
-                  <span className="smoothscroll">Home</span>
-                </Link>
+                <a href="#top" onClick={() => this.toggle()}>
+                  <span className="smoothscroll">Inicio</span>
+                </a>
               </li>
               <li>
-                <Link to="/about" onClick={() => this.toggle()}>
-                  <span className="smoothscroll">About</span>
-                </Link>
+                <a href="#about" onClick={() => this.toggle()}>
+                  <span className="smoothscroll">Somos</span>
+                </a>
+              </li>
+              <li>
+                <a href="#services" onClick={() => this.toggle()}>
+                  <span className="smoothscroll">La mejor opción</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" onClick={() => this.toggle()}>
+                  <span className="smoothscroll">Contacto</span>
+                </a>
               </li>
             </ul>
             <p>
-              Perspiciatis hic praesentium nesciunt. Et neque a dolorum{' '}
-              <a href="#0">voluptatem</a> porro iusto sequi veritatis libero
-              enim. Iusto id suscipit veritatis neque reprehenderit.
+              Si deseas conocer más sobre nosotros, visita nuestros perfiles en
+              las redes sociales
             </p>
-            <ul className="header-nav__social">
-              <li>
-                <a href="#">
-                  <i className="fa fa-facebook" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-behance" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-dribbble" />
-                </a>
-              </li>
-            </ul>
+            <Social className="header-nav__social" />
           </div>
         </nav>
         <a
