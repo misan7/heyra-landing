@@ -8,22 +8,29 @@ import Works from '../components/Works';
 import Clients from '../components/Clients';
 import Contact from '../components/Contact';
 
-import { ParallaxProvider } from 'react-scroll-parallax';
-
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const {
+      allMarkdownRemark: { edges: posts },
+      site: {
+        siteMetadata: { slogan, subtitle, backgroundVideo, about }
+      }
+    } = data;
 
     return (
-      <ParallaxProvider>
-        <Home />
-        <About />
+      <div>
+        <Home
+          title={subtitle}
+          slogan={slogan}
+          backgroundVideo={backgroundVideo}
+        />
+        <About {...about} />
         <Services />
-        <Works />
-        <Clients />
+        {/* <Works />
+        <Clients /> */}
         <Contact />
-      </ParallaxProvider>
+      </div>
     );
 
     // return (
@@ -67,12 +74,30 @@ IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array
-    })
+    }),
+    site: PropTypes.object
   })
 };
 
 export const pageQuery = graphql`
   query IndexQuery {
+    site {
+      siteMetadata {
+        slogan
+        subtitle
+        backgroundVideo
+        about {
+          title
+          subtitle
+          description
+          totals {
+            business
+            analyzed
+            protected
+          }
+        }
+      }
+    }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

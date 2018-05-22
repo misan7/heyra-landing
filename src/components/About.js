@@ -3,20 +3,17 @@ import PropTypes from 'prop-types';
 
 const range = (min, max) => Math.round(min + Math.random() * (max - min));
 
-const About = () => (
+const About = ({ title, subtitle, description, totals }) => (
   <section id="about" className="s-about">
     <div className="row section-header has-bottom-sep" data-aos="fade-up">
       <div className="col-full">
-        <h3 className="subhead subhead--dark">Somos</h3>
-        <h1 className="display-1 display-1--light">AlarmBots</h1>
+        <h3 className="subhead subhead--dark">{title}</h3>
+        <h1 className="display-1 display-1--light">{subtitle}</h1>
       </div>
     </div>
     <div className="row about-desc" data-aos="fade-up">
       <div className="col-full">
-        <p>
-          La inteligencia artificial que busca la mejor opción para proteger tu
-          hogar y negocio
-        </p>
+        <p>{description}</p>
       </div>
     </div>
     <div
@@ -24,15 +21,19 @@ const About = () => (
       data-aos="fade-up"
     >
       <div className="col-block stats__col ">
-        <div className="stats__count">12</div>
+        <div className="stats__count">{(totals && totals.business) || 12}</div>
         <h5>Empresas analizadas</h5>
       </div>
       <div className="col-block stats__col">
-        <div className="stats__count">7223</div>
+        <div className="stats__count">
+          {(totals && totals.analyzed) || 7223}
+        </div>
         <h5>Clientes analizados</h5>
       </div>
       <div className="col-block stats__col">
-        <div className="stats__count">2980</div>
+        <div className="stats__count">
+          {(totals && totals.protected) || 2980}
+        </div>
         <h5>Clientes protegidos</h5>
       </div>
     </div>
@@ -40,6 +41,15 @@ const About = () => (
   </section>
 );
 
-About.propTypes = {};
+About.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  description: PropTypes.string,
+  totals: PropTypes.shape({
+    business: PropTypes.number,
+    analyzed: PropTypes.number,
+    protected: PropTypes.number
+  })
+};
 
 export default About;

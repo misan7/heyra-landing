@@ -5,10 +5,19 @@ import Helmet from 'react-helmet';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const TemplateWrapper = ({ children }) => (
-  <div id="W
-    rapper">
-    <Helmet title="Home | Gatsby + Netlify CMS" />
+const TemplateWrapper = ({
+  children,
+  location,
+  data: {
+    site: {
+      siteMetadata: { title, subtitle, slogan }
+    }
+  }
+}) => (
+  <div id="Wrapper">
+    <Helmet title={subtitle} titleTemplate={`%s - ${title}`}>
+      <meta name="description" content={slogan} />
+    </Helmet>
     <Navbar />
     <div id="Content"> {children()} </div>
     <Footer />
@@ -27,7 +36,20 @@ const TemplateWrapper = ({ children }) => (
 );
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.func,
+  data: PropTypes.object
 };
 
 export default TemplateWrapper;
+
+export const TemplateWrapperQuery = graphql`
+  query TemplateWrapperQuery {
+    site {
+      siteMetadata {
+        title
+        subtitle
+        slogan
+      }
+    }
+  }
+`;

@@ -7,15 +7,15 @@ const Contact = () => (
     <div className="contact__line" />
     <div className="row section-header" data-aos="fade-up">
       <div className="col-full">
-        <h3 className="subhead">Contact Us</h3>
+        <h3 className="subhead">Contacto</h3>
         <h1 className="display-2 display-2--light">
-          Reach out for a new project or just say hello
+          Si necesitas más información
         </h1>
       </div>
     </div>
     <div className="row contact-content" data-aos="fade-up">
       <div className="contact-primary">
-        <h3 className="h6">Send Us A Message</h3>
+        <h3 className="h6">Envía un mensaje</h3>
         <form
           name="contactForm"
           id="contactForm"
@@ -29,7 +29,7 @@ const Contact = () => (
                 name="contactName"
                 type="text"
                 id="contactName"
-                placeholder="Your Name"
+                placeholder="Tú nombre"
                 defaultValue
                 required
                 aria-required="true"
@@ -41,7 +41,7 @@ const Contact = () => (
                 name="contactEmail"
                 type="email"
                 id="contactEmail"
-                placeholder="Your Email"
+                placeholder="Tu E-Mail"
                 defaultValue
                 required
                 aria-required="true"
@@ -53,7 +53,7 @@ const Contact = () => (
                 name="contactSubject"
                 type="text"
                 id="contactSubject"
-                placeholder="Subject"
+                placeholder="Asunto"
                 defaultValue
                 className="full-width"
               />
@@ -62,7 +62,7 @@ const Contact = () => (
               <textarea
                 name="contactMessage"
                 id="contactMessage"
-                placeholder="Your Message"
+                placeholder="El mensaje"
                 rows={10}
                 cols={50}
                 required
@@ -72,7 +72,7 @@ const Contact = () => (
               />
             </div>
             <div className="form-field">
-              <button className="full-width btn--primary">Submit</button>
+              <button className="full-width btn--primary">Continuar</button>
               <div className="submit-loader">
                 <div className="text-loader">Sending...</div>
                 <div className="s-loader">

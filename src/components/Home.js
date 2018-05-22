@@ -4,19 +4,18 @@ import YouTube from 'react-youtube';
 import Background from '../img/hero-bg.jpg';
 
 class Home extends Component {
-  _onReady(event) {
-    // access to player in all event handlers via event.target
-    console.log('Play!!');
-    event.target.playVideo();
-    event.target.mute();
+  _onReady({ target }) {
+    target.playVideo();
+    target.mute();
   }
 
-  _onEnd(event) {
-    console.log('End!!');
-    event.target.playVideo();
+  _onEnd({ target }) {
+    target.playVideo();
   }
 
   render() {
+    const { title, slogan, backgroundVideo } = this.props;
+
     return (
       <section
         id="home"
@@ -29,7 +28,7 @@ class Home extends Component {
         <div className="video-background">
           <div className="video-foreground">
             <YouTube
-              videoId="aE9zjhlcmYI"
+              videoId={backgroundVideo}
               opts={{
                 playerVars: {
                   // https://developers.google.com/youtube/player_parameters
@@ -50,14 +49,13 @@ class Home extends Component {
         <div className="shadow-overlay" />
         <div className="home-content">
           <div className="row home-content__main">
-            <h3>El comparador inteligente</h3>
-            <h1>
-              Usa la Inteligencia Artificial
-              <br /> para comparar alarmas
-              <br /> desde tu WhatsApp
-            </h1>
+            <h3>{title}</h3>
+            <h1>{slogan}</h1>
             <div className="home-content__buttons">
-              <a href="#contact" className="contact smoothscroll btn">
+              <a
+                href="https://api.whatsapp.com/send?phone=34699914244&text="
+                className="contact smoothscroll btn"
+              >
                 Inicia la experiencia
               </a>
               <a
@@ -106,6 +104,10 @@ class Home extends Component {
   }
 }
 
-Home.propTypes = {};
+Home.propTypes = {
+  title: PropTypes.string,
+  slogan: PropTypes.string,
+  backgroundVideo: PropTypes.string
+};
 
 export default Home;

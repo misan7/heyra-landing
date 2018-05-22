@@ -1,4 +1,8 @@
 import React from 'react';
+import Typography from 'typography';
+import { TypographyStyle } from 'react-typography';
+
+const typography = new Typography();
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
@@ -27,6 +31,7 @@ module.exports = class HTML extends React.Component {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
 
           {this.props.headComponents}
+          <TypographyStyle typography={typography} />
           {css}
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
