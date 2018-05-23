@@ -35,23 +35,39 @@ class Navbar extends Component {
             <h3>Navegación</h3>
             <ul className="header-nav__list">
               <li className="current">
-                <a href="#top" onClick={() => this.toggle()}>
-                  <span className="smoothscroll">Inicio</span>
+                <a
+                  href="#top"
+                  className="smoothscroll"
+                  onClick={() => this.toggle()}
+                >
+                  <span>Inicio</span>
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={() => this.toggle()}>
-                  <span className="smoothscroll">Somos</span>
+                <a
+                  href="#about"
+                  className="smoothscroll"
+                  onClick={() => this.toggle()}
+                >
+                  <span>Somos</span>
                 </a>
               </li>
               <li>
-                <a href="#services" onClick={() => this.toggle()}>
-                  <span className="smoothscroll">La mejor opción</span>
+                <a
+                  href="#services"
+                  className="smoothscroll"
+                  onClick={() => this.toggle()}
+                >
+                  <span>La mejor opción</span>
                 </a>
               </li>
               <li>
-                <a href="#contact" onClick={() => this.toggle()}>
-                  <span className="smoothscroll">Contacto</span>
+                <a
+                  href="#contact"
+                  className="smoothscroll"
+                  onClick={() => this.toggle()}
+                >
+                  <span>Contacto</span>
                 </a>
               </li>
             </ul>

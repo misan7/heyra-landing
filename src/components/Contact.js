@@ -22,7 +22,7 @@ const Contact = () => (
           {(formState) => (
             <div>
               {formState.loading && (
-                <div className="message-success">Espere...</div>
+                <div className="message-loading">Espere...</div>
               )}
               {!formState.success && (
                 <div>
@@ -82,12 +82,12 @@ const Contact = () => (
               )}
               {formState.error && (
                 <div className="message-warning">
-                  Something went wrong. Please try again.
+                  Se ha producido un error. Vuelve a intentarlo.
                 </div>
               )}
               {formState.success && (
                 <div className="message-success">
-                  Your message was sent, thank you!
+                  Tu mensaje ha sido recibido. Muchas gracias.
                 </div>
               )}
             </div>

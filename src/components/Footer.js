@@ -1,4 +1,5 @@
 import React from 'react';
+import NetlifyForm from 'react-netlify-form';
 
 import Logo from '../img/logo.svg';
 
@@ -10,30 +11,41 @@ const Footer = () => (
         La Inteligencia Artificial que busca la mejor opción para proteger tu
         hogar y negocio
       </div>
-      <div className="col-six tab-full right footer-subscribe">
-        <h4>Get Notified</h4>
-        <p>
-          Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut
-          non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto
-          porro.
-        </p>
 
-        <div className="subscribe-form">
-          <form id="mc-form" className="group" novalidate="true">
-            <input
-              type="email"
-              value=""
-              name="EMAIL"
-              className="email"
-              id="mc-email"
-              placeholder="Email Address"
-              required=""
-            />
-            <input type="submit" name="subscribe" value="Subscribe" />
-            <label for="mc-email" className="subscribe-message" />
-          </form>
-        </div>
-      </div>
+      <NetlifyForm>
+        {(formState) => (
+          <div className="col-six tab-full right footer-subscribe">
+            <h4>¿Te llamamos?</h4>
+            <p>
+              Si prefieres hablar con un humano, tenemos alguno a tu disposición
+            </p>
+            {!formState.success && (
+              <div className="subscribe-form">
+                <div id="mc-form" className="group">
+                  <input
+                    type="text"
+                    name="Phone"
+                    placeholder="Número de teléfono"
+                    required
+                  />
+                  <input type="submit" name="subscribe" value="Llámame" />
+                  <label for="mc-email" className="subscribe-message" />
+                </div>
+              </div>
+            )}
+            {formState.error && (
+              <div className="message-warning">
+                Se ha producido un error. Vuelve a intentarlo.
+              </div>
+            )}
+            {formState.success && (
+              <div className="message-success">
+                Tu mensaje ha sido recibido. Muchas gracias.
+              </div>
+            )}
+          </div>
+        )}
+      </NetlifyForm>
     </div>
 
     <div className="row footer-bottom">

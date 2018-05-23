@@ -6,11 +6,12 @@ import Social from './Social';
 
 class Home extends Component {
   _onReady({ target }) {
-    target.playVideo();
     target.mute();
+    target.playVideo();
   }
 
   _onEnd({ target }) {
+    target.mute();
     target.playVideo();
   }
 
@@ -35,6 +36,7 @@ class Home extends Component {
                   // https://developers.google.com/youtube/player_parameters
                   autoplay: 1,
                   controls: 0,
+                  loop: 1,
                   rel: 0,
                   showinfo: 0
                 }
@@ -54,7 +56,7 @@ class Home extends Component {
             <h1>{slogan}</h1>
             <div className="home-content__buttons">
               <a
-                href="https://api.whatsapp.com/send?phone=34699914244&text="
+                href="https://api.whatsapp.com/send?phone=34699914244&text=Hola"
                 className="contact smoothscroll btn"
               >
                 Inicia la experiencia
