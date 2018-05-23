@@ -21,7 +21,9 @@ const Contact = () => (
         <NetlifyForm>
           {(formState) => (
             <div>
-              {formState.loading && 'Loading...'}
+              {formState.loading && (
+                <div className="message-success">Espere...</div>
+              )}
               {!formState.success && (
                 <div>
                   <h3 className="h6">Envía un mensaje</h3>
