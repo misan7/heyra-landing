@@ -48,6 +48,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: 'pixel id here',
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `YOUR_GOOGLE_ANALYTICS_TRACKING_ID`,

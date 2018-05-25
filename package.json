@@ -8,6 +8,7 @@
     "gatsby": "^1.9.213",
     "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.37",
+    "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-manifest": "^1.0.22",
     "gatsby-plugin-netlify-cms": "^1.0.9",

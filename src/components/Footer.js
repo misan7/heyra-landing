@@ -12,7 +12,7 @@ const Footer = () => (
         hogar y negocio
       </div>
 
-      <NetlifyForm>
+      <NetlifyForm name="Callme">
         {(formState) => (
           <div className="col-six tab-full right footer-subscribe">
             <h4>¿Te llamamos?</h4>

@@ -18,7 +18,7 @@ const Contact = () => (
     </div>
     <div className="row contact-content" data-aos="fade-up">
       <div className="contact-primary">
-        <NetlifyForm>
+        <NetlifyForm name="Contact">
           {(formState) => (
             <div>
               {formState.loading && (
