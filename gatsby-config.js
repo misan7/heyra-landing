@@ -50,13 +50,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: 'pixel id here',
+        pixelId: '1925256160881816',
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `YOUR_GOOGLE_ANALYTICS_TRACKING_ID`,
+        trackingId: `UA-117610431-2`,
         // Puts tracking script in the head instead of the body
         head: false,
         // Setting this parameter is optional
