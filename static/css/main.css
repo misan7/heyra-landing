@@ -1911,8 +1911,7 @@ input::-moz-focus-inner {
     overflow: hidden;
 }
 
-.home-content h3,
-.home-content__main h3 {
+.home-content h3 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
@@ -1924,8 +1923,7 @@ input::-moz-focus-inner {
     margin-left: 6px;
 }
 
-.home-content h1,
-.home-content__main h1 {
+.home-content h1 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
@@ -2273,10 +2271,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 500px) {
-    .s-home {
-        background: url('../images/bg.jpg');
-        min-height: 642px;
-    }
     .home-content h1 {
         font-size: 3.5rem;
     }
@@ -2299,29 +2293,7 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-/* Portrait and Landscape */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .s-home {
-        background: url('../images/bg.jpg');
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .s-home {
-        background: url('../images/bg.jpg');
-        min-height: 630px;
-    }
-    .home-content h1 {
-        font-size: 3.3rem;
-    }
-}
-
 @media only screen and (max-width: 400px) {
-    .s-home {
-        background: url('../images/bg.jpg');
-        min-height: 630px;
-    }
     .home-content h1 {
         font-size: 3.2rem;
     }
@@ -2332,10 +2304,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 320px) {
-    .s-home {
-        background: url('../images/bg.jpg');
-        min-height: 550px;
-    }
     .home-content h1 {
         font-size: 2.9rem;
     }
