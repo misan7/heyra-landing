@@ -48,11 +48,7 @@ class Home extends Component {
             </div>
           </div>
         </BrowserView>
-
-        <MobileView device={isMobile}>
-          <div className="video-background" />
-          <div className="video-foreground" />
-        </MobileView>
+        <MobileView device={isMobile} />
 
         <div className="overlay" />
         <div className="shadow-overlay" />
