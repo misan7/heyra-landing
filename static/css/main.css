@@ -1860,6 +1860,7 @@ input::-moz-focus-inner {
 
 /* ===================================================================
  * # home 
+ *
  * ------------------------------------------------------------------- */
 
 .s-home {
@@ -2272,7 +2273,6 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
     .s-home {
-        background: url('../images/bg.jpg');
         min-height: 642px;
     }
     .home-content h1 {
@@ -2297,19 +2297,7 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-/* Portrait and Landscape */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .s-home {
-        background: url('../images/bg.jpg');
-    }
-}
-
 @media only screen and (max-width: 450px) {
-    .s-home {
-        background: url('../images/bg.jpg');
-        min-height: 630px;
-    }
     .home-content h1 {
         font-size: 3.3rem;
     }
@@ -2317,7 +2305,6 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 400px) {
     .s-home {
-        background: url('../images/bg.jpg');
         min-height: 630px;
     }
     .home-content h1 {
@@ -2325,20 +2312,6 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__main {
         padding-top: 16.2rem;
-        width: auto;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .s-home {
-        background: url('../images/bg.jpg');
-        min-height: 550px;
-    }
-    .home-content h1 {
-        font-size: 2.9rem;
-    }
-    .home-content__main {
-        padding-top: 13.2rem;
         width: auto;
     }
 }
