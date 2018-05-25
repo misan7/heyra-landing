@@ -1911,7 +1911,8 @@ input::-moz-focus-inner {
     overflow: hidden;
 }
 
-.home-content h3 {
+.home-content h3,
+.home-content__main h3 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
@@ -1923,7 +1924,8 @@ input::-moz-focus-inner {
     margin-left: 6px;
 }
 
-.home-content h1 {
+.home-content h1,
+.home-content__main h1 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
