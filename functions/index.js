@@ -6,7 +6,7 @@ const admin = require('firebase-admin');
 const { WebhookClient } = require('dialogflow-fulfillment');
 // const { Card, Suggestion } = require('dialogflow-fulfillment');
 
-admin.initializeApp();
+admin.initializeApp(functions.config().firebase);
 process.env.DEBUG = 'dialogflow:debug';
 
 exports.fulfillment = functions.https.onRequest((request, response) => {
