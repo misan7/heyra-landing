@@ -1,0 +1,55 @@
+{
+  "id": "46d6408a-c4cc-477e-9237-cd76473c6b93",
+  "name": "zipcode",
+  "auto": true,
+  "contexts": [
+    "await_zipcode"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "zipcode",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "await_stole",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "alarmbotszipcode-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e87455bb-c934-400e-8501-02be6f3d7bd2",
+          "required": false,
+          "dataType": "@sys.zip-code",
+          "name": "zip-code",
+          "value": "$zip-code",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Le han robado o a sus vecinos?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527509964,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "c5e92296-8770-40da-9bdb-e6bd22b7af51",
+    "data": [
+      {
+        "text": "te ves muy feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "95a2791d-4ecc-4c66-8d35-0e86ba005859",
+    "data": [
+      {
+        "text": "estás contenta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d4c01117-5f6a-44c1-b1d3-394836a34725",
+    "data": [
+      {
+        "text": "☺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1502372666
+  },
+  {
+    "id": "837e2288-cec7-4cd8-b730-86592b85b415",
+    "data": [
+      {
+        "text": "parece que estás muy feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d0f851a-2a6a-45fe-ab41-65a6cab9af0e",
+    "data": [
+      {
+        "text": "😊",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1502372735
+  },
+  {
+    "id": "26389baa-f04f-4c35-b1cb-d8af5b11087e",
+    "data": [
+      {
+        "text": "estás feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a06ef2c1-acf7-43a9-8a27-de442bf3a9fe",
+    "data": [
+      {
+        "text": "dime si estás feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14a1b608-58f9-4628-9b9e-ed058ec149f6",
+    "data": [
+      {
+        "text": "crees que estás feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a7520f0f-7f87-4cf9-a5d9-71defec9bac4",
+    "data": [
+      {
+        "text": "dime si estás contento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

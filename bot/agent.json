@@ -2,8 +2,10 @@
   "description": "AlarmBots",
   "language": "es",
   "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
   "googleAssistant": {
-    "googleAssistantCompatible": false,
+    "googleAssistantCompatible": true,
+    "project": "alarmbots-613cd",
     "welcomeIntentSignInRequired": true,
     "startIntents": [],
     "systemIntents": [],
@@ -18,9 +20,16 @@
     "isDeviceAgent": false
   },
   "defaultTimezone": "Europe/Madrid",
+  "webhook": {
+    "url": "https://us-central1-alarmbots-613cd.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
   "isPrivate": true,
   "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
-  "supportedLanguages": ["en"],
-  "onePlatformApiVersion": "v2"
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v1legacy"
 }

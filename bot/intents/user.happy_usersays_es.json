@@ -1,0 +1,99 @@
+[
+  {
+    "id": "fab12d1b-05af-4629-a759-2325b6a06555",
+    "data": [
+      {
+        "text": "estoy muy contento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19c44db0-760b-4e73-9af1-23f45092ee1c",
+    "data": [
+      {
+        "text": "estoy contenta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aed07c62-0cc5-4adf-b029-ec27807d1b24",
+    "data": [
+      {
+        "text": "soy la persona más feliz del mundo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b15ceaed-cce5-4743-bc55-fe6ec06333ab",
+    "data": [
+      {
+        "text": "estoy en las nubes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d4d5c041-474f-42fa-be0a-6980ab5b83ef",
+    "data": [
+      {
+        "text": "qué feliz estoy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48232a34-9481-4337-a059-ef65fb60bd04",
+    "data": [
+      {
+        "text": "estoy feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e465fa93-921a-4af4-bdd5-49baf6195f95",
+    "data": [
+      {
+        "text": "estoy superfeliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13a4ff40-62e9-42c0-87a9-9b6858234d63",
+    "data": [
+      {
+        "text": "feliz",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

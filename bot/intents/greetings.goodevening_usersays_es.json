@@ -1,0 +1,38 @@
+[
+  {
+    "id": "8d213b81-1e8a-4985-a311-49482fb87e23",
+    "data": [
+      {
+        "text": "muy buenas tardes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8203e632-fe13-41e0-9dc0-8f26f79aa41d",
+    "data": [
+      {
+        "text": "buenas tardes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1a92d88-4d62-456e-8451-0f7bb07ad265",
+    "data": [
+      {
+        "text": "hola buenas tardes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

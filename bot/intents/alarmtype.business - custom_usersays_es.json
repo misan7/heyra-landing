@@ -1,0 +1,167 @@
+[
+  {
+    "id": "cc70765b-1de0-4b99-b3fb-e34d63d4c72d",
+    "data": [
+      {
+        "text": "es pequeña",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "3aaa7ec3-a115-4d54-b785-fddb95ceb7b3",
+    "data": [
+      {
+        "text": "es muy grande",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "d56b20c4-6b0f-4bbf-9570-ac570d5d6ffc",
+    "data": [
+      {
+        "text": "somos mucha gente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "4ca30ca0-94d9-43b2-8cfc-d82290ed70a8",
+    "data": [
+      {
+        "text": "pocos empleados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "5dd61148-5caf-4f2e-a84b-f88b2566f9ad",
+    "data": [
+      {
+        "text": "muchos empleados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "ba8cd7c9-3d95-4ddb-b07b-40a2b32c2c9d",
+    "data": [
+      {
+        "text": "pocos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "0a4c4d40-67b6-45c1-95e1-a654fa32e8f6",
+    "data": [
+      {
+        "text": "muchos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527510542
+  },
+  {
+    "id": "9bf53243-4253-4fe9-9388-6a86c1fb69b0",
+    "data": [
+      {
+        "text": "20",
+        "alias": "total_employees",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " compañeros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527503971
+  },
+  {
+    "id": "30f00223-4918-46e2-86cf-723ffcb3b76a",
+    "data": [
+      {
+        "text": "Hay",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "total_employees",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " empleados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527503971
+  },
+  {
+    "id": "3466c428-723a-4599-aecd-ea1522829284",
+    "data": [
+      {
+        "text": "Tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "total_employees",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " empleados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527503971
+  },
+  {
+    "id": "2ea2e12f-798d-4535-be99-0a28b05f0cf8",
+    "data": [
+      {
+        "text": "20",
+        "alias": "total_employees",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527503971
+  }
+]

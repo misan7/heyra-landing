@@ -1,0 +1,104 @@
+[
+  {
+    "id": "95477d39-297b-41f4-8992-c3a465898ddc",
+    "data": [
+      {
+        "text": "no puedo dormir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44543144-3e29-4af1-8923-508e31965540",
+    "data": [
+      {
+        "text": "no consigo conciliar el sueño",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "790678d6-2951-42e9-af32-ab1236dd3fda",
+    "data": [
+      {
+        "text": "tengo insomnio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "50f95d25-eed4-4373-9034-7f0bc9ac07b9",
+    "data": [
+      {
+        "text": "no puedo pegar ojo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0de95ef-26dc-4892-958c-52861cedbf09",
+    "data": [
+      {
+        "text": "no ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " llega el sueño",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e501efb-67e7-4831-809c-66d0c10606df",
+    "data": [
+      {
+        "text": "por qué no puedo dormir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d059789-77bb-4721-b23d-58fe6e837ee3",
+    "data": [
+      {
+        "text": "no duermo ",
+        "userDefined": false
+      },
+      {
+        "text": "toda la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " noche",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

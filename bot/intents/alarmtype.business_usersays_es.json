@@ -1,0 +1,143 @@
+[
+  {
+    "id": "7323a2c1-4be9-47e2-8aba-2738c076f2d0",
+    "data": [
+      {
+        "text": "Tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "empresa",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527506917
+  },
+  {
+    "id": "425f4504-901b-45e9-82ca-274f6d62f10d",
+    "data": [
+      {
+        "text": "negocio",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527506917
+  },
+  {
+    "id": "407255b2-1d29-4535-bc8c-3a43ecb32438",
+    "data": [
+      {
+        "text": "Tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "local",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527506917
+  },
+  {
+    "id": "2b6e6d02-d615-4a4b-992c-b2961e516a96",
+    "data": [
+      {
+        "text": "Una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "empresa",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527506917
+  },
+  {
+    "id": "166536d8-601e-4205-a8c5-265c8cac0acc",
+    "data": [
+      {
+        "text": "Un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "negocio",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527506917
+  },
+  {
+    "id": "8ce9f955-b8e0-4038-84f1-26a9a0471d54",
+    "data": [
+      {
+        "text": "Es ",
+        "userDefined": false
+      },
+      {
+        "text": "para un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "negocio",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527506917
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "id": "4340ed71-0786-4179-953a-6cb5d4e6896d",
+  "name": "event.welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "welcome",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2ab32af4-1db0-4857-aa41-3ce48624887b",
+          "dataType": "@sys.any",
+          "name": "user-id",
+          "value": "$user-id",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¡Hola! Soy tu asesor de seguridad, una Inteligencia Artificial que busca la mejor opción para proteger tu hogar y negocio."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Con unas simples preguntas, te daré la solución más correcta adecuada a tus necesidades."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿La alarma es para una vivienda o un negocio?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527506872,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    }
+  ]
+}

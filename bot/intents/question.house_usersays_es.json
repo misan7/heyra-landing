@@ -1,0 +1,66 @@
+[
+  {
+    "id": "05086993-b76f-4a63-a279-fcb58f45d4da",
+    "data": [
+      {
+        "text": "es ",
+        "userDefined": false
+      },
+      {
+        "text": "para una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
+        "alias": "alarmType_House",
+        "meta": "@alarmType_House",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526654027
+  },
+  {
+    "id": "8bee4b04-a368-40da-a87e-694b404780e9",
+    "data": [
+      {
+        "text": "Una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
+        "alias": "alarmType_House",
+        "meta": "@alarmType_House",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1526654027
+  },
+  {
+    "id": "7941f612-9fb8-4900-b735-717411db0451",
+    "data": [
+      {
+        "text": "casa",
+        "alias": "alarmType_House",
+        "meta": "@alarmType_House",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526654027
+  }
+]

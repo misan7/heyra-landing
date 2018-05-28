@@ -1,0 +1,19 @@
+[
+  {
+    "value": "house_type_normal",
+    "synonyms": [
+      "hogar",
+      "casa",
+      "vivienda",
+      "piso",
+      "atico"
+    ]
+  },
+  {
+    "value": "house_type_chalet",
+    "synonyms": [
+      "chalet",
+      "adosado"
+    ]
+  }
+]

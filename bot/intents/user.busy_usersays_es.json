@@ -1,0 +1,115 @@
+[
+  {
+    "id": "3db42280-b4d5-4410-a88c-4ecdf677613e",
+    "data": [
+      {
+        "text": "tengo un montón de cosas que hacer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f881184-0d27-47c7-b2b9-0175b87733cf",
+    "data": [
+      {
+        "text": "no tengo tiempo para ",
+        "userDefined": false
+      },
+      {
+        "text": "nada",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26aea8c7-12df-4363-a871-e0cefa110399",
+    "data": [
+      {
+        "text": "no tengo tiempo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8320311-bd16-4285-a82d-3bc21ef2c93d",
+    "data": [
+      {
+        "text": "tengo muchas cosas que hacer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac09fdfe-08a7-436f-b370-3634db584f9f",
+    "data": [
+      {
+        "text": "tengo mucho trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bbc18b65-8535-4a8a-9757-9eab6843c3e3",
+    "data": [
+      {
+        "text": "estoy ocupado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7fe96104-1b41-496f-942f-160543212511",
+    "data": [
+      {
+        "text": "disculpa estoy muy ocupada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b394cb9d-24ba-47c0-96bc-eec9c283f66b",
+    "data": [
+      {
+        "text": "estoy muy liado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac2b838f-c0c2-41ac-b0a0-f406636fcca2",
+    "data": [
+      {
+        "text": "tengo mucho lio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

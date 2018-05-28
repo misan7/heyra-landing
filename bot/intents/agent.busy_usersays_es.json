@@ -1,0 +1,86 @@
+[
+  {
+    "id": "c27ffcb5-d38f-43d5-9c02-b72a8427bef5",
+    "data": [
+      {
+        "text": "de verdad estás ocupado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "133ad43b-250b-4af3-80ae-54d5db60a868",
+    "data": [
+      {
+        "text": "estás ocupada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fdc78c35-c1a3-416e-b8a1-0fe619e4ee0c",
+    "data": [
+      {
+        "text": "estás muy ocupado ahora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6454d40e-d860-45db-85a5-465283eb2f22",
+    "data": [
+      {
+        "text": "estás tan ocupado hoy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ceaef92-ed00-42e7-ad36-410b5932a43a",
+    "data": [
+      {
+        "text": "dime si estás ocupado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9eb5317-16c0-47a5-a8cc-a16bf0808af8",
+    "data": [
+      {
+        "text": "tienes muchas cosas que hacer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0917c05b-4e3e-4486-8da2-86a57dfa1eda",
+    "data": [
+      {
+        "text": "estás trabajando",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

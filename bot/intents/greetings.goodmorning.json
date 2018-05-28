@@ -1,0 +1,35 @@
+{
+  "id": "9eb79d3d-1f43-4560-acb4-d3a390bc731c",
+  "name": "greetings.goodmorning",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings.goodmorning",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Buenos días ¿que tal has dormido hoy?",
+            "Buenos dias",
+            "Buenos dias, espero que tengas un dia maravilloso",
+            "Buenos dias, ¿qué puedo hacer por ti?",
+            "Buenos dias, ¿en qué te ayudo?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254069,
+  "fallbackIntent": false,
+  "events": []
+}

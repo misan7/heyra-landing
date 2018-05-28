@@ -1,0 +1,74 @@
+[
+  {
+    "id": "aca1f193-9d18-41c4-ab1f-1cb2d27d629d",
+    "data": [
+      {
+        "text": "no tienes dudas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e45eb9f8-e947-4368-951f-0b0e80694cdb",
+    "data": [
+      {
+        "text": "no estás dudando",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "abd1ffe8-56d2-426f-9159-0854f2b951ec",
+    "data": [
+      {
+        "text": "seguro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e67e777-b439-458a-bb5d-f48ec7580ddf",
+    "data": [
+      {
+        "text": "dime si estás segura",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1d459e3-d8f5-40d3-ae30-eb63ec427b8d",
+    "data": [
+      {
+        "text": "estás seguro verdad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9bf4b94-3c8a-41a1-875a-be2221602a7a",
+    "data": [
+      {
+        "text": "estás seguro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

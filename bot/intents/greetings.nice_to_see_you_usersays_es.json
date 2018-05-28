@@ -1,0 +1,79 @@
+[
+  {
+    "id": "799f5456-32b5-4d60-a0e2-9e17472ab6d6",
+    "data": [
+      {
+        "text": "qué alegría volver a verte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "043ed0a2-a50a-42fc-9233-90bbc0177923",
+    "data": [
+      {
+        "text": "cómo me alegro de verte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6ac5992-6b14-4e38-a6e8-0e1f454d24d8",
+    "data": [
+      {
+        "text": "good",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to see you again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67f7abf9-e769-4ecc-a579-619e97004ee1",
+    "data": [
+      {
+        "text": "qué alegría verte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1c3af0e-f103-4283-9fca-dbda93d3cc6e",
+    "data": [
+      {
+        "text": "siempre es un placer verte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8481b01-ef07-4b95-9bd0-2a2fb6be80df",
+    "data": [
+      {
+        "text": "es un placer verte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

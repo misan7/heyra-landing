@@ -1,0 +1,54 @@
+{
+  "id": "25744088-b9bb-4d84-8af5-7d122227fc35",
+  "parentId": "a2bd2432-62af-41a1-a62a-2bb591ce7f13",
+  "rootParentId": "a2bd2432-62af-41a1-a62a-2bb591ce7f13",
+  "name": "alarmtype.business - custom",
+  "auto": true,
+  "contexts": [
+    "alarm_type_business",
+    "alarmbotsalarmtypebusiness-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmbotsalarmtypebusiness.alarmbotsalarmtypebusiness-custom",
+      "affectedContexts": [
+        {
+          "name": "total_employees",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "await_zipcode",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "49a553e0-d92a-42b0-81fa-2ead08885995",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "total_employees",
+          "value": "$total_employees",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Cuál es el código postal donde se encuentra?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527510542,
+  "fallbackIntent": false,
+  "events": []
+}

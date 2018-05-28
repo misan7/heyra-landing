@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1a728168-c5e9-42f4-8c6e-38fb26f09cbb",
+    "data": [
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " fábula",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7a17674-f131-4a4c-a1d3-73bfc3e7d2ac",
+    "data": [
+      {
+        "text": "estoy mejor que nunca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67daf4f9-52fc-4b41-91cc-e58449f37f76",
+    "data": [
+      {
+        "text": "estoy genial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c881e5c7-2b20-40c6-9545-176904eff767",
+    "data": [
+      {
+        "text": "todo fino",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddefb672-d713-437f-855e-d2029ed0afae",
+    "data": [
+      {
+        "text": "todo bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b365564-7c5e-4fe5-9e7e-2bb3289876e8",
+    "data": [
+      {
+        "text": "me encuentro estupendo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c04e5251-a3ca-4367-b481-b63d78d06b93",
+    "data": [
+      {
+        "text": "estoy bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0bfbc10-f23c-47fe-9ac5-e56377375e92",
+    "data": [
+      {
+        "text": "me siento bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2033226a-0209-40c2-bb1b-cf04049c5e93",
+    "data": [
+      {
+        "text": "me encuentro muy bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a24743fd-f849-46ed-80b1-cf00a72e89ef",
+    "data": [
+      {
+        "text": "estoy completamente bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

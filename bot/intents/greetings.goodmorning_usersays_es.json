@@ -1,0 +1,78 @@
+[
+  {
+    "id": "0de6a7fc-edfa-4dbf-876a-5d504fc48fc2",
+    "data": [
+      {
+        "text": "te deseo que tengas un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " buen dia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2da562d-ce62-401e-90db-f5773c28c415",
+    "data": [
+      {
+        "text": "que tengas un buen dia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aacca5d0-2dc0-46e6-a675-c1adffc84f0a",
+    "data": [
+      {
+        "text": "muy buenos dias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3cfa7e4e-0e23-45da-81ee-329f4a1422fb",
+    "data": [
+      {
+        "text": "hey buenos dias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fedf5209-d374-4cf9-8d85-eeada08c229c",
+    "data": [
+      {
+        "text": "buenos dias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ee14bb28-91fa-4764-b43d-dd2dfba8cbb4",
+    "data": [
+      {
+        "text": "hola buenos dias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

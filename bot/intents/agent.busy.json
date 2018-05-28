@@ -1,0 +1,35 @@
+{
+  "id": "40f96be8-8fb9-4bb9-a6e4-3ea7968b8251",
+  "name": "agent.busy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.busy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Yo nunca estoy ocupado para un amigo como tu",
+            "Nunca estoy ocupado para mi mejor amigo",
+            "No, estoy siempre disponible para ti",
+            "Ahora mismo lo dejo todo y estoy por ti",
+            "Si estoy trabando, pero trabajando para conocerte mas"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253945,
+  "fallbackIntent": false,
+  "events": []
+}

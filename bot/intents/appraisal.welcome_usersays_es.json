@@ -1,0 +1,55 @@
+[
+  {
+    "id": "7d0afc25-5fed-46c8-9810-fa8f5e4305cc",
+    "data": [
+      {
+        "text": "de nada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7638ff1d-1cef-41ee-ad49-42ffff1939b8",
+    "data": [
+      {
+        "text": "bienvenido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1f2540a-e974-4566-ab3d-b71aa8edc4e7",
+    "data": [
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nada de verdad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f04ec58-30df-4258-93a0-8d56f41ec231",
+    "data": [
+      {
+        "text": "ha sido un placer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
