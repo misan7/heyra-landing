@@ -28,7 +28,7 @@
         {
           "name": "alarm_zipcode",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 1
         }
       ],
       "parameters": [
@@ -45,10 +45,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": [
-            "¿Le han robado a usted o a sus vecinos?",
-            "¿Han realizado algún robo en las cercanías?"
-          ]
+          "speech": "¿Ha sido afectado por los robos de la zona?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -58,7 +55,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527615630,
+  "lastUpdate": 1527691942,
   "fallbackIntent": false,
   "events": []
 }

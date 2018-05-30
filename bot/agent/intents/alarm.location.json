@@ -18,7 +18,12 @@
         {
           "name": "await_stole",
           "parameters": {},
-          "lifespan": 1
+          "lifespan": 5
+        },
+        {
+          "name": "await_location",
+          "parameters": {},
+          "lifespan": 0
         }
       ],
       "parameters": [
@@ -52,7 +57,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527615987,
+  "lastUpdate": 1527695144,
   "fallbackIntent": false,
   "events": []
 }

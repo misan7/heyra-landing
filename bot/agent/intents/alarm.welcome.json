@@ -11,7 +11,7 @@
         {
           "name": "await_alarmtype",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -50,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527614318,
+  "lastUpdate": 1527694102,
   "fallbackIntent": false,
   "events": [
     {

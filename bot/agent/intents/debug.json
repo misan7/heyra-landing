@@ -38,7 +38,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Listo. volvamos a empezar."
+          "speech": "Listo. Volvamos a empezar."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -48,7 +48,7 @@
   "priority": 1000000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527512965,
+  "lastUpdate": 1527695869,
   "fallbackIntent": false,
   "events": []
 }
