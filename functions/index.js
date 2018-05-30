@@ -3,7 +3,8 @@
 // https://github.com/dialogflow/dialogflow-fulfillment-nodejs/blob/master/docs/WebhookClient.md#WebhookClient+session
 const functions = require('firebase-functions');
 const { WebhookClient } = require('dialogflow-fulfillment');
-const { Notification, User, sendOffer } = require('./etc/helpers');
+const { Notification, User, getOffer } = require('./etc/helpers');
+const camelCase = require('lodash/camelCase');
 
 // const { Card, Suggestion } = require('dialogflow-fulfillment');
 
@@ -17,29 +18,22 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
   let intentMap = new Map();
-  let handleName = null;
 
-  switch (agent.action) {
-    case 'offer.send':
-      // Register user
-      User(agent.session || agent.originalRequest.body.sessionId).then(
-        (user) => {
-          user
-            .addContexts(agent.intent, agent.contexts)
-            .then(() => console.log('Contexts added!'));
-        }
-      );
+  // Register user
+  User(agent.session || request.body.sessionId).then((user) => {
+    user.addContexts(agent.intent, agent.contexts).then(() => {
+      console.log(`Contexts added. Execute ${camelCase(agent.action)}.`);
 
-      handleName = sendOffer;
-      break;
-    case 'notification.send':
-      handleName = sendNotification;
-      break;
-  }
+      const actions = {
+        offerSend: () => getOffer(agent),
+        notificationSend: () => notification.createUser(user)
+      };
 
-  if (handleName) {
-    intentMap.set(null, handleName);
-  }
+      if (agent.action) {
+        intentMap.set(null, actions[camelCase(agent.action)]);
+      }
 
-  return agent.handleRequest(intentMap);
+      return agent.handleRequest(intentMap);
+    });
+  });
 });

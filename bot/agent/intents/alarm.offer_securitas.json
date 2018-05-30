@@ -23,12 +23,12 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Tienes un descuento de #OFFER_SECURITAS.dto euros"
+          "speech": "Tienes un descuento de #OFFER_SECURITAS.discount euros"
         },
         {
           "type": 0,
           "lang": "es",
-          "speech": "¿Quieres conocer más detalles sobre esta oferta?"
+          "speech": "¿Deseas concertar una visita comercial para asesorarte?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -38,7 +38,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527695045,
+  "lastUpdate": 1527699732,
   "fallbackIntent": false,
   "events": [
     {
