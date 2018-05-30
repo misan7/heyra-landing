@@ -1,0 +1,21 @@
+[
+  {
+    "value": "business_normal",
+    "synonyms": [
+      "business",
+      "negocio",
+      "oficina",
+      "local",
+      "trabajo",
+      "empresa"
+    ]
+  },
+  {
+    "value": "business_industrial",
+    "synonyms": [
+      "nave",
+      "nave industrial",
+      "taller"
+    ]
+  }
+]

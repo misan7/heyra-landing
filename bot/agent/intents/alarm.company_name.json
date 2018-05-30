@@ -1,0 +1,68 @@
+{
+  "id": "d158973c-85d6-4188-8830-60575dcc0f32",
+  "name": "alarm.company_name",
+  "auto": true,
+  "contexts": [
+    "await_alarmcompany"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "offer.send",
+      "affectedContexts": [
+        {
+          "name": "await_withalarm",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "alarm_withalarm",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "alarm_companyname",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "await_alarmcompany",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b3fb904b-3b4f-4c8a-8dcc-f0e47770718d",
+          "required": false,
+          "dataType": "@companyName",
+          "name": "companyName",
+          "value": "$companyName",
+          "isList": false
+        },
+        {
+          "id": "fe308aa6-415b-4a0a-b7f4-5c9761e7626f",
+          "required": false,
+          "name": "alarm_companyname",
+          "value": "$companyName",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Es importante estar protegido."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527670926,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "1241e442-ae5d-478b-bb0b-fc093d6f5a0c",
+    "data": [
+      {
+        "text": "tienes ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " años no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "632e78e3-bed8-4c00-92c5-d4e16d3e3d19",
+    "data": [
+      {
+        "text": "cuántos años tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "372104ec-dcab-41ca-9e28-39f038c94674",
+    "data": [
+      {
+        "text": "quisiera saber cuantos años tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "66763ca3-122b-413c-a65d-5aeaab6c57b8",
+    "data": [
+      {
+        "text": "cuál es tu edad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "efa30c21-6fcb-485d-a6e5-79851a3584df",
+    "data": [
+      {
+        "text": "dime tu edad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "022356d0-63c3-4974-bafe-d14bfc4cf440",
+    "data": [
+      {
+        "text": "tu edad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "48d7cfe5-0ba8-4e29-a12c-51748de10b36",
+    "data": [
+      {
+        "text": "qué edad tienes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  },
+  {
+    "id": "044485ee-6c7a-4340-91e4-eade5b315407",
+    "data": [
+      {
+        "text": "tienes ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " años verdad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526639253
+  }
+]

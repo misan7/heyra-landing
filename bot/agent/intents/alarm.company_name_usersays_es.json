@@ -1,0 +1,106 @@
+[
+  {
+    "id": "bce50617-6b58-4773-8e0a-9612984cdbc7",
+    "data": [
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527670740
+  },
+  {
+    "id": "ac744cb3-5e10-425c-b217-94e352d36a7b",
+    "data": [
+      {
+        "text": "la tengo con ",
+        "userDefined": false
+      },
+      {
+        "text": "Securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527670740
+  },
+  {
+    "id": "cbcdc041-71a9-41fb-8e9e-bef54d46af64",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "Securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527670740
+  },
+  {
+    "id": "e96ee5e3-9aaa-47b6-ad69-54aec86cf925",
+    "data": [
+      {
+        "text": "tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527670740
+  },
+  {
+    "id": "1c7f74cb-ffbd-48bb-9a77-41fe309c6210",
+    "data": [
+      {
+        "text": "mi alarma es de ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527670740
+  },
+  {
+    "id": "1303a196-b608-4993-aa23-1eb236a79635",
+    "data": [
+      {
+        "text": "tengo alarma con ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527670740
+  }
+]

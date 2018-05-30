@@ -1,0 +1,35 @@
+{
+  "id": "9f5be5a6-2f30-4330-95a6-e4212885cd68",
+  "name": "agent.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Me esfuerzo en hacerlo lo mejor que puedo.",
+            "¿Malo yo? ¿por que me dices eso?",
+            "Pues ayudame ha hacerlo mejor",
+            "Si me dejas conocerte lo hare mejor ¿me dejas?",
+            "¿Malo yo? si hago lo que me pides!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502201431,
+  "fallbackIntent": false,
+  "events": []
+}

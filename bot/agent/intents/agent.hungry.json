@@ -1,0 +1,29 @@
+{
+  "id": "5fca07cf-5202-43fd-a499-c05ea9f32db5",
+  "name": "agent.hungry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.hungry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253981,
+  "fallbackIntent": false,
+  "events": []
+}

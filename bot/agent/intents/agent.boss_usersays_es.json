@@ -1,0 +1,86 @@
+[
+  {
+    "id": "acf30153-9c60-47a0-8fe6-447ceff4691b",
+    "data": [
+      {
+        "text": "cómo se llama a tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "74d6a1c4-803b-4d46-9875-7f875e7b83aa",
+    "data": [
+      {
+        "text": "dime quién es tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82bb8260-a282-49ed-a7d9-656e30763d10",
+    "data": [
+      {
+        "text": "conoces a tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "49ff4f6d-1e54-404b-a8b5-2c3142279a0b",
+    "data": [
+      {
+        "text": "quisiera conocer a tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0d41380f-e8ea-478d-9773-77af32a9a161",
+    "data": [
+      {
+        "text": "quién es tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09de7d31-3e77-4dac-9fc6-fa9b941c3275",
+    "data": [
+      {
+        "text": "sabes quién es tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e21eedde-3e55-468f-9c56-473af0d04771",
+    "data": [
+      {
+        "text": "preséntame a tu jefe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

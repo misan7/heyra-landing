@@ -1,0 +1,45 @@
+{
+  "id": "750b3f4b-0a5f-481f-a166-cd6a7987ec96",
+  "name": "alarm.welcome_fallback",
+  "auto": true,
+  "contexts": [
+    "await_alarmtype"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_alarmtype",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Hola de nuevo.",
+            "Creo que ya nos saludamos, pero hola de nuevo.",
+            "Saludos."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Puedo ayudarte si me indicas si buscas proteger tu hogar o tu negocio."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527614332,
+  "fallbackIntent": true,
+  "events": []
+}

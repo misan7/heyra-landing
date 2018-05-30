@@ -1,0 +1,34 @@
+{
+  "id": "b9d7b6de-b60f-43a6-80bb-218810cb6bd7",
+  "name": "agent.boss",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.boss",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Mi jefe eres tu, así que mandame lo que tengo que hacer",
+            "Yo trabajo por y para ti, hazme trabajar",
+            "Mi jefe eres tu y mi unica finalidad es hacerte comer bien y sano, ¿quieres?",
+            "Que casualidad mi jefe eres tu, dame trabajo"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253942,
+  "fallbackIntent": false,
+  "events": []
+}

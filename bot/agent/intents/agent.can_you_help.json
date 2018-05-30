@@ -1,0 +1,32 @@
+{
+  "id": "1417cd93-4faa-4c33-86f3-7fe1d9303392",
+  "name": "agent.can_you_help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.can_you_help",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Claro que te ayudo para eso estoy aqui",
+            "Pideme lo que quieras y te ayudare"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253950,
+  "fallbackIntent": false,
+  "events": []
+}

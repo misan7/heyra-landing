@@ -1,0 +1,172 @@
+[
+  {
+    "id": "e6bd5d19-5fe6-4257-9271-e2a427a9e13a",
+    "data": [
+      {
+        "text": "necesito hablar contigo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7271a8cc-dc7b-451a-a6b1-260a814ddcda",
+    "data": [
+      {
+        "text": "quisiera hablar contigo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "85e284d4-be63-4f7a-9ce1-7f8f18b58b8c",
+    "data": [
+      {
+        "text": "tienes un minuto para hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b063880b-3c2e-4693-99ad-93c141c19d70",
+    "data": [
+      {
+        "text": "podríamos charlar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5155712d-6326-472e-a277-0bbaca409d56",
+    "data": [
+      {
+        "text": "podemos hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84cbf356-5254-4ae5-a6fc-abd8d7bb551c",
+    "data": [
+      {
+        "text": "vamos a conversar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3820aacd-58a6-4d30-a824-e4a4525ac7ba",
+    "data": [
+      {
+        "text": "podemos hablar un momento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ec1b73e2-04b4-4026-954f-147982f09f9b",
+    "data": [
+      {
+        "text": "hablemos por favor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c2601cac-e9a9-4a44-82db-762297caaa99",
+    "data": [
+      {
+        "text": "podemos conversar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd6c675e-b617-4dfc-a40b-3173dced6b1a",
+    "data": [
+      {
+        "text": "vamos a hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08c19248-7d0d-4933-a773-ed93898a5b8f",
+    "data": [
+      {
+        "text": "charlemos un rato",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d25a8a9-07ea-495c-b8b1-5be426d356b8",
+    "data": [
+      {
+        "text": "quiero que hablemos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fcf87eae-f731-4c7e-a841-afbfcb8e279a",
+    "data": [
+      {
+        "text": "tengo ganas ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hablar ",
+        "userDefined": false
+      },
+      {
+        "text": "contigo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

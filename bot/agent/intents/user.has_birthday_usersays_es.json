@@ -1,0 +1,135 @@
+[
+  {
+    "id": "0750a54c-4d99-4f60-a878-d17205e0270a",
+    "data": [
+      {
+        "text": "es ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d70c39be-9599-422e-829f-8ab1356c68f5",
+    "data": [
+      {
+        "text": "hoy es mi cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "455520a0-e03e-42ee-9666-8c9c659c2cd3",
+    "data": [
+      {
+        "text": "hoy cumplo años",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87285f8a-09e6-4c15-a2dc-7a506fdf97c5",
+    "data": [
+      {
+        "text": "tengo cumpleaños hoy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "991e543b-a3c5-42e7-b9f6-d54407bdd596",
+    "data": [
+      {
+        "text": "estoy celebrando mi cumpleaños hoy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d729af1-bdf4-4bda-9065-f591c2556877",
+    "data": [
+      {
+        "text": "hoy",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cumplo otro ",
+        "userDefined": false
+      },
+      {
+        "text": "año",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " más ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "vida",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02279516-8aa2-4327-8804-db1adbe8a8a9",
+    "data": [
+      {
+        "text": "sabes que hoy es mi cumple",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "785caa70-5f2a-45ff-8c16-fac388742995",
+    "data": [
+      {
+        "text": "estoy de cumple",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

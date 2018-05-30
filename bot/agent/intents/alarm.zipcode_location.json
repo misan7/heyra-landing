@@ -1,0 +1,41 @@
+{
+  "id": "e322c11a-2ef4-4666-b792-65e9b3daef67",
+  "name": "alarm.zipcode_location",
+  "auto": true,
+  "contexts": [
+    "await_zipcode"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_location",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_zipcode",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Ok, no te preocupes. ¿En que ciudad se encuentra?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527614101,
+  "fallbackIntent": true,
+  "events": []
+}

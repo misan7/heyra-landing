@@ -1,0 +1,34 @@
+[
+  {
+    "id": "e42f227d-0068-4861-971a-cba7f39177f6",
+    "data": [
+      {
+        "text": "00000",
+        "alias": "alarm_zipcode",
+        "meta": "@sys.zip-code",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527615525
+  },
+  {
+    "id": "7f23ea88-995b-408f-a9e4-dc6a0a9571e5",
+    "data": [
+      {
+        "text": "Mi código postal es ",
+        "userDefined": false
+      },
+      {
+        "text": "00000",
+        "alias": "alarm_zipcode",
+        "meta": "@sys.zip-code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527615525
+  }
+]

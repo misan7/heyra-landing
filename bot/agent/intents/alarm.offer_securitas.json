@@ -1,0 +1,32 @@
+{
+  "id": "3917bbf7-3f22-46ae-90df-8f8fe42f17f9",
+  "name": "alarm.offer_securitas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Genial, te recomiendo Securitas..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527614032,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "OFFER_SECURITAS"
+    }
+  ]
+}

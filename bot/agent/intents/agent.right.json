@@ -1,0 +1,29 @@
+{
+  "id": "dd633ead-4a8d-4daa-984c-5a9b60f088de",
+  "name": "agent.right",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.right",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254013,
+  "fallbackIntent": false,
+  "events": []
+}

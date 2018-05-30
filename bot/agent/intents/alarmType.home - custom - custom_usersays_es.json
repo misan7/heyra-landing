@@ -1,0 +1,52 @@
+[
+  {
+    "id": "e397bda3-62f7-459c-91bc-2068fb8f9e3c",
+    "data": [
+      {
+        "text": "10",
+        "alias": "alarm_totalrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " estancias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527668591
+  },
+  {
+    "id": "28799bbd-f670-4f03-a075-0c3d246f95c9",
+    "data": [
+      {
+        "text": "10",
+        "alias": "alarm_totalrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " habitaciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527668591
+  },
+  {
+    "id": "c14187fb-62f4-44d2-a0f1-84024da68f56",
+    "data": [
+      {
+        "text": "10",
+        "alias": "alarm_totalrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527668591
+  }
+]

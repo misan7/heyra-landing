@@ -1,0 +1,58 @@
+{
+  "id": "72fb292f-8a90-4a77-854c-12462f869cf1",
+  "name": "alarm.location",
+  "auto": true,
+  "contexts": [
+    "await_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alarm_location",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_stole",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d08a48ad-193a-4a64-8a69-3df53e38119a",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        },
+        {
+          "id": "5c77b5d3-5e14-42d7-9ba2-df8198aae708",
+          "required": false,
+          "name": "alarm_location",
+          "value": "$geo-city",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Te han robado o a tus vecinos?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527615987,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "1cf08dfa-1b3b-4f2d-8304-c4d9e03feef2",
+    "data": [
+      {
+        "text": "me aburro como una ostra",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7e8e8122-f484-4d15-a098-a8acff0a5361",
+    "data": [
+      {
+        "text": "qué",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " rollo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e4ef8ec-2f1f-4e27-8509-5fa4ecd13193",
+    "data": [
+      {
+        "text": "qué rayada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9d86c25-36f1-482f-9779-1e7b38bcec14",
+    "data": [
+      {
+        "text": "contigo me aburro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16702bc3-4ed1-4872-954d-f833915bd4df",
+    "data": [
+      {
+        "text": "que aburrimiento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "223c6b90-6e49-48ba-9576-781feec422c8",
+    "data": [
+      {
+        "text": "me aburro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1463920-a6b9-48fa-949e-eb6729bf363f",
+    "data": [
+      {
+        "text": "es un rollo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b056e480-d28c-43e2-9c90-7ad330d629ee",
+    "data": [
+      {
+        "text": "estoy aburrida",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
