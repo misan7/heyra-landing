@@ -1,0 +1,75 @@
+[
+  {
+    "id": "7a95132c-c3ad-473c-a837-a6ce0074306d",
+    "data": [
+      {
+        "text": "Trabajo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527609899
+  },
+  {
+    "id": "6a3c4a5c-df1d-4552-8f65-9bb8faa36ba8",
+    "data": [
+      {
+        "text": "Vivo en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527609899
+  },
+  {
+    "id": "0da6279b-6e62-42b6-bd55-da3e9496edb6",
+    "data": [
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527609899
+  },
+  {
+    "id": "58148b1f-09e9-4c45-a0b6-32ff84e1b7cf",
+    "data": [
+      {
+        "text": "En ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527609899
+  }
+]

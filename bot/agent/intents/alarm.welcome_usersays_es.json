@@ -1,0 +1,181 @@
+[
+  {
+    "id": "e475c455-082e-4ed3-8e3a-92f9820f03d5",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "145b03fc-0d0a-41c4-bc61-31cec0e2bfb5",
+    "data": [
+      {
+        "text": "iep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "a8ccb3b4-ed0b-4ed5-b450-4f5668dc9e36",
+    "data": [
+      {
+        "text": "que tal?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "dae49478-d9d9-489a-9715-160f0bc84137",
+    "data": [
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " saludo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "b7cc12fa-9abc-425f-891b-bba9af11dc9f",
+    "data": [
+      {
+        "text": "saludos!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "5ef6f884-f867-4abe-ac5f-68fb7927ca0c",
+    "data": [
+      {
+        "text": "ey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "019b9b43-af45-45aa-938a-4e990940669b",
+    "data": [
+      {
+        "text": "hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "baf9986f-a705-4b93-b4a4-30927789aaea",
+    "data": [
+      {
+        "text": "ola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "0a121b6d-1983-4ba2-8f9b-58012cfb049d",
+    "data": [
+      {
+        "text": "buenas noches",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "07c34520-578c-4558-b984-42892df22358",
+    "data": [
+      {
+        "text": "buenas tardes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "43e47513-c27b-41f6-8973-ec38ad5f4b78",
+    "data": [
+      {
+        "text": "buenos días",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "1cad58db-7615-461b-9dbd-aa162470129a",
+    "data": [
+      {
+        "text": "buenas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "588bdc87-ab53-4747-9491-c73678aaf5bd",
+    "data": [
+      {
+        "text": "hola, soy ",
+        "userDefined": false
+      },
+      {
+        "text": "ABCDEFG",
+        "alias": "user-id",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  },
+  {
+    "id": "ad841894-63cc-49aa-a91c-2da800e037cb",
+    "data": [
+      {
+        "text": "hola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527587469
+  }
+]

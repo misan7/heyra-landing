@@ -1,0 +1,99 @@
+[
+  {
+    "id": "10586827-4c22-48e6-81bc-b04eaa0b8ffd",
+    "data": [
+      {
+        "text": "estoy muy contento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21a62877-cd85-479e-971b-69d50d798dde",
+    "data": [
+      {
+        "text": "estoy contenta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2479cb96-5b63-4472-a00f-e1c4d3c55b15",
+    "data": [
+      {
+        "text": "soy la persona más feliz del mundo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42e80407-cfd5-4fdd-9834-60aa1304dfaa",
+    "data": [
+      {
+        "text": "estoy en las nubes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "861f978a-cf0a-4ff0-b2a7-d03990c34403",
+    "data": [
+      {
+        "text": "qué feliz estoy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e331e018-40b8-46a8-a969-13702b7c3dbf",
+    "data": [
+      {
+        "text": "estoy feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "213367c4-cd88-47e0-9c8d-c951cbe69f00",
+    "data": [
+      {
+        "text": "estoy superfeliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f8d0f46-96da-4e0c-baea-1c1d2a3d6d6f",
+    "data": [
+      {
+        "text": "feliz",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

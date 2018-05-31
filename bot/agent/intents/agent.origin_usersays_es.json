@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a3be4981-e972-4e6c-8104-69f2095a3832",
+    "data": [
+      {
+        "text": "de dónde eres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30d1a60b-e91f-4178-9426-1804852a22d0",
+    "data": [
+      {
+        "text": "dónde naciste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ed9b308-ee54-4ee5-8c5d-af4799b86971",
+    "data": [
+      {
+        "text": "dime de dónde eres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acae7858-ceb6-4c31-bfcf-83342ce6479e",
+    "data": [
+      {
+        "text": "cuéntame algo acerca tu ciudad natal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c1b9f28-4270-4d7c-9632-26cfa2678532",
+    "data": [
+      {
+        "text": "dónde está tu ciudad natal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "1972018a-49ec-4db8-8960-dd1a565cca16",
+    "data": [
+      {
+        "text": "cuéntame donde naciste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4bead1a6-1534-4082-8af1-8dc233c30f79",
+    "data": [
+      {
+        "text": "tu patria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13a0f759-3f0f-45db-b75c-945865cc4428",
+    "data": [
+      {
+        "text": "cuál es tu ciudad natal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e04792f-bac8-4d3c-958c-a598ebcad82b",
+    "data": [
+      {
+        "text": "dónde está tu tierra natal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70a3477b-c6ac-4774-a1ac-e3dc07f43b20",
+    "data": [
+      {
+        "text": "quisiera saber de dónde eres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

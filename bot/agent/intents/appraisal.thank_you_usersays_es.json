@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ccfe94f5-411b-4ee7-bb43-815c92458bc1",
+    "data": [
+      {
+        "text": "muchísimas gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02103373-43b6-419f-8610-118a3d3c80df",
+    "data": [
+      {
+        "text": "muy bien gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "311029a4-486c-4801-85c6-165005e6fdf1",
+    "data": [
+      {
+        "text": "te doy las gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7aae0d26-8d03-49a4-898e-5482b81b516b",
+    "data": [
+      {
+        "text": "genial muchas gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84436f88-d6bb-482f-b7e0-1afa3bdb63cc",
+    "data": [
+      {
+        "text": "gracias",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "488eda64-a50a-4dae-8fd5-5a133b0f4a45",
+    "data": [
+      {
+        "text": "miles de gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "673c6d96-01ce-4097-8898-ca5a04ebaf06",
+    "data": [
+      {
+        "text": "no sabes cuánto te agradezco",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e551daea-bb1d-456a-8102-4c6dddd441ac",
+    "data": [
+      {
+        "text": "muchas",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6af1e21-9892-430d-abf5-600a533dad6e",
+    "data": [
+      {
+        "text": "mil",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d04606e3-d40d-4ec6-a0b0-3b1a07f99d7c",
+    "data": [
+      {
+        "text": "te lo agradezco mucho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c75c456d-e8a1-4341-a6c3-4ad22eb5483a",
+    "data": [
+      {
+        "text": "te lo agradezco",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "635d2ca7-3fba-47fd-9743-ce2e2968fb73",
+    "data": [
+      {
+        "text": "gracias de todo corazón",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b44f102-eb13-41ee-aaae-ef50fa23b7d8",
+    "data": [
+      {
+        "text": "un montón de gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d76992d8-303f-4e34-80b2-d5f9a02bb1cc",
+    "data": [
+      {
+        "text": "👍",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527695189
+  },
+  {
+    "id": "c6089db2-6154-416b-8119-4f541656b089",
+    "data": [
+      {
+        "text": "tengo alarma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527693702
+  },
+  {
+    "id": "83cd761e-02d6-44ac-a019-005643d5cd50",
+    "data": [
+      {
+        "text": "si tengo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527693702
+  },
+  {
+    "id": "aa97bb0b-08ce-4cad-a3f4-c53deeab985b",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527693702
+  }
+]

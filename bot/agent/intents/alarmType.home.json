@@ -1,0 +1,73 @@
+{
+  "id": "920864f4-7462-41b4-8a8b-fb5ebfadcacf",
+  "name": "alarmType.home",
+  "auto": true,
+  "contexts": [
+    "await_alarmtype"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.upgrade",
+      "affectedContexts": [
+        {
+          "name": "await_alarmtype",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "alarmbotsalarmtypehome-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "alarm_type_home",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "alarmTypehome-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "44cbfc9d-0491-44ac-bf97-955b7979416e",
+          "required": false,
+          "dataType": "@alarmType_Home",
+          "name": "alarm_type_home",
+          "value": "$alarm_type_home",
+          "isList": false
+        },
+        {
+          "id": "bee6a6c6-294f-42f3-b489-13c19b83e256",
+          "required": false,
+          "name": "alarm_type",
+          "value": "$alarm_type_home",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Tienes una vivienda."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Es tu hogar o tu segunda vivienda?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527668254,
+  "fallbackIntent": false,
+  "events": []
+}

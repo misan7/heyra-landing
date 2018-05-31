@@ -1,0 +1,57 @@
+{
+  "id": "7a81bc04-9375-48a6-9748-ec682db7597c",
+  "name": "alarm.stole_no",
+  "auto": true,
+  "contexts": [
+    "await_stole"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "alarm_stole",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_hasalarm",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9cd1dccc-4c26-4b88-b1d2-f76f6fd6c946",
+          "required": false,
+          "name": "alarm_stole",
+          "value": "false",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Genial, pero no está de más estar preparado."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Tienes alarma?",
+            "¿Tienes un sistema de seguridad instalado?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527695023,
+  "fallbackIntent": false,
+  "events": []
+}

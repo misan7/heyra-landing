@@ -1,0 +1,53 @@
+{
+  "id": "89df7b13-62d3-4626-9f34-34c5fcbd519c",
+  "name": "alarm.m2",
+  "auto": true,
+  "contexts": [
+    "await_m2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_zipcode",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_m2",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d22eb6e0-5684-49af-ba6c-20a25a0441b1",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Cual es el código postal?",
+            "¿Cuál es el código postal donde se encuentra?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527694851,
+  "fallbackIntent": false,
+  "events": []
+}

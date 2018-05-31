@@ -1,0 +1,42 @@
+{
+  "id": "7711e198-4d5e-4e36-bbd8-9148d9f34a89",
+  "name": "alarm.type_business.fallback",
+  "auto": true,
+  "contexts": [
+    "alarm_type_business",
+    "alarmbotsalarmtypebusiness-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "alarm_type_business",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "alarmbotsalarmtypebusiness-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Dato relevante. Tengo que saber el tamaño del negocio."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527614014,
+  "fallbackIntent": true,
+  "events": []
+}

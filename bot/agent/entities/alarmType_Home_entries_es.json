@@ -1,0 +1,21 @@
+[
+  {
+    "value": "home_habitual",
+    "synonyms": [
+      "hogar",
+      "primera vivienda",
+      "habitual",
+      "habitualmente",
+      "vivienda",
+      "casa"
+    ]
+  },
+  {
+    "value": "home_vacation",
+    "synonyms": [
+      "segunda vivienda",
+      "vacaciones",
+      "alquiler"
+    ]
+  }
+]

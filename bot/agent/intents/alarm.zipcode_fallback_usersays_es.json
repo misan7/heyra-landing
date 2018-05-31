@@ -1,0 +1,38 @@
+[
+  {
+    "id": "64e24db4-98bc-443e-b853-47ae123a9b7b",
+    "data": [
+      {
+        "text": "epa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527511470
+  },
+  {
+    "id": "dd66c24c-41d6-40cd-bebb-9af9fe95e958",
+    "data": [
+      {
+        "text": "buenas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527511470
+  },
+  {
+    "id": "42f010c8-b68a-4203-9b10-8ec139498ba5",
+    "data": [
+      {
+        "text": "hola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527511470
+  }
+]

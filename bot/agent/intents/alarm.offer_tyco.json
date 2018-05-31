@@ -1,0 +1,48 @@
+{
+  "id": "22660d1a-bfb4-4f28-a9de-d05ae03b1c70",
+  "name": "alarm.offer_tyco",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_contact",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "La opción recomendada para tu perfil, es el sistema de seguridad de la compañía Tyco."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "En este momento, tenemos a tu disposición un descuento en la instalación de #OFFER_TYCO.discount."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Deseas concertar una visita comercial para asesorarte?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527699713,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "OFFER_TYCO"
+    }
+  ]
+}

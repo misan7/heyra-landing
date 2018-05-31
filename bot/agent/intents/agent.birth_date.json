@@ -1,0 +1,33 @@
+{
+  "id": "82e2af70-20f8-46f9-a8d0-9262cf01b82b",
+  "name": "agent.birth_date",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.birth_date",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Yo nací el dia que te conocí.¿ Y tu que edad tienes?",
+            "Acabo de nacer, nací el 1 de enero de 2018. ¿ Y tu?",
+            "Soy un bebe nací el 1 de enero de 2018.¿ Y tu?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195253935,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "84d6b9bd-3364-45a8-8c0c-c39198d5f676",
+    "data": [
+      {
+        "text": "tiene ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " metros cuadrados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527694851
+  },
+  {
+    "id": "ebd9dcde-ae64-4d16-9778-676aa5aafe5b",
+    "data": [
+      {
+        "text": "tiene ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " m2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527694851
+  },
+  {
+    "id": "80b2bce8-c1bd-41a1-9e50-72edb430e6d4",
+    "data": [
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " metros cuadrados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527691807
+  },
+  {
+    "id": "75082e22-4699-48ca-9bc9-2b3d133df31d",
+    "data": [
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " m2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527691807
+  },
+  {
+    "id": "79c7d36c-35a6-44c3-be83-2b4999271866",
+    "data": [
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "m2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527691807
+  },
+  {
+    "id": "2ae49c41-1133-4b61-ada1-757410ea05c9",
+    "data": [
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527691807
+  }
+]

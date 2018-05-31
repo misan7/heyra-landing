@@ -1,0 +1,38 @@
+[
+  {
+    "id": "74292393-81e1-4b0e-843a-71bcccd35a14",
+    "data": [
+      {
+        "text": "tengo alarma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527615844
+  },
+  {
+    "id": "7b14ab31-a454-4013-8d90-4227f548675e",
+    "data": [
+      {
+        "text": "si tengo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527615844
+  },
+  {
+    "id": "e7f90353-0eb6-4434-8e47-7934749491c6",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527615844
+  }
+]

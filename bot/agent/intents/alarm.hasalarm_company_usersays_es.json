@@ -1,0 +1,52 @@
+[
+  {
+    "id": "b788381e-e4b8-4316-913b-9c23038f0131",
+    "data": [
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527696639
+  },
+  {
+    "id": "f43a75ff-71f6-45b1-a4cc-357399563e6f",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527696639
+  },
+  {
+    "id": "43c4d8c6-077b-483d-b51e-d555d8a45294",
+    "data": [
+      {
+        "text": "si tengo, con ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527696639
+  }
+]

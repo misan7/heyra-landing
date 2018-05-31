@@ -1,0 +1,63 @@
+{
+  "id": "688bb480-5903-4c86-aa3c-f0b740ea8bbf",
+  "name": "alarm.hasalarm_company",
+  "auto": true,
+  "contexts": [
+    "await_hasalarm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "offer.send",
+      "affectedContexts": [
+        {
+          "name": "await_hasalarm",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "alarm_companyname",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "company_name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "743b2f45-5ce0-4285-b41c-8d47af7cd8cf",
+          "required": false,
+          "dataType": "@companyName",
+          "name": "companyName",
+          "value": "$companyName",
+          "isList": false
+        },
+        {
+          "id": "102066c6-e6aa-4978-a692-250e998f0299",
+          "required": false,
+          "name": "alarm_companyname",
+          "value": "$companyName",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527696648,
+  "fallbackIntent": false,
+  "events": []
+}

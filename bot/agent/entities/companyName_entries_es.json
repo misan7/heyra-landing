@@ -1,0 +1,23 @@
+[
+  {
+    "value": "Securitas",
+    "synonyms": [
+      "Securitas",
+      "Securitas Direct"
+    ]
+  },
+  {
+    "value": "Tyco",
+    "synonyms": [
+      "Tyco",
+      "tico"
+    ]
+  },
+  {
+    "value": "Other",
+    "synonyms": [
+      "Other",
+      "Ajax"
+    ]
+  }
+]

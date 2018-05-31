@@ -1,0 +1,43 @@
+{
+  "id": "ade7306b-1dbe-4464-8d07-cf49a58289be",
+  "parentId": "4e21b1b3-3641-491f-a073-d3cbd79b847c",
+  "rootParentId": "920864f4-7462-41b4-8a8b-fb5ebfadcacf",
+  "name": "alarmType.home - custom - custom",
+  "auto": true,
+  "contexts": [
+    "alarmTypehome-custom-followup",
+    "alarmbotsalarmtypehome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "13f57c81-17ff-42da-947c-13431ec50a2e",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "alarm_totalrooms",
+          "value": "$alarm_totalrooms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Cuál es su código postal?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527668591,
+  "fallbackIntent": false,
+  "events": []
+}

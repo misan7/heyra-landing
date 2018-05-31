@@ -1,0 +1,50 @@
+[
+  {
+    "id": "27fe7dc1-ce5b-4eed-8314-aeb2491f5de9",
+    "data": [
+      {
+        "text": "varias veces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527610330
+  },
+  {
+    "id": "c25f98e6-af86-4274-97f2-c0eed7ff8942",
+    "data": [
+      {
+        "text": "han robado al vecino",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527610330
+  },
+  {
+    "id": "8efa0280-9453-497f-97d3-edcfde631ba9",
+    "data": [
+      {
+        "text": "me han robado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527610330
+  },
+  {
+    "id": "c065ec8d-ae04-482d-82b1-537a9c6490cd",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527610330
+  }
+]

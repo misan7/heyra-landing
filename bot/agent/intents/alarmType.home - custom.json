@@ -1,0 +1,58 @@
+{
+  "id": "4e21b1b3-3641-491f-a073-d3cbd79b847c",
+  "parentId": "920864f4-7462-41b4-8a8b-fb5ebfadcacf",
+  "rootParentId": "920864f4-7462-41b4-8a8b-fb5ebfadcacf",
+  "name": "alarmType.home - custom",
+  "auto": true,
+  "contexts": [
+    "alarm_type_home",
+    "alarmTypehome-followup",
+    "alarmbotsalarmtypehome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "alarmTypehome.alarmTypehome-custom",
+      "affectedContexts": [
+        {
+          "name": "alarm_type_home",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "alarmbotsalarmtypehome-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "alarmTypehome-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4e523269-4b23-4fe3-9e5b-c67c37a47907",
+          "dataType": "@alarmType_Home",
+          "name": "home_type",
+          "value": "$home_type"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Cuantas estancias tiene su vivienda?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527612288,
+  "fallbackIntent": false,
+  "events": []
+}

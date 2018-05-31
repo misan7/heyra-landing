@@ -1,0 +1,98 @@
+[
+  {
+    "id": "23d14d8f-ed2a-4706-b0af-4a89a49ba387",
+    "data": [
+      {
+        "text": "eres un robot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad14fac5-addf-4c7b-a682-e185e689ce36",
+    "data": [
+      {
+        "text": "eres un chatbot verdad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e66db477-bd89-48c7-803e-7c2b18ad15aa",
+    "data": [
+      {
+        "text": "eres un bot no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eadec50a-ab43-438b-ba0b-f2627a1ddbf0",
+    "data": [
+      {
+        "text": "dime si eres un chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e9d9d5a-dd49-4828-aa2a-58f3e99238aa",
+    "data": [
+      {
+        "text": "eres un bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94b5d43c-fbae-4af4-b3a2-bccd16c3ef6c",
+    "data": [
+      {
+        "text": "no serás una máquina",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c320346b-0ae3-4dc5-b83c-afca8cf838b0",
+    "data": [
+      {
+        "text": "chatbot es lo que eres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "919ee5a5-9010-4b0d-bb7b-e687c208d573",
+    "data": [
+      {
+        "text": "sólo eres un bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

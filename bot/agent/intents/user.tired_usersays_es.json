@@ -1,0 +1,91 @@
+[
+  {
+    "id": "2604e400-b55d-4353-8487-d83ad6759b40",
+    "data": [
+      {
+        "text": "estoy muy cansada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6552358-6f1d-4eeb-9d58-dd1c296ecce2",
+    "data": [
+      {
+        "text": "estoy hecho polvo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01f75a81-7b9a-4035-bb42-dd27203a4569",
+    "data": [
+      {
+        "text": "no tengo fuerzas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5011b873-fbc0-49e3-8c37-2f9369f936ad",
+    "data": [
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " siento cansado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07df9289-3da2-42d5-ab23-dc8cb289ac55",
+    "data": [
+      {
+        "text": "estoy exhausto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "962b6c66-60ca-4109-a217-24818a1be505",
+    "data": [
+      {
+        "text": "estoy agotado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d87c2481-0640-40e8-8530-9d79c046f42f",
+    "data": [
+      {
+        "text": "estoy cansadísimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

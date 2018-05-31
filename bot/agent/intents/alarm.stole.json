@@ -1,0 +1,63 @@
+{
+  "id": "45b8db57-5b72-4693-a91a-657255c67c82",
+  "name": "alarm.stole",
+  "auto": true,
+  "contexts": [
+    "await_stole"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "await_stole",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_withalarm",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "alarm_stole",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "023893b2-2808-4bde-ad46-621f25af4a45",
+          "required": false,
+          "name": "alarm_stole",
+          "value": "true",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Lo lamento mucho."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Tienes un sistema de seguridad instalado?",
+            "¿Tienes alarma?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527668854,
+  "fallbackIntent": false,
+  "events": []
+}

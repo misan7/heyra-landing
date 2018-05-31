@@ -1,0 +1,81 @@
+[
+  {
+    "id": "c6e877ee-a56f-4569-807e-76377eb7b07e",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527690129
+  },
+  {
+    "id": "c1ae485d-7c7f-4517-a8f4-a426305a0379",
+    "data": [
+      {
+        "text": "la ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
+        "alias": "alarmType_Home",
+        "meta": "@alarmType_Home",
+        "userDefined": false
+      },
+      {
+        "text": " donde vivo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527690129
+  },
+  {
+    "id": "ad00b28b-e90c-49be-8f5e-878b8a19c863",
+    "data": [
+      {
+        "text": "mi ",
+        "userDefined": false
+      },
+      {
+        "text": "vivienda",
+        "alias": "alarmType_Home",
+        "meta": "@alarmType_Home",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "habitual",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527690129
+  },
+  {
+    "id": "cb6fe8a9-1f29-4654-8501-c022615f266e",
+    "data": [
+      {
+        "text": "es mi ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
+        "alias": "alarmType_Home",
+        "meta": "@alarmType_Home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527690129
+  }
+]

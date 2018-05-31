@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cf4dbc3e-af09-4bc8-8689-8f9a30295689",
+    "data": [
+      {
+        "text": "quiero saber dónde está tu oficina",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b730f385-e9ac-47cb-90e1-cd033551374a",
+    "data": [
+      {
+        "text": "ubícame tu oficina",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa66d063-2055-4e9b-84ee-68bb915ace1e",
+    "data": [
+      {
+        "text": "a qué te dedicas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "47b615c2-acda-433b-9f6c-8d4e02875968",
+    "data": [
+      {
+        "text": "dónde está tu oficina",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6805367a-b3ba-4277-b58f-1b6abf451f16",
+    "data": [
+      {
+        "text": "cuéntame a que te dedicas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cfd5708b-3616-4952-b8fc-3e61e5ed4e60",
+    "data": [
+      {
+        "text": "dime dónde trabajas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66cce926-3b77-4782-9641-e1657c7d611c",
+    "data": [
+      {
+        "text": "cuéntame algo sobre tu trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0af59f65-00f2-4b14-a747-9aa37a5e3a6b",
+    "data": [
+      {
+        "text": "quiero que me localices el lugar donde trabajas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1585cb7b-fd04-4f72-8d65-327a1353fbcd",
+    "data": [
+      {
+        "text": "dónde trabajas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

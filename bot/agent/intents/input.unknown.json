@@ -1,0 +1,32 @@
+{
+  "id": "20d16e4b-bf72-4ce7-8536-7c3909d8f7d6",
+  "name": "input.unknown",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Ups, no he entendido a qué te refieres.",
+            "¿Puedes repetirlo de otra manera? no te he entendido bien."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527596671,
+  "fallbackIntent": true,
+  "events": []
+}

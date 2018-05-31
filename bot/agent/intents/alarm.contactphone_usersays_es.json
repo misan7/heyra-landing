@@ -1,0 +1,16 @@
+[
+  {
+    "id": "b992649f-c758-4037-9c71-16ba34d48abd",
+    "data": [
+      {
+        "text": "000000000",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527697897
+  }
+]
