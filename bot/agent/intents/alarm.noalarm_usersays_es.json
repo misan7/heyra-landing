@@ -1,0 +1,50 @@
+[
+  {
+    "id": "b2979ffe-7d03-48e6-8ae9-a37f4c020c99",
+    "data": [
+      {
+        "text": "👎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527699688
+  },
+  {
+    "id": "bfd0f036-6032-4940-9e7b-f37fccace715",
+    "data": [
+      {
+        "text": "no tengo alarma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527699688
+  },
+  {
+    "id": "441de479-a341-410b-8b3c-32f3bcd4d363",
+    "data": [
+      {
+        "text": "no tengo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527699688
+  },
+  {
+    "id": "8f31ee74-4b20-465a-aad9-f5ea49237fdb",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527699688
+  }
+]

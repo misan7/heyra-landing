@@ -26,7 +26,7 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
 
       const actions = {
         offerSend: () => getOffer(agent),
-        notificationSend: () => notification.createUser(user)
+        notificationSend: () => notification.createUser(user.ref)
       };
 
       if (agent.action) {

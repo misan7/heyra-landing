@@ -1,0 +1,44 @@
+{
+  "id": "90bff216-7809-4ada-a482-68c1862e4440",
+  "name": "alarm.contact_yes",
+  "auto": true,
+  "contexts": [
+    "await_contact"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_contact",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_contactname",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Cual es tu nombre?",
+            "¿Cómo te llamas?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527696781,
+  "fallbackIntent": false,
+  "events": []
+}

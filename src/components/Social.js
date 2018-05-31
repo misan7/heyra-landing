@@ -1,33 +1,59 @@
 import React from 'react';
+import { isMobile } from 'react-device-detect';
+import filter from 'lodash/filter';
+
+const networks = [
+  {
+    title: 'Whatsapp',
+    color: '#01e676',
+    link: 'https://api.whatsapp.com/send?phone=34699914244&text=Hola',
+    class: 'whatsapp',
+    bot: true
+  },
+  {
+    title: isMobile ? 'Facebook' : 'Facebook Messenger',
+    color: '#04bcfd',
+    link: 'https://m.me/2080068382275303',
+    class: 'facebook',
+    bot: true
+  },
+  {
+    title: 'Telegram',
+    color: '#449eda',
+    link: 'https://telegram.me/AlarmBotsBot',
+    class: 'telegram',
+    bot: true
+  },
+  {
+    title: 'Twitter',
+    color: '#449eda',
+    link: '#twitter',
+    class: 'twitter',
+    bot: false
+  },
+  {
+    title: 'Instagram',
+    color: '#449eda',
+    link: '#instagram',
+    class: 'instagram',
+    bot: false
+  }
+];
 
 const Social = (props) => (
   <ul {...props}>
-    <li>
-      <a href="#">
-        <i className="fa fa-whatsapp" />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-telegram" />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-facebook" />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-twitter" />
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-instagram" />
-      </a>
-    </li>
+    {networks &&
+      networks.map((network) => (
+        <li>
+          <a href={network.link}>
+            <i className={`fa fa-${network.class}`} />
+          </a>
+        </li>
+      ))}
   </ul>
 );
 
+const bots = () => filter(networks, { bot: true });
+
+export { networks, bots };
 export default Social;

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "d2987af9-cc03-4a4f-b51f-1d95dbb42937",
+    "data": [
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "negocio",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527696134
+  },
+  {
+    "id": "899ec749-7668-4649-a2ee-16c48892d956",
+    "data": [
+      {
+        "text": "trabajo",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527684738
+  },
+  {
+    "id": "6f18a9d0-a17f-4ec4-b018-af1e5892690c",
+    "data": [
+      {
+        "text": "busco proteger mi ",
+        "userDefined": false
+      },
+      {
+        "text": "negocio",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  },
+  {
+    "id": "0ae01950-2df9-4f01-b174-aa9600e18df5",
+    "data": [
+      {
+        "text": "trabajo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "en un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "despacho",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  },
+  {
+    "id": "58483e85-936c-4532-87c4-ccc35de74353",
+    "data": [
+      {
+        "text": "trabajo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "agencia",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  },
+  {
+    "id": "7489ebac-6e8d-40c5-b620-477b51074eeb",
+    "data": [
+      {
+        "text": "tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tienda",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  },
+  {
+    "id": "d97c3c6a-fa25-49df-bf32-ea50baa54eca",
+    "data": [
+      {
+        "text": "tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "local",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  },
+  {
+    "id": "23338ee6-e0f3-456d-bf89-1da31d547fd5",
+    "data": [
+      {
+        "text": "es ",
+        "userDefined": false
+      },
+      {
+        "text": "para un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "negocio",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  }
+]

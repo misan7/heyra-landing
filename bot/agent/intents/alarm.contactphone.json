@@ -1,0 +1,56 @@
+{
+  "id": "2eda7f2a-4000-4074-b4c8-59b9c4bf5a59",
+  "name": "alarm.contactphone",
+  "auto": true,
+  "contexts": [
+    "await_contactphone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "notification.send",
+      "affectedContexts": [
+        {
+          "name": "await_contactphone",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a0815171-8cdc-4b9f-bb92-3a9d3e0a67ae",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "isList": false
+        },
+        {
+          "id": "e6588e4d-f43c-46c8-8cdb-7395c02cd83a",
+          "required": false,
+          "name": "alarm_phonenumber",
+          "value": "$phone-number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "En breve nos pondremos en contacto contigo.",
+            "Gracias, todo listo. Nos pondremos en contacto contigo."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527697950,
+  "fallbackIntent": false,
+  "events": []
+}

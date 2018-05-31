@@ -1,0 +1,71 @@
+{
+  "id": "920864f4-7462-41b4-8a8b-fb5ebfadcacf",
+  "name": "alarm.home",
+  "auto": true,
+  "contexts": [
+    "await_alarmtype"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.upgrade",
+      "affectedContexts": [
+        {
+          "name": "await_alarmtype",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "alarm_type_home",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "alarm_type",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_hometype",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "44cbfc9d-0491-44ac-bf97-955b7979416e",
+          "required": false,
+          "dataType": "@alarmType_Home",
+          "name": "alarm_type_home",
+          "value": "$alarm_type_home",
+          "isList": false
+        },
+        {
+          "id": "bee6a6c6-294f-42f3-b489-13c19b83e256",
+          "required": false,
+          "name": "alarm_type",
+          "value": "$alarm_type_home",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Es tu vivienda habitual?",
+            "¿Es la vivienda donde resides?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527697120,
+  "fallbackIntent": false,
+  "events": []
+}

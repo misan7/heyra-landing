@@ -1,0 +1,56 @@
+{
+  "id": "e43fd403-bbbf-4a53-be3b-76c3fd51bcca",
+  "parentId": "46d6408a-c4cc-477e-9237-cd76473c6b93",
+  "rootParentId": "46d6408a-c4cc-477e-9237-cd76473c6b93",
+  "name": "alarm.no_to_hasalarm",
+  "auto": true,
+  "contexts": [
+    "await_stole",
+    "alarmzipcode_to_stole-followup",
+    "alarmbotszipcode-followup",
+    "alarm_zipcode"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alarm_stole",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_hasalarm",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1ff1d393-2ed3-4684-b913-414af8805b7a",
+          "name": "alarm_stole",
+          "value": "false"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Tienes alarma?",
+            "¿Tienes contratado un producto de seguridad?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527688264,
+  "fallbackIntent": false,
+  "events": []
+}

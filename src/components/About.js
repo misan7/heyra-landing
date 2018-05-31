@@ -1,55 +1,67 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const range = (min, max) => Math.round(min + Math.random() * (max - min));
-
-const About = ({ title, subtitle, description, totals }) => (
-  <section id="about" className="s-about">
+const About = () => (
+  <section id="services" className="s-services">
     <div className="row section-header has-bottom-sep" data-aos="fade-up">
       <div className="col-full">
-        <h3 className="subhead subhead--dark">{title}</h3>
-        <h1 className="display-1 display-1--light">{subtitle}</h1>
+        <h3 className="subhead">La mejor opción</h3>
+        <h1 className="display-2">Lo que necesitas para protegerte</h1>
       </div>
     </div>
-    <div className="row about-desc" data-aos="fade-up">
-      <div className="col-full">
-        <p>{description}</p>
-      </div>
-    </div>
-    <div
-      className="row about-stats stats block-1-3 block-m-1-2 block-mob-full"
-      data-aos="fade-up"
-    >
-      <div className="col-block stats__col ">
-        <div className="stats__count">{(totals && totals.business) || 12}</div>
-        <h5>Empresas analizadas</h5>
-      </div>
-      <div className="col-block stats__col">
-        <div className="stats__count">
-          {(totals && totals.analyzed) || 7223}
+    <div className="row services-list block-1-2 block-tab-full">
+      <div className="col-block service-item" data-aos="fade-up">
+        <div className="service-icon">
+          <i className="icon-paint-brush" />
         </div>
-        <h5>Clientes analizados</h5>
-      </div>
-      <div className="col-block stats__col">
-        <div className="stats__count">
-          {(totals && totals.protected) || 2980}
+        <div className="service-text">
+          <h3 className="h2">Inteligente</h3>
+          <p>
+            Nuestros robots rastrean y analizan múltiples alternativas para
+            ofrecerte la opción apropiada en base a tu perfil.
+          </p>
         </div>
-        <h5>Clientes protegidos</h5>
+      </div>
+      <div className="col-block service-item" data-aos="fade-up">
+        <div className="service-icon">
+          <i className="icon-group" />
+        </div>
+        <div className="service-text">
+          <h3 className="h2">Económico</h3>
+          <p>
+            Nuestra red de colaboradores te ofrecerán la opción elegida al
+            precio más competitivo del mercado.
+          </p>
+        </div>
+      </div>
+      <div className="col-block service-item" data-aos="fade-up">
+        <div className="service-icon">
+          <i className="icon-megaphone" />
+        </div>
+        <div className="service-text">
+          <h3 className="h2">Fácil</h3>
+          <p>
+            Realizamos todas las gestiones necesarias para ponerte en contacto
+            con la compañía que más se adapta a tus necesidades.
+          </p>
+        </div>
+      </div>
+      <div className="col-block service-item" data-aos="fade-up">
+        <div className="service-icon">
+          <i className="icon-earth" />
+        </div>
+        <div className="service-text">
+          <h3 className="h2">Rápido</h3>
+          <p>
+            Unas simples preguntas mediante WhatsApp, y tendré todo lo necesario
+            para asesorarte.
+          </p>
+        </div>
       </div>
     </div>
-    <div className="about__line" />
   </section>
 );
 
-About.propTypes = {
-  title: PropTypes.string,
-  subtitle: PropTypes.string,
-  description: PropTypes.string,
-  totals: PropTypes.shape({
-    business: PropTypes.number,
-    analyzed: PropTypes.number,
-    protected: PropTypes.number
-  })
-};
+About.propTypes = {};
 
 export default About;

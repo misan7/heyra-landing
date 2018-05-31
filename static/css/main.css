@@ -2905,6 +2905,8 @@ html.no-csstransitions .home-content__main {
     padding: 1.5rem 2.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
+    font-size: 150pt;
+    color: black;
 }
 
 .clients__slide:hover,
