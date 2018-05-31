@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-const functions = require('firebase-functions');
-
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
-=======
 'use strict';
 
 // https://github.com/dialogflow/dialogflow-fulfillment-nodejs/blob/master/docs/WebhookClient.md#WebhookClient+session
@@ -27,6 +17,9 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
   console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
+  // https://github.com/dialogflow/dialogflow-fulfillment-nodejs/blob/master/docs/WebhookClient.md#webhookclientenableappendmodeenable
+  webhookClient.enableAppendMode(true);
+
   let intentMap = new Map();
 
   // Register user
@@ -35,6 +28,10 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
       console.log(`Contexts added. Execute ${camelCase(agent.action)}.`);
 
       const actions = {
+        remove: () => {
+          agent.clearOutgoingContexts();
+          agent.setFollowupEvent({ name: 'Welcome' });
+        },
         offerSend: () => getOffer(agent),
         notificationSend: () => notification.createUser(user.ref)
       };
@@ -47,4 +44,3 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
     });
   });
 });
->>>>>>> 68d805669d7de265536de7b2e6da4254c9346776
