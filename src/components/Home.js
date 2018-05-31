@@ -65,20 +65,12 @@ class Home extends Component {
         <div className="shadow-overlay" />
         <div className="home-content">
           <div className="row home-content__main">
-<<<<<<< HEAD
-            <h3> {title} </h3> <h1> {slogan} </h1>
-            <div className="home-content__buttons">
-              <a
-                href="https://api.whatsapp.com/send?phone=34699914244&text=Hola"
-                className="contact smoothscroll btn"
-=======
             <h3>{title}</h3>
             <h1>
               <Typist
                 startDelay={2000}
                 onTypingDone={this.done}
                 cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0 }}
->>>>>>> 68d805669d7de265536de7b2e6da4254c9346776
               >
                 Usa la Inteligencia Artificial para comparar alarmas desde tu{' '}
               </Typist>
@@ -110,13 +102,8 @@ class Home extends Component {
             </div>
           </div>
           <div className="home-content__scroll">
-<<<<<<< HEAD
-            <a href="#about" className="scroll-link smoothscroll">
-              <span> Aún hay más </span>
-=======
             <a href="#services" className="scroll-link smoothscroll">
               <span>Aún hay más</span>
->>>>>>> 68d805669d7de265536de7b2e6da4254c9346776
             </a>
           </div>
           <div className="home-content__line" />
