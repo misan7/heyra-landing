@@ -15,8 +15,6 @@ class Navbar extends Component {
   render() {
     const { isHome } = this.props;
 
-    console.log(isHome);
-
     return (
       <header
         className={classNames('s-header', { 'menu-is-open': this.state.show })}

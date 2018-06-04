@@ -3857,6 +3857,10 @@ footer .row {
     position: relative;
 }
 
+.s-page li {
+    text-align: left;
+}
+
 .s-offer {
     background: url('../images/offer.jpg');
 }

@@ -2,7 +2,7 @@
 templateKey: offer-page
 title: Tyco
 subtitle: La compañia
-date: 2016-12-17T15:04:10.000Z
+date: 2018-06-01T15:04:10.000Z
 tags:
   - offer
   - securitas
