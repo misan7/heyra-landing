@@ -96,21 +96,7 @@ const Contact = () => (
       </div>
       <div className="contact-secondary">
         <div className="contact-info">
-          <h3 className="h6 hide-on-fullwidth">Información de contacto</h3>
-          <div className="cinfo">
-            <h5>Por e-mail</h5>
-            <p>
-              <a href="mailto:comercial@botspecialist.es">
-                comercial@botspecialist.es
-              </a>
-            </p>
-          </div>
-          <div className="cinfo">
-            <h5>Por teléfono</h5>
-            <p>
-              <a href="tel:675985062">(+34) 675 985 062</a>
-            </p>
-          </div>
+          <h3 className="h6 hide-on-fullwidth">Redes sociales</h3>
           <Social className="contact-social" />
         </div>
       </div>
