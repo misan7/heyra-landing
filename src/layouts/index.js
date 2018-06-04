@@ -31,7 +31,7 @@ const TemplateWrapper = ({
         sizes="16x16"
       />
     </Helmet>
-    <Navbar />
+    <Navbar isHome={location.pathname === '/'} />
     <div id="Content"> {children()} </div>
     <Footer />
     <div id="preloader">

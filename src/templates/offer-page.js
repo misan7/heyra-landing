@@ -10,15 +10,29 @@ export const OfferPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content;
   return (
-    <section id="offer" className="s-page">
-      <div className="row section-header has-bottom-sep" data-aos="fade-up">
-        <div className="col-full">
-          <h3 className="subhead">{subtitle}</h3>
-          <h1 className="display-2">{title}</h1>
-          <PageContent content={content} />
+    <div>
+      <section id="home" className="s-home s-offer target-section">
+        <div className="overlay" />
+        <div className="shadow-overlay" />
+        <div className="home-content">
+          <div className="row home-content__main">
+            <h3>{subtitle}</h3>
+            <h1>{title}</h1>
+          </div>
+          <div className="home-content__line" />
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="s-page">
+        <div className="row section-header" data-aos="fade-up">
+          <div className="col-full">
+            <h3 className="subhead">{subtitle}</h3>
+            <h1 className="display-2">{title}</h1>
+            <h2 className="display-2 discount">-449€</h2>
+            <PageContent content={content} />
+          </div>
+        </div>
+      </section>
+    </div>
   );
 };
 
@@ -28,8 +42,10 @@ OfferPageTemplate.propTypes = {
   contentComponent: PropTypes.func
 };
 
-const OfferPage = ({ data }) => {
+const OfferPage = ({ location, data }) => {
   const { markdownRemark: post } = data;
+
+  console.log(location);
 
   return (
     <OfferPageTemplate

@@ -11,6 +11,7 @@ import Contact from '../components/Contact';
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
+
     const {
       allMarkdownRemark: { edges: posts },
       site: {

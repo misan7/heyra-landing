@@ -3827,4 +3827,13 @@ footer .row {
     position: relative;
 }
 
+.s-offer {
+    background: url('../images/offer.jpg');
+}
+
+.s-offer .home-content h1,
+.s-offer .home-content h3 {
+    text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */
