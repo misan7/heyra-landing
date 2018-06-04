@@ -18,7 +18,7 @@ const Networks = () => (
       data-aos="fade-up"
     >
       {bots().map((bot) => (
-        <div className="col-block stats__col ">
+        <div key={bot.class} className="col-block stats__col ">
           <a
             href={bot.link}
             title="true"

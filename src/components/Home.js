@@ -78,7 +78,7 @@ class Home extends Component {
               {this.state.typing && (
                 <Typist avgTypingSpeed={40} onTypingDone={this.done}>
                   {bots().map((bot) => (
-                    <span className={bot.class}>
+                    <span key={bot.class} className={bot.class}>
                       <a style={{ color: bot.color }} href={bot.link}>
                         {bot.title}
                       </a>

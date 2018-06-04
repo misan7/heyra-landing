@@ -2902,16 +2902,31 @@ html.no-csstransitions .home-content__main {
 .clients__slide {
     display: block;
     opacity: .55;
-    padding: 1.5rem 2.8rem;
+    /* padding: 1.5rem 2.8rem; */
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-    font-size: 150pt;
     color: black;
+    font-size: 15rem;
 }
 
 .clients__slide:hover,
 .clients__slide:focus {
     opacity: 1;
+}
+
+.clients__slide.whatsapp:hover,
+.clients__slide.whatsapp:focus {
+    color: #01e676;
+}
+
+.clients__slide.facebook:hover,
+.clients__slide.facebook:focus {
+    color: #04bcfd;
+}
+
+.clients__slide.telegram:hover,
+.clients__slide.telegram:focus {
+    color: #449eda;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3031,11 +3046,17 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials .slick-next {
         right: -100px;
     }
+    .clients__slide {
+        font-size: 15rem;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .clients-testimonials .testimonials p {
         font-size: 2.2rem;
+    }
+    .clients__slide {
+        font-size: 13rem;
     }
 }
 
@@ -3056,6 +3077,9 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials .slick-next {
         right: 0;
     }
+    .clients__slide {
+        font-size: 12rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3071,11 +3095,17 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials p {
         font-size: 2rem;
     }
+    .clients__slide {
+        font-size: 10rem;
+    }
 }
 
 @media only screen and (max-width: 400px) {
     .clients-testimonials .testimonials p {
         font-size: 1.9rem;
+    }
+    .clients__slide {
+        font-size: 8rem;
     }
 }
 
