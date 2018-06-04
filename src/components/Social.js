@@ -6,35 +6,36 @@ const networks = [
   {
     title: 'Whatsapp',
     color: '#01e676',
-    link: 'https://api.whatsapp.com/send?phone=34699914244&text=Hola',
+    link: (text) =>
+      `https://api.whatsapp.com/send?phone=34699914244&text=${text}`,
     class: 'whatsapp',
     bot: true
   },
   {
     title: isMobile ? 'Facebook' : 'Facebook Messenger',
     color: '#04bcfd',
-    link: 'https://m.me/2080068382275303',
+    link: () => 'https://m.me/2080068382275303',
     class: 'facebook',
     bot: true
   },
   {
     title: 'Telegram',
     color: '#449eda',
-    link: 'https://telegram.me/AlarmBotsBot',
+    link: () => 'https://telegram.me/AlarmBotsBot',
     class: 'telegram',
     bot: true
   },
   {
     title: 'Twitter',
     color: '#449eda',
-    link: '#twitter',
+    link: () => '#twitter',
     class: 'twitter',
     bot: false
   },
   {
     title: 'Instagram',
     color: '#449eda',
-    link: '#instagram',
+    link: () => '#instagram',
     class: 'instagram',
     bot: false
   }
@@ -45,7 +46,7 @@ const Social = (props) => (
     {networks &&
       networks.map((network) => (
         <li key={network.class}>
-          <a href={network.link}>
+          <a href={network.link()}>
             <i className={`fa fa-${network.class}`} />
           </a>
         </li>

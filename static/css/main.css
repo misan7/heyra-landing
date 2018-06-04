@@ -3857,4 +3857,21 @@ footer .row {
     position: relative;
 }
 
+.s-offer {
+    background: url('../images/offer.jpg');
+}
+
+.s-offer .home-content h1,
+.s-offer .home-content h3 {
+    text-align: center;
+}
+
+.s-offer .discount {
+    font-size: 150pt;
+}
+
+img.kit {
+    padding-top: 75px;
+}
+
 /*# sourceMappingURL=main.css.map */

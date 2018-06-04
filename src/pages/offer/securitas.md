@@ -1,11 +1,13 @@
 ---
 templateKey: offer-page
-title: Securitas
-subtitle: Oferta
+title: Securitas Direct
+subtitle: La compañia
 date: 2016-12-17T15:04:10.000Z
 tags:
   - offer
   - securitas
 ---
 
-Esto es una prueba
+<img class="kit" src=/images/securitaskit.png />
+<h1>La única alarma inmune a la inhibición</h1>
+<p>Gracias a la alarma anti-inhibición Sentinel de Securitas Direct y su red de transmisión ATN (exclusiva de Securitas Direct e imposible de inhibir), se activará la alerta si se enciende un inhibidor de frecuencias cerca de tu hogar o negocio.</p>
