@@ -3849,4 +3849,12 @@ footer .row {
     }
 }
 
+.s-page {
+    padding-top: 16.2rem;
+    padding-bottom: 13.2rem;
+    background-color: #e6e6e6;
+    color: #757575;
+    position: relative;
+}
+
 /*# sourceMappingURL=main.css.map */
