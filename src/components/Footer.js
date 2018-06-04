@@ -29,7 +29,7 @@ const Footer = () => (
                     required
                   />
                   <input type="submit" name="subscribe" value="Llámame" />
-                  <label for="mc-email" className="subscribe-message" />
+                  <label htmlFor="mc-email" className="subscribe-message" />
                 </div>
               </div>
             )}
