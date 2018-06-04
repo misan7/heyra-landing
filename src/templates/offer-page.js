@@ -7,7 +7,6 @@ import groupBy from 'lodash/groupBy';
 import { networks } from '../components/Social';
 
 export const OfferPageTemplate = ({
-  user,
   url,
   title,
   subtitle,
@@ -50,22 +49,33 @@ export const OfferPageTemplate = ({
 
 OfferPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func
 };
 
 const OfferPage = ({ location, data }) => {
   const { markdownRemark: post } = data;
+
+  if (!location.search) {
+    return <div />;
+  }
+
   const user = JSON.parse(atob(location.search.substring(1)));
 
-  let url = groupBy(networks, 'class')[user.platform][0].link(
+  if (!user) {
+    return <div />;
+  }
+
+  const platform = user.platform || 'whatsapp';
+  const url = groupBy(networks, 'class')[platform][0].link(
     'Si, quiero una visita'
   );
 
   return (
     <OfferPageTemplate
       contentComponent={HTMLContent}
-      user={user}
       url={url}
       title={post.frontmatter.title}
       subtitle={post.frontmatter.subtitle}
