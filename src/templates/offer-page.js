@@ -13,10 +13,8 @@ export const OfferPageTemplate = ({
     <section id="offer" className="s-page">
       <div className="row section-header has-bottom-sep" data-aos="fade-up">
         <div className="col-full">
-          <h3 className="subhead">Los chatbots</h3>
-          <h1 className="display-2">
-            La mejor experiencia, en cualquier plataforma
-          </h1>
+          <h3 className="subhead">{subtitle}</h3>
+          <h1 className="display-2">{title}</h1>
           <PageContent content={content} />
         </div>
       </div>
