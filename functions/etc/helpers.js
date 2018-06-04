@@ -58,7 +58,8 @@ const User = (userId) =>
           return values;
         };
 
-        const methods = (ref) => ({
+        const methods = (ref, userId) => ({
+          userId,
           ref,
           addContexts: (intentName, contexts) =>
             new Promise((resolve, reject) => {
@@ -81,29 +82,35 @@ const User = (userId) =>
         const doc = snapshot.docs[0];
 
         if (doc) {
-          return resolve(methods(doc.ref));
+          return resolve(methods(doc.ref, userId));
         }
 
         admin
           .firestore()
           .collection('users')
           .add({ userId, created_at: now() })
-          .then((ref) => resolve(methods(ref)))
+          .then((ref) => resolve(methods(ref, userId)))
           .catch(reject);
       })
   );
 
-const getOffer = (agent) => {
+const getOffer = (agent, userId) => {
   let offer = {};
 
+  const btoa = (str) => {
+    if (Buffer.byteLength(str) !== str.length) throw new Error('bad string!');
+    return Buffer(str, 'binary').toString('base64');
+  };
+
   const { companyName } = agent.parameters;
+  const hash = btoa(JSON.stringify({ userId, platform: 'whatsapp' }));
 
   switch (companyName) {
     case 'Securitas': {
       offer = {
         name: 'OFFER_TYCO',
         parameters: {
-          discount: '499'
+          link: `https://alarmbots.com/offer/tyco/?${hash}`
         }
       };
       break;
@@ -112,7 +119,7 @@ const getOffer = (agent) => {
       offer = {
         name: 'OFFER_SECURITAS',
         parameters: {
-          discount: '499'
+          link: `https://alarmbots.com/offer/securitas/?${hash}`
         }
       };
       break;

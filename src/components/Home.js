@@ -80,7 +80,7 @@ class Home extends Component {
                 <Typist avgTypingSpeed={40} onTypingDone={this.done}>
                   {bots().map((bot) => (
                     <span key={bot.class} className={bot.class}>
-                      <a style={{ color: bot.color }} href={bot.link}>
+                      <a style={{ color: bot.color }} href={bot.link()}>
                         {bot.title}
                       </a>
                       <Typist.Delay ms={2500} />

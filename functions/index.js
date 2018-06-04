@@ -25,7 +25,7 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
       console.log(`Contexts added. Execute ${camelCase(agent.action)}.`);
 
       const actions = {
-        offerSend: () => getOffer(agent),
+        offerSend: () => getOffer(agent, user.userId),
         notificationSend: () => notification.createUser(user.ref)
       };
 
