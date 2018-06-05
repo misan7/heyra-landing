@@ -47,15 +47,15 @@ export const OfferPageTemplate = ({
           <div className="home-content__line" />
         </div>
       </section>
-      <section className="s-page">
-        <div className="row section-header has-bottom-sep" data-aos="fade-up">
+      <section id="offer" className="s-page">
+        <div className="row section-header has-bottom-sep">
           <div className="col-full">
             <h3 className="subhead">{subtitle}</h3>
             <h1 className="display-2">{title}</h1>
             <PageContent content={content} />
           </div>
         </div>
-        <div className="row section-header" data-aos="fade-up">
+        <div className="row section-header">
           <a href={url} className="contact smoothscroll btn">
             Solicita una visita
           </a>
