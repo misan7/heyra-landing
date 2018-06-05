@@ -29,19 +29,21 @@ module.exports = class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-
           {this.props.headComponents}
           <TypographyStyle typography={typography} />
           {css}
-
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+            integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+            crossorigin="anonymous"
+          />
           <link rel="stylesheet" href="/css/base.css" />
           <link rel="stylesheet" href="/css/vendor.css" />
           <link rel="stylesheet" href="/css/main.css" />
-
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
           <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
           <script src="/js/modernizr.js" />
           <script src="/js/pace.min.js" />
         </head>
