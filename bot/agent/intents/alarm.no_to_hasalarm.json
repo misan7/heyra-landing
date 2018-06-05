@@ -8,7 +8,8 @@
     "await_stole",
     "alarmzipcode_to_stole-followup",
     "alarmbotszipcode-followup",
-    "alarm_zipcode"
+    "alarm_zipcode",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -24,13 +25,20 @@
           "name": "await_hasalarm",
           "parameters": {},
           "lifespan": 1
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
           "id": "1ff1d393-2ed3-4684-b913-414af8805b7a",
+          "required": false,
           "name": "alarm_stole",
-          "value": "false"
+          "value": "false",
+          "isList": false
         }
       ],
       "messages": [
@@ -50,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527688264,
+  "lastUpdate": 1527778545,
   "fallbackIntent": false,
   "events": []
 }

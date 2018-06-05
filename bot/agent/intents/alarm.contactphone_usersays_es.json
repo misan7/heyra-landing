@@ -1,6 +1,24 @@
 [
   {
-    "id": "b992649f-c758-4037-9c71-16ba34d48abd",
+    "id": "89220c0f-91aa-411c-b5b8-77ca753d174b",
+    "data": [
+      {
+        "text": "Es el ",
+        "userDefined": false
+      },
+      {
+        "text": "000000000",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527779021
+  },
+  {
+    "id": "db4648a4-577c-4378-b827-b741c80ca6ac",
     "data": [
       {
         "text": "000000000",
@@ -12,5 +30,23 @@
     "isTemplate": false,
     "count": 0,
     "updated": 1527697897
+  },
+  {
+    "id": "33a80f66-2076-45d7-97e1-2423b934035a",
+    "data": [
+      {
+        "text": "Mi teléfono es ",
+        "userDefined": false
+      },
+      {
+        "text": "000000000",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527779021
   }
 ]

@@ -50,20 +50,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '1925256160881816',
-      },
+        pixelId: '1925256160881816'
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `UA-117610431-2`,
-        // Puts tracking script in the head instead of the body
         head: false,
-        // Setting this parameter is optional
         anonymize: true,
-        // Setting this parameter is also optional
         respectDNT: true,
-        // Avoids sending pageview hits from custom paths
         exclude: [`/preview/**`]
       }
     }

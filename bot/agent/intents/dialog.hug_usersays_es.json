@@ -21,31 +21,10 @@
     "updated": 0
   },
   {
-    "id": "48825ec4-9662-48d7-95e2-d55cc2fdb2a8",
+    "id": "92b71448-27a0-48cc-9cce-54ed27defb66",
     "data": [
       {
-        "text": "te abrazo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "56764219-b0d1-4624-b9e7-08f1090e89b3",
-    "data": [
-      {
-        "text": "dame ",
-        "userDefined": false
-      },
-      {
-        "text": "un",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " abrazote por favor",
+        "text": "quisiera darte un abrazo",
         "userDefined": false
       }
     ],
@@ -78,10 +57,10 @@
     "updated": 0
   },
   {
-    "id": "a78e23b7-a1cf-487b-a93c-a994e16bfc73",
+    "id": "fe3e1c89-ed91-4ef4-94a9-c759f980d684",
     "data": [
       {
-        "text": "te doy un abrazote",
+        "text": "necesito un abrazo",
         "userDefined": false
       }
     ],
@@ -102,10 +81,19 @@
     "updated": 0
   },
   {
-    "id": "2cfc1da5-81ff-4807-96d4-2b761e77233e",
+    "id": "56764219-b0d1-4624-b9e7-08f1090e89b3",
     "data": [
       {
-        "text": "me puedes dar un abrazo",
+        "text": "dame ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " abrazote por favor",
         "userDefined": false
       }
     ],
@@ -126,18 +114,6 @@
     "updated": 0
   },
   {
-    "id": "92b71448-27a0-48cc-9cce-54ed27defb66",
-    "data": [
-      {
-        "text": "quisiera darte un abrazo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
     "id": "f79a7bf8-793b-43b2-9708-288a9d6a2c74",
     "data": [
       {
@@ -150,10 +126,10 @@
     "updated": 0
   },
   {
-    "id": "fe3e1c89-ed91-4ef4-94a9-c759f980d684",
+    "id": "a78e23b7-a1cf-487b-a93c-a994e16bfc73",
     "data": [
       {
-        "text": "necesito un abrazo",
+        "text": "te doy un abrazote",
         "userDefined": false
       }
     ],
@@ -166,6 +142,30 @@
     "data": [
       {
         "text": "te quiero abrazar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cfc1da5-81ff-4807-96d4-2b761e77233e",
+    "data": [
+      {
+        "text": "me puedes dar un abrazo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48825ec4-9662-48d7-95e2-d55cc2fdb2a8",
+    "data": [
+      {
+        "text": "te abrazo",
         "userDefined": false
       }
     ],

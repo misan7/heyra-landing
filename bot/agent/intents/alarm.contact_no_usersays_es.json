@@ -1,30 +1,6 @@
 [
   {
-    "id": "d0398aa0-db8d-4945-8e28-3904403b6e86",
-    "data": [
-      {
-        "text": "👎",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527695251
-  },
-  {
-    "id": "287275b2-fb6e-4a84-9667-d7853cdf5372",
-    "data": [
-      {
-        "text": "ni se te ocurra",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527693268
-  },
-  {
-    "id": "f2da13c8-1573-469e-987a-020c7c64f002",
+    "id": "358f1252-c7c3-4d90-b8ff-9ba937a6650f",
     "data": [
       {
         "text": "no me interesa",
@@ -36,7 +12,31 @@
     "updated": 1527693268
   },
   {
-    "id": "e76bb792-bf14-4c29-97fb-5f1aeebe3f00",
+    "id": "c4c60283-5276-4580-ad21-c119943e56ee",
+    "data": [
+      {
+        "text": "👎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527695251
+  },
+  {
+    "id": "56a1905a-8fea-47ac-90e3-17ee36b37ada",
+    "data": [
+      {
+        "text": "ni se te ocurra",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527693268
+  },
+  {
+    "id": "30ce1603-9102-4281-9af1-dd1ec24530c7",
     "data": [
       {
         "text": "no gracias",
@@ -48,7 +48,7 @@
     "updated": 1527693268
   },
   {
-    "id": "898d877c-9a33-47ab-8bbc-0f185bc56bcd",
+    "id": "0a8c4ec6-e89d-40f3-8694-06f29ce50994",
     "data": [
       {
         "text": "no",

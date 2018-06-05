@@ -9,7 +9,7 @@
       "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "await_alarmtype",
+          "name": "await_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -33,12 +33,17 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Con unas simples preguntas, te daré la solución más correcta adecuada a tus necesidades."
+          "speech": "Con pocas preguntas, te daré la solución más adecuada a tus necesidades."
         },
         {
           "type": 0,
           "lang": "es",
-          "speech": "¿La alarma es para una vivienda o un negocio?"
+          "speech": "Antes de continuar, necesito que leas y apruebes la información sobre el tratamiento de tus datos de carácter personal contenida en este link: https://alarmbots.com/page/privacy-bot/"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Cuando los hayas leído, dime, ¿estás de acuerdo?"
         }
       ],
       "defaultResponsePlatforms": {
@@ -50,7 +55,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527694102,
+  "lastUpdate": 1528189833,
   "fallbackIntent": false,
   "events": [
     {

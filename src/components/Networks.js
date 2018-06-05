@@ -20,7 +20,7 @@ const Networks = () => (
       {bots().map((bot) => (
         <div key={bot.class} className="col-block stats__col ">
           <a
-            href={bot.link}
+            href={bot.link()}
             title="true"
             className={`clients__slide ${bot.class}`}
           >

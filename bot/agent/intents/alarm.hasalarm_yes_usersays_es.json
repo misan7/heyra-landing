@@ -1,6 +1,6 @@
 [
   {
-    "id": "d76992d8-303f-4e34-80b2-d5f9a02bb1cc",
+    "id": "2249acaa-a95b-4bb8-8968-733aaec2ef45",
     "data": [
       {
         "text": "👍",
@@ -9,34 +9,31 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527695189
+    "updated": 1527777962
   },
   {
-    "id": "c6089db2-6154-416b-8119-4f541656b089",
+    "id": "141b7c31-558a-4eae-872a-bab02d8c98b1",
     "data": [
       {
-        "text": "tengo alarma",
+        "text": "tengo ya ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " alarma",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527693702
+    "updated": 1527777962
   },
   {
-    "id": "83cd761e-02d6-44ac-a019-005643d5cd50",
-    "data": [
-      {
-        "text": "si tengo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527693702
-  },
-  {
-    "id": "aa97bb0b-08ce-4cad-a3f4-c53deeab985b",
+    "id": "072162bf-7ed8-4cb8-bcb5-127daec1e0f8",
     "data": [
       {
         "text": "si",
@@ -45,6 +42,30 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527693702
+    "updated": 1527777962
+  },
+  {
+    "id": "a52815c1-cdde-4e46-9af6-bc0c77f0e602",
+    "data": [
+      {
+        "text": "tengo alarma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527777962
+  },
+  {
+    "id": "bb583565-53a2-4aca-a5f1-e768f9403044",
+    "data": [
+      {
+        "text": "si tengo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527777962
   }
 ]

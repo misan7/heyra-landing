@@ -3,7 +3,8 @@
   "name": "alarm.zipcode_to_location",
   "auto": true,
   "contexts": [
-    "await_zipcode"
+    "await_zipcode",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -18,6 +19,11 @@
           "name": "await_zipcode",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -25,7 +31,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Ok, no te preocupes. ¿En que ciudad se encuentra?"
+          "speech": "Ok, no te preocupes. ¿En qué localidad se efectuaría la instalación de la alarma?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -35,7 +41,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527687222,
+  "lastUpdate": 1527778580,
   "fallbackIntent": true,
   "events": []
 }

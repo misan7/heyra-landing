@@ -3,7 +3,8 @@
   "name": "alarm.contact_yes",
   "auto": true,
   "contexts": [
-    "await_contact"
+    "await_contact",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -18,6 +19,11 @@
           "name": "await_contactname",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -26,7 +32,7 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "¿Cual es tu nombre?",
+            "¿Cuál es tu nombre?",
             "¿Cómo te llamas?"
           ]
         }
@@ -38,7 +44,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527696781,
+  "lastUpdate": 1528123998,
   "fallbackIntent": false,
   "events": []
 }

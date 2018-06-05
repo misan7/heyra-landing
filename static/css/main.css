@@ -3849,4 +3849,67 @@ footer .row {
     }
 }
 
+/* ------------------------------------------------------------------- 
+ * Page and offer
+ * ------------------------------------------------------------------- */
+
+.s-page {
+    padding-top: 16.2rem;
+    padding-bottom: 13.2rem;
+    background-color: #e6e6e6;
+    color: #757575;
+    position: relative;
+}
+
+.s-page li {
+    text-align: left;
+}
+
+.s-offer {
+    background: url('../images/offer.jpg');
+}
+
+.s-offer .home-content h1,
+.s-offer .home-content h3 {
+    text-align: center;
+}
+
+.s-offer .discount {
+    font-size: 150pt;
+}
+
+img.kit {
+    padding-top: 75px;
+}
+
+@media only screen and (max-width: 900px) {
+    .s-offer .discount {
+        font-size: 120pt;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .s-offer .discount {
+        font-size: 110pt;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-offer .discount {
+        font-size: 60pt;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .s-offer .discount {
+        font-size: 50pt;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .s-offer .discount {
+        font-size: 40pt;
+    }
+}
+
 /*# sourceMappingURL=main.css.map */

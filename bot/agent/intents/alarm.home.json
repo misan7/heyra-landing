@@ -3,7 +3,8 @@
   "name": "alarm.home",
   "auto": true,
   "contexts": [
-    "await_alarmtype"
+    "await_alarmtype",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -16,17 +17,12 @@
           "lifespan": 0
         },
         {
-          "name": "alarm_type_home",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
-          "name": "alarm_type",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
           "name": "await_hometype",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -65,7 +61,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527697120,
+  "lastUpdate": 1527779597,
   "fallbackIntent": false,
   "events": []
 }

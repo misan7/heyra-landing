@@ -14,16 +14,7 @@
           "lifespan": 2
         }
       ],
-      "parameters": [
-        {
-          "id": "5755d2ef-8f0e-4430-9460-5eba2080890e",
-          "required": false,
-          "dataType": "@sys.number",
-          "name": "age",
-          "value": "$age",
-          "isList": false
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
@@ -44,7 +35,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527624154,
+  "lastUpdate": 1527780824,
   "fallbackIntent": false,
   "events": []
 }

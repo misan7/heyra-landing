@@ -3,7 +3,8 @@
   "name": "alarm.welcome_fallback",
   "auto": true,
   "contexts": [
-    "await_alarmtype"
+    "await_alarmtype",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -13,6 +14,11 @@
           "name": "await_alarmtype",
           "parameters": {},
           "lifespan": 2
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -22,14 +28,13 @@
           "lang": "es",
           "speech": [
             "Hola de nuevo.",
-            "Creo que ya nos saludamos, pero hola de nuevo.",
             "Saludos."
           ]
         },
         {
           "type": 0,
           "lang": "es",
-          "speech": "Puedo ayudarte si me indicas si buscas proteger tu hogar o tu negocio."
+          "speech": "Indícame si buscas proteger tu hogar o tu negocio."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -39,7 +44,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527614332,
+  "lastUpdate": 1527778591,
   "fallbackIntent": true,
   "events": []
 }

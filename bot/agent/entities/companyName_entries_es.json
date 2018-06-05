@@ -1,5 +1,12 @@
 [
   {
+    "value": "Other",
+    "synonyms": [
+      "Other",
+      "Ajax"
+    ]
+  },
+  {
     "value": "Securitas",
     "synonyms": [
       "Securitas",
@@ -11,13 +18,6 @@
     "synonyms": [
       "Tyco",
       "tico"
-    ]
-  },
-  {
-    "value": "Other",
-    "synonyms": [
-      "Other",
-      "Ajax"
     ]
   }
 ]

@@ -1,6 +1,24 @@
 [
   {
-    "id": "60d6d1e6-d0e5-4c26-a8e2-29990cc73284",
+    "id": "4adc711a-e57b-436d-b240-29ce1b32131d",
+    "data": [
+      {
+        "text": "es el ",
+        "userDefined": false
+      },
+      {
+        "text": "00000",
+        "alias": "alarm_zipcode",
+        "meta": "@sys.zip-code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527761655
+  },
+  {
+    "id": "34e8af83-0437-417c-ac8b-87e33363eb50",
     "data": [
       {
         "text": "00000",
@@ -14,10 +32,10 @@
     "updated": 1527686828
   },
   {
-    "id": "4c745c3a-040e-47dc-9013-5c9d2ea16cd4",
+    "id": "d541877a-5cdc-4142-9fb1-01b8cfb7770a",
     "data": [
       {
-        "text": "Mi código postal es ",
+        "text": "mi código postal es ",
         "userDefined": false
       },
       {
@@ -29,6 +47,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527686828
+    "updated": 1527761655
   }
 ]

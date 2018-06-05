@@ -3,19 +3,20 @@
   "name": "alarm.stole_no",
   "auto": true,
   "contexts": [
-    "await_stole"
+    "await_stole",
+    "accept_privacy"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "alarm_stole",
+          "name": "await_hasalarm",
           "parameters": {},
           "lifespan": 5
         },
         {
-          "name": "await_hasalarm",
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -51,7 +52,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527695023,
+  "lastUpdate": 1527781618,
   "fallbackIntent": false,
   "events": []
 }

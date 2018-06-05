@@ -1,0 +1,48 @@
+{
+  "id": "00c95549-8875-4c9b-be31-2dc2d9fa2c5e",
+  "name": "alarm.hasalarm_yes.fallback",
+  "auto": true,
+  "contexts": [
+    "accept_privacy",
+    "await_alarmcompany"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_alarmcompany",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Te puedo decir algunas compañías de alarma para refrescar la memoria. Entre las más conocidas, se encuentran:"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Securitas Direct, Prosegur, Tyco, Trablisa..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527858251,
+  "fallbackIntent": true,
+  "events": []
+}
