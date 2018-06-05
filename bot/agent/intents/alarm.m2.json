@@ -31,8 +31,8 @@
           "id": "d22eb6e0-5684-49af-ba6c-20a25a0441b1",
           "required": false,
           "dataType": "@sys.number",
-          "name": "number",
-          "value": "$number",
+          "name": "alarm_size",
+          "value": "$alarm_size",
           "isList": false
         }
       ],
@@ -50,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527778578,
+  "lastUpdate": 1528199973,
   "fallbackIntent": false,
   "events": []
 }

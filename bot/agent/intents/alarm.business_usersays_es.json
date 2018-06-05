@@ -1,6 +1,6 @@
 [
   {
-    "id": "83ea8908-0dd9-4530-a2e1-bf9836a2c41e",
+    "id": "35dd4663-6117-45de-8709-b719a42df3f3",
     "data": [
       {
         "text": "un",
@@ -13,31 +13,31 @@
       },
       {
         "text": "negocio",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527696134
+    "updated": 1528200105
   },
   {
-    "id": "99044d1c-706b-42f6-b68f-aef1c4c13b4d",
+    "id": "440b8e43-f34f-4a25-9077-3e71458258db",
     "data": [
       {
         "text": "trabajo",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527684738
+    "updated": 1528200105
   },
   {
-    "id": "5a462746-24c0-4a90-92c3-caa9f284b7d3",
+    "id": "eb4517eb-8b31-4767-a2d4-f2b3c62b253b",
     "data": [
       {
         "text": "tengo ",
@@ -54,17 +54,17 @@
       },
       {
         "text": "local",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527606944
+    "updated": 1528200105
   },
   {
-    "id": "26132bc0-0eff-47e2-8a81-f3ed6a8b0db7",
+    "id": "58b0b921-6265-46a8-8ce5-19393290e83a",
     "data": [
       {
         "text": "tengo ",
@@ -81,17 +81,17 @@
       },
       {
         "text": "tienda",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527606944
+    "updated": 1528200105
   },
   {
-    "id": "a344bed0-adfa-41ec-9aac-029c0895c528",
+    "id": "b967c3b9-6a5e-4663-866b-2ce0e1bfaaad",
     "data": [
       {
         "text": "trabajo",
@@ -113,17 +113,17 @@
       },
       {
         "text": "agencia",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527606944
+    "updated": 1528200105
   },
   {
-    "id": "bbb33e3e-025f-49ba-becd-36ee8b92e8b6",
+    "id": "54921508-bc2e-4efa-a898-ef02bb35be18",
     "data": [
       {
         "text": "busco proteger mi ",
@@ -131,17 +131,17 @@
       },
       {
         "text": "negocio",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527606944
+    "updated": 1528200105
   },
   {
-    "id": "94b9968d-6f77-424b-8c17-2aa6d2cda9e5",
+    "id": "ad2418f9-5f07-44e4-8652-a9d306bec074",
     "data": [
       {
         "text": "es ",
@@ -158,17 +158,17 @@
       },
       {
         "text": "negocio",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527606944
+    "updated": 1528200105
   },
   {
-    "id": "a642b81c-0d6b-41ae-9a56-0315138077ae",
+    "id": "fb3e197f-d5af-4fb7-95f6-61c85b1fcad0",
     "data": [
       {
         "text": "trabajo",
@@ -190,13 +190,13 @@
       },
       {
         "text": "despacho",
-        "alias": "alarm_type_business",
+        "alias": "alarm_type",
         "meta": "@alarmType_Business",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527606944
+    "updated": 1528200105
   }
 ]

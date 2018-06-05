@@ -11,7 +11,7 @@ export const PageTemplate = ({
   const PageContent = contentComponent || Content;
   return (
     <section className="s-page">
-      <div className="row section-header has-bottom-sep" data-aos="fade-up">
+      <div className="row section-header has-bottom-sep">
         <div className="col-full">
           <h3 className="subhead">{subtitle}</h3>
           <h1 className="display-2">{title}</h1>

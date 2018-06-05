@@ -3942,6 +3942,7 @@ footer .row {
 
 .s-offer {
     background: url('../images/offer.jpg');
+    background-size: cover;
 }
 
 .s-offer .home-content h1,

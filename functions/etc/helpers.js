@@ -7,6 +7,7 @@ const functions = require('firebase-functions');
 const defaults = require('lodash/defaults');
 const map = require('lodash/map');
 const omitBy = require('lodash/omitBy');
+const concat = require('lodash/concat');
 
 const nodemailer = require('nodemailer');
 
@@ -19,23 +20,60 @@ const Notification = ({ user, pass, notification }) => {
   });
 
   return {
-    createUser: (user) =>
-      new Promise((resolve, reject) => {
-        // Get user
-        ref.get().then((snapshot) => {
-          console.log('User: ' + JSON.stringify(snapshot.data()));
+    createUser: ({
+      alarm_phonenumber,
+      alarm_size,
+      alarm_stole,
+      alarm_type,
+      alarm_withalarm,
+      alarm_zipcode,
+      alarm_contactname,
+      alarm_companyname,
+      alarm_location
+    }) => {
+      const isHome = /home_/;
+      const YesNo = (value) => (value === 'true' ? 'Si' : 'No');
 
-          return transport.sendMail(
-            {
-              from: 'Alarmbots <info@alarmbots.com>',
-              to: notification,
-              subject: 'Nuevo usuario',
-              text: JSON.stringify(user)
-            },
-            resolve
-          );
-        });
-      })
+      let type = '';
+
+      if (isHome.test(alarm_type)) {
+        const isHabitual = /home_habitual/;
+        type = `Tipo: Domicilio ${
+          isHabitual.test(alarm_type) ? 'Habitual' : 'Segunda residencia'
+        }`;
+      } else {
+        const isNormal = /business_normal/;
+        type = `Tipo: Empresa ${
+          isNormal.test(alarm_type) ? 'Pequeña' : 'Grande'
+        }`;
+      }
+
+      let data = [
+        `Nombre: ${alarm_contactname}`,
+        `Teléfono: ${alarm_phonenumber}`,
+        type,
+        `Tamaño: ${alarm_size} m2`,
+        `Robo: ${YesNo(alarm_stole)}`,
+        `Tiene alarma: ${YesNo(alarm_withalarm)}`
+      ];
+
+      if (alarm_zipcode) {
+        data = concat(data, [`Código postal: ${alarm_zipcode}`]);
+      } else if (alarm_location) {
+        data = concat(data, [`Ciudad: ${alarm_location}`]);
+      }
+
+      if (alarm_withalarm === 'true' && alarm_companyname) {
+        data = concat(data, [`Compañía: ${alarm_companyname}`]);
+      }
+
+      return transport.sendMail({
+        from: 'Alarmbots <info@alarmbots.com>',
+        to: notification,
+        subject: 'Solicitud de información',
+        text: data.join('\n')
+      });
+    }
   };
 };
 
@@ -63,17 +101,17 @@ const User = (userId) =>
           ref,
           addContexts: (intentName, contexts) =>
             new Promise((resolve, reject) => {
-              console.log(
-                'Parameters: ' + JSON.stringify(extractParameters(contexts))
-              );
+              const parameters = extractParameters(contexts);
+
+              console.log('Parameters: ' + JSON.stringify(parameters));
 
               ref
                 .collection('contexts')
                 .add({ contexts, intentName, created_at: now() })
                 .then(() =>
                   ref
-                    .update(extractParameters(contexts))
-                    .then(resolve)
+                    .update(parameters)
+                    .then(() => resolve(parameters))
                     .catch(reject)
                 );
             })
@@ -94,16 +132,14 @@ const User = (userId) =>
       })
   );
 
-const getOffer = (agent, userId) => {
+const getOffer = (agent, platform, userId) => {
   let offer = {};
 
-  const btoa = (str) => {
-    if (Buffer.byteLength(str) !== str.length) throw new Error('bad string!');
-    return Buffer(str, 'binary').toString('base64');
-  };
+  const stringify = (obj) =>
+    Buffer(JSON.stringify(obj), 'binary').toString('base64');
 
   const { companyName } = agent.parameters;
-  const hash = btoa(JSON.stringify({ userId, platform: 'whatsapp' }));
+  const hash = stringify({ userId, platform });
 
   switch (companyName) {
     case 'Securitas': {

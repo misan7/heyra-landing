@@ -32,15 +32,8 @@
           "id": "d08a48ad-193a-4a64-8a69-3df53e38119a",
           "required": false,
           "dataType": "@sys.geo-city",
-          "name": "geo-city",
-          "value": "$geo-city",
-          "isList": false
-        },
-        {
-          "id": "5c77b5d3-5e14-42d7-9ba2-df8198aae708",
-          "required": false,
           "name": "alarm_location",
-          "value": "$geo-city",
+          "value": "$alarm_location",
           "isList": false
         }
       ],
@@ -58,7 +51,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527782294,
+  "lastUpdate": 1528204452,
   "fallbackIntent": false,
   "events": []
 }

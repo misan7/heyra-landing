@@ -32,15 +32,8 @@
           "id": "b3fb904b-3b4f-4c8a-8dcc-f0e47770718d",
           "required": false,
           "dataType": "@companyName",
-          "name": "companyName",
-          "value": "$companyName",
-          "isList": false
-        },
-        {
-          "id": "fe308aa6-415b-4a0a-b7f4-5c9761e7626f",
-          "required": false,
           "name": "alarm_companyname",
-          "value": "$companyName",
+          "value": "$alarm_companyname",
           "isList": false
         }
       ],
@@ -58,7 +51,7 @@
   "priority": 750000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527782459,
+  "lastUpdate": 1528204476,
   "fallbackIntent": false,
   "events": []
 }
