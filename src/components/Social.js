@@ -47,7 +47,7 @@ const Social = (props) => (
       networks.map((network) => (
         <li key={network.class}>
           <a href={network.link()}>
-            <i className={`fa fa-${network.class}`} />
+            <i className={`fab fa-${network.class}`} />
           </a>
         </li>
       ))}

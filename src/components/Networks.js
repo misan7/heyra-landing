@@ -24,7 +24,7 @@ const Networks = () => (
             title="true"
             className={`clients__slide ${bot.class}`}
           >
-            <i className={`fa fa-${bot.class}`} />
+            <i className={`fab fa-${bot.class}`} />
           </a>
         </div>
       ))}

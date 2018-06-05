@@ -39,18 +39,23 @@ export const OfferPageTemplate = ({
             <h1 className="discount">-499€</h1>
             <h3>Descuento sólo hasta el 30 de junio de 2018</h3>
           </div>
+          <div className="home-content__scroll">
+            <a href="#services" className="scroll-link smoothscroll">
+              <span>Aún hay más</span>
+            </a>
+          </div>
           <div className="home-content__line" />
         </div>
       </section>
-      <section className="s-page">
-        <div className="row section-header has-bottom-sep" data-aos="fade-up">
+      <section id="offer" className="s-page">
+        <div className="row section-header has-bottom-sep">
           <div className="col-full">
             <h3 className="subhead">{subtitle}</h3>
             <h1 className="display-2">{title}</h1>
             <PageContent content={content} />
           </div>
         </div>
-        <div className="row section-header" data-aos="fade-up">
+        <div className="row section-header">
           <a href={url} className="contact smoothscroll btn">
             Solicita una visita
           </a>
