@@ -20,9 +20,11 @@ class Navbar extends Component {
         className={classNames('s-header', { 'menu-is-open': this.state.show })}
       >
         <div className="header-logo">
-          <a className="site-logo" href="index.html">
-            <img src={Logo} alt="Homepage" />
-          </a>
+          <Link to="/">
+            <div className="site-logo">
+              <img src={Logo} alt="Homepage" />
+            </div>
+          </Link>
         </div>
         {isHome && (
           <div>
