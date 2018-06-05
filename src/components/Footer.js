@@ -64,11 +64,11 @@ const Footer = () => (
             Política de privacidad y Aviso Legal
           </Link>
         </span>
-        <div className="go-top" style={{ display: 'block' }}>
+        {/* <div className="go-top" style={{ display: 'block' }}>
           <a className="smoothscroll" title="Back to Top" href="#top">
             <i className="icon-arrow-up" aria-hidden="true" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   </footer>
