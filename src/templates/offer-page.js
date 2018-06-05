@@ -39,6 +39,11 @@ export const OfferPageTemplate = ({
             <h1 className="discount">-499€</h1>
             <h3>Descuento sólo hasta el 30 de junio de 2018</h3>
           </div>
+          <div className="home-content__scroll">
+            <a href="#services" className="scroll-link smoothscroll">
+              <span>Aún hay más</span>
+            </a>
+          </div>
           <div className="home-content__line" />
         </div>
       </section>
