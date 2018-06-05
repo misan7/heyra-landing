@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
 title: Securitas Direct
-subtitle: La compañia
+subtitle: La compañía
 date: 2018-06-01T15:04:10.000Z
 tags:
   - offer

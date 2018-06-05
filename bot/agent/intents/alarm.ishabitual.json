@@ -31,15 +31,8 @@
           "id": "95180b63-433d-4837-abaa-dd17a25be619",
           "required": false,
           "dataType": "@alarmType_Home",
-          "name": "alarmType_Home",
-          "value": "$alarmType_Home",
-          "isList": false
-        },
-        {
-          "id": "a1ce374b-e5ca-4827-8a30-55332953e849",
-          "required": false,
           "name": "alarm_type",
-          "value": "$alarmType_Home",
+          "value": "$alarm_type",
           "isList": false
         }
       ],
@@ -57,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527779609,
+  "lastUpdate": 1528202613,
   "fallbackIntent": false,
   "events": []
 }

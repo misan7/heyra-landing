@@ -1,20 +1,20 @@
 [
   {
-    "id": "11e44a20-b2c4-4c14-af0a-7d2dbc472a6b",
+    "id": "113e075c-c95d-4f34-a695-19885c017675",
     "data": [
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   },
   {
-    "id": "cd857792-1335-46de-9e4e-a200b68ece3a",
+    "id": "bfabc41f-a1de-4afc-a8d9-e0ef6529185b",
     "data": [
       {
         "text": "diría que con ",
@@ -22,17 +22,17 @@
       },
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   },
   {
-    "id": "a3242e6b-bdc7-465f-86f6-341a445d7a72",
+    "id": "40f08860-4a42-4736-a1e1-1b2dab1d7b57",
     "data": [
       {
         "text": "con ",
@@ -40,17 +40,17 @@
       },
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   },
   {
-    "id": "41a3adda-00a1-45f9-b89a-effa4444e079",
+    "id": "6a5e9bea-1c02-443d-a94d-3c36a80276b8",
     "data": [
       {
         "text": "puede que sea ",
@@ -58,17 +58,17 @@
       },
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   },
   {
-    "id": "44adf337-1742-45c8-8acf-d32684effd8a",
+    "id": "f1f41627-de31-43b0-94ad-2d3becb48c97",
     "data": [
       {
         "text": "creo que ",
@@ -76,17 +76,17 @@
       },
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   },
   {
-    "id": "6d0114e1-b4e0-4c94-8867-28190ff07ad0",
+    "id": "861cd94e-f44e-4be2-8cf4-efd0b952c983",
     "data": [
       {
         "text": "quizás se llama ",
@@ -94,17 +94,17 @@
       },
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   },
   {
-    "id": "3933b9a6-f8c3-443d-8f6a-1f821330c25c",
+    "id": "8cafda61-dc57-4503-b55a-fd705f6f3ac4",
     "data": [
       {
         "text": "si tengo, con ",
@@ -112,13 +112,13 @@
       },
       {
         "text": "securitas",
-        "alias": "companyName",
+        "alias": "alarm_companyname",
         "meta": "@companyName",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527782212
+    "updated": 1528204498
   }
 ]

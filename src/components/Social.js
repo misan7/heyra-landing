@@ -6,7 +6,7 @@ const networks = [
   {
     title: 'Whatsapp',
     color: '#01e676',
-    link: (text) =>
+    link: (text = 'Hola') =>
       `https://api.whatsapp.com/send?phone=34699914244&text=${text}`,
     class: 'whatsapp',
     bot: true
