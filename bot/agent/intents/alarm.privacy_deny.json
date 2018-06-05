@@ -1,0 +1,49 @@
+{
+  "id": "1c9769d8-df76-4bb8-8328-c3d54953bc2a",
+  "name": "alarm.privacy_deny",
+  "auto": true,
+  "contexts": [
+    "await_privacy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_privacy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d02768cc-2fc3-42b5-9831-f6dec37929fa",
+          "required": false,
+          "name": "privacy",
+          "value": "false",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Lo siento, pero no puedo ayudarte, si no aceptas las políticas de privacidad y condiciones de uso."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Espero verte pronto."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527777512,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,6 +1,6 @@
 [
   {
-    "id": "b788381e-e4b8-4316-913b-9c23038f0131",
+    "id": "11e44a20-b2c4-4c14-af0a-7d2dbc472a6b",
     "data": [
       {
         "text": "securitas",
@@ -11,10 +11,28 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527696639
+    "updated": 1527782212
   },
   {
-    "id": "f43a75ff-71f6-45b1-a4cc-357399563e6f",
+    "id": "cd857792-1335-46de-9e4e-a200b68ece3a",
+    "data": [
+      {
+        "text": "diría que con ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527782212
+  },
+  {
+    "id": "a3242e6b-bdc7-465f-86f6-341a445d7a72",
     "data": [
       {
         "text": "con ",
@@ -29,10 +47,64 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527696639
+    "updated": 1527782212
   },
   {
-    "id": "43c4d8c6-077b-483d-b51e-d555d8a45294",
+    "id": "41a3adda-00a1-45f9-b89a-effa4444e079",
+    "data": [
+      {
+        "text": "puede que sea ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527782212
+  },
+  {
+    "id": "44adf337-1742-45c8-8acf-d32684effd8a",
+    "data": [
+      {
+        "text": "creo que ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527782212
+  },
+  {
+    "id": "6d0114e1-b4e0-4c94-8867-28190ff07ad0",
+    "data": [
+      {
+        "text": "quizás se llama ",
+        "userDefined": false
+      },
+      {
+        "text": "securitas",
+        "alias": "companyName",
+        "meta": "@companyName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527782212
+  },
+  {
+    "id": "3933b9a6-f8c3-443d-8f6a-1f821330c25c",
     "data": [
       {
         "text": "si tengo, con ",
@@ -47,6 +119,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527696639
+    "updated": 1527782212
   }
 ]

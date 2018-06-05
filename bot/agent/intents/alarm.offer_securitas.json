@@ -2,13 +2,20 @@
   "id": "3917bbf7-3f22-46ae-90df-8f8fe42f17f9",
   "name": "alarm.offer_securitas",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "accept_privacy"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
           "name": "await_contact",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,12 +25,17 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Genial, te recomiendo Securitas..."
+          "speech": "He dado con la mejor opción basada en tus respuestas."
         },
         {
           "type": 0,
           "lang": "es",
-          "speech": "Tienes un descuento de #OFFER_SECURITAS.discount euros"
+          "speech": "Puedes conocer todos los detalles en el siguiente enlace:"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "#OFFER_SECURITAS.link"
         },
         {
           "type": 0,
@@ -38,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527699732,
+  "lastUpdate": 1528189882,
   "fallbackIntent": false,
   "events": [
     {

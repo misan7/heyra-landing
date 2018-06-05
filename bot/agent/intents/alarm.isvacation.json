@@ -1,0 +1,56 @@
+{
+  "id": "7cbb77eb-48be-48c9-9532-8b5e5eeccb41",
+  "name": "alarm.isvacation",
+  "auto": true,
+  "contexts": [
+    "await_hometype",
+    "accept_privacy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_hometype",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_m2",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c98e426b-51b5-41a6-a7a3-b809c7fdba8d",
+          "required": false,
+          "dataType": "@alarmType_Home",
+          "name": "alarmType_Home",
+          "value": "$alarmType_Home",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Cuántos metros cuadrados tiene?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527778552,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "No creo que eso sea posible. ¿Podrías contestarme la pregunta anterior?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253965,
+  "lastUpdate": 1527781561,
   "fallbackIntent": false,
   "events": []
 }

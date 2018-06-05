@@ -1,6 +1,6 @@
 [
   {
-    "id": "d2987af9-cc03-4a4f-b51f-1d95dbb42937",
+    "id": "83ea8908-0dd9-4530-a2e1-bf9836a2c41e",
     "data": [
       {
         "text": "un",
@@ -23,7 +23,7 @@
     "updated": 1527696134
   },
   {
-    "id": "899ec749-7668-4649-a2ee-16c48892d956",
+    "id": "99044d1c-706b-42f6-b68f-aef1c4c13b4d",
     "data": [
       {
         "text": "trabajo",
@@ -37,14 +37,23 @@
     "updated": 1527684738
   },
   {
-    "id": "6f18a9d0-a17f-4ec4-b018-af1e5892690c",
+    "id": "5a462746-24c0-4a90-92c3-caa9f284b7d3",
     "data": [
       {
-        "text": "busco proteger mi ",
+        "text": "tengo ",
         "userDefined": false
       },
       {
-        "text": "negocio",
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "local",
         "alias": "alarm_type_business",
         "meta": "@alarmType_Business",
         "userDefined": false
@@ -55,10 +64,14 @@
     "updated": 1527606944
   },
   {
-    "id": "0ae01950-2df9-4f01-b174-aa9600e18df5",
+    "id": "26132bc0-0eff-47e2-8a81-f3ed6a8b0db7",
     "data": [
       {
-        "text": "trabajo",
+        "text": "tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
         "meta": "@sys.ignore",
         "userDefined": false
       },
@@ -67,16 +80,7 @@
         "userDefined": false
       },
       {
-        "text": "en un",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "despacho",
+        "text": "tienda",
         "alias": "alarm_type_business",
         "meta": "@alarmType_Business",
         "userDefined": true
@@ -87,7 +91,7 @@
     "updated": 1527606944
   },
   {
-    "id": "58483e85-936c-4532-87c4-ccc35de74353",
+    "id": "a344bed0-adfa-41ec-9aac-029c0895c528",
     "data": [
       {
         "text": "trabajo",
@@ -119,50 +123,14 @@
     "updated": 1527606944
   },
   {
-    "id": "7489ebac-6e8d-40c5-b620-477b51074eeb",
+    "id": "bbb33e3e-025f-49ba-becd-36ee8b92e8b6",
     "data": [
       {
-        "text": "tengo ",
+        "text": "busco proteger mi ",
         "userDefined": false
       },
       {
-        "text": "una",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "tienda",
-        "alias": "alarm_type_business",
-        "meta": "@alarmType_Business",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527606944
-  },
-  {
-    "id": "d97c3c6a-fa25-49df-bf32-ea50baa54eca",
-    "data": [
-      {
-        "text": "tengo ",
-        "userDefined": false
-      },
-      {
-        "text": "un",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "local",
+        "text": "negocio",
         "alias": "alarm_type_business",
         "meta": "@alarmType_Business",
         "userDefined": false
@@ -173,7 +141,7 @@
     "updated": 1527606944
   },
   {
-    "id": "23338ee6-e0f3-456d-bf89-1da31d547fd5",
+    "id": "94b9968d-6f77-424b-8c17-2aa6d2cda9e5",
     "data": [
       {
         "text": "es ",
@@ -193,6 +161,38 @@
         "alias": "alarm_type_business",
         "meta": "@alarmType_Business",
         "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527606944
+  },
+  {
+    "id": "a642b81c-0d6b-41ae-9a56-0315138077ae",
+    "data": [
+      {
+        "text": "trabajo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "en un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "despacho",
+        "alias": "alarm_type_business",
+        "meta": "@alarmType_Business",
+        "userDefined": true
       }
     ],
     "isTemplate": false,

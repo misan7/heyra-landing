@@ -2,13 +2,20 @@
   "id": "22660d1a-bfb4-4f28-a9de-d05ae03b1c70",
   "name": "alarm.offer_tyco",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "accept_privacy"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
           "name": "await_contact",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,12 +25,17 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "La opción recomendada para tu perfil, es el sistema de seguridad de la compañía Tyco."
+          "speech": "He dado con la mejor opción basada en tus respuestas."
         },
         {
           "type": 0,
           "lang": "es",
-          "speech": "En este momento, tenemos a tu disposición un descuento en la instalación de #OFFER_TYCO.discount."
+          "speech": "Puedes conocer todos los detalles en el siguiente enlace:"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "#OFFER_TYCO.link"
         },
         {
           "type": 0,
@@ -38,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527699713,
+  "lastUpdate": 1528189963,
   "fallbackIntent": false,
   "events": [
     {

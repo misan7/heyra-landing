@@ -6,7 +6,8 @@
   "auto": true,
   "contexts": [
     "zipcode",
-    "alarmbotszipcode-followup"
+    "alarmbotszipcode-followup",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -22,6 +23,11 @@
           "name": "alarmbotszipcode-yes-followup",
           "parameters": {},
           "lifespan": 2
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -30,8 +36,8 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "¿Tiene alarma?",
-            "¿Tiene contratado un producto de seguridad?"
+            "¿Tienes alarma?",
+            "¿Tienes contratado un producto de seguridad?"
           ]
         }
       ],
@@ -42,7 +48,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527688278,
+  "lastUpdate": 1527778535,
   "fallbackIntent": false,
   "events": []
 }

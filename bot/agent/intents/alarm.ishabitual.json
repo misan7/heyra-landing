@@ -3,7 +3,8 @@
   "name": "alarm.ishabitual",
   "auto": true,
   "contexts": [
-    "await_hometype"
+    "await_hometype",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -15,12 +16,12 @@
           "lifespan": 0
         },
         {
-          "name": "alarm_type",
+          "name": "await_m2",
           "parameters": {},
           "lifespan": 5
         },
         {
-          "name": "await_m2",
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -56,7 +57,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527694760,
+  "lastUpdate": 1527779609,
   "fallbackIntent": false,
   "events": []
 }

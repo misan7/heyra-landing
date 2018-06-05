@@ -3,18 +3,14 @@
   "name": "alarm.location",
   "auto": true,
   "contexts": [
-    "await_location"
+    "await_location",
+    "accept_privacy"
   ],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
       "affectedContexts": [
-        {
-          "name": "alarm_location",
-          "parameters": {},
-          "lifespan": 5
-        },
         {
           "name": "await_stole",
           "parameters": {},
@@ -24,6 +20,11 @@
           "name": "await_location",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -47,7 +48,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "¿Te han robado o a tus vecinos?"
+          "speech": "¿Te han robado a ti o a tus vecinos?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -57,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527695144,
+  "lastUpdate": 1527782294,
   "fallbackIntent": false,
   "events": []
 }

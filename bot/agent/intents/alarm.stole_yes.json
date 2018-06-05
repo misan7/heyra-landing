@@ -3,7 +3,8 @@
   "name": "alarm.stole_yes",
   "auto": true,
   "contexts": [
-    "await_stole"
+    "await_stole",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -16,12 +17,12 @@
           "lifespan": 0
         },
         {
-          "name": "alarm_stole",
+          "name": "await_hasalarm",
           "parameters": {},
           "lifespan": 5
         },
         {
-          "name": "await_hasalarm",
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         }
@@ -45,7 +46,7 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "¿Tienes un sistema de seguridad instalado?",
+            "¿Tienes instalado un sistema de seguridad?",
             "¿Tienes alarma?"
           ]
         }
@@ -57,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527694986,
+  "lastUpdate": 1527779662,
   "fallbackIntent": false,
   "events": []
 }

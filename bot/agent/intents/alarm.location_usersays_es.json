@@ -1,14 +1,135 @@
 [
   {
-    "id": "7a95132c-c3ad-473c-a837-a6ce0074306d",
+    "id": "74f96439-edd9-4b1a-9894-bf9080bff5ac",
     "data": [
       {
-        "text": "Trabajo",
+        "text": "Mi ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
         "meta": "@sys.ignore",
         "userDefined": false
       },
       {
-        "text": " en ",
+        "text": " está en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527773486
+  },
+  {
+    "id": "f1145ea0-77ae-4eca-a62e-5b9280877ee2",
+    "data": [
+      {
+        "text": "El ",
+        "userDefined": false
+      },
+      {
+        "text": "local",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " está en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527773486
+  },
+  {
+    "id": "1a921ca1-14a8-4728-9663-aefb183db702",
+    "data": [
+      {
+        "text": "La ",
+        "userDefined": false
+      },
+      {
+        "text": "empresa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " está en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527773486
+  },
+  {
+    "id": "3bf661c8-629f-4e85-be02-9242d48b991b",
+    "data": [
+      {
+        "text": "La ",
+        "userDefined": false
+      },
+      {
+        "text": "casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " está situada en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527773486
+  },
+  {
+    "id": "3b089a43-1a1f-42ef-81af-b21ee5df25b2",
+    "data": [
+      {
+        "text": "Cerca de ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527776249
+  },
+  {
+    "id": "049e4947-73e8-4fc3-ad68-dc9ad40006f5",
+    "data": [
+      {
+        "text": "En ",
         "userDefined": false
       },
       {
@@ -23,7 +144,39 @@
     "updated": 1527609899
   },
   {
-    "id": "6a3c4a5c-df1d-4552-8f65-9bb8faa36ba8",
+    "id": "f08eab9f-d5a2-4b89-8a7c-09ce41c31c03",
+    "data": [
+      {
+        "text": "El curro lo tengo en ",
+        "userDefined": false
+      },
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527773486
+  },
+  {
+    "id": "626c7474-f821-4773-a346-7df3f1bab48a",
+    "data": [
+      {
+        "text": "Barcelona",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527609899
+  },
+  {
+    "id": "ae6e562a-66b5-4ae1-98fd-eae4cd0c2d36",
     "data": [
       {
         "text": "Vivo en ",
@@ -41,24 +194,15 @@
     "updated": 1527609899
   },
   {
-    "id": "0da6279b-6e62-42b6-bd55-da3e9496edb6",
+    "id": "4c3920b6-29cd-459d-9821-20b0e6fd6a28",
     "data": [
       {
-        "text": "Barcelona",
-        "alias": "geo-city",
-        "meta": "@sys.geo-city",
+        "text": "Trabajo",
+        "meta": "@sys.ignore",
         "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527609899
-  },
-  {
-    "id": "58148b1f-09e9-4c45-a0b6-32ff84e1b7cf",
-    "data": [
+      },
       {
-        "text": "En ",
+        "text": " en ",
         "userDefined": false
       },
       {

@@ -12,6 +12,18 @@
     "updated": 0
   },
   {
+    "id": "f06b5235-dc41-4ec9-b747-16095fcd1787",
+    "data": [
+      {
+        "text": "estudia mejor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "e918ddf1-19d6-4b23-ae0e-28c1b37f6f57",
     "data": [
       {
@@ -30,18 +42,6 @@
     "updated": 1505768204
   },
   {
-    "id": "f06b5235-dc41-4ec9-b747-16095fcd1787",
-    "data": [
-      {
-        "text": "estudia mejor",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
     "id": "84795ed2-7ff3-4a5a-bc55-ad5b37294141",
     "data": [
       {
@@ -54,10 +54,10 @@
     "updated": 0
   },
   {
-    "id": "47146c20-16f5-4cf9-9268-a0dd40eb7e9f",
+    "id": "687f0307-b3e3-4bba-bd06-027a99a1f601",
     "data": [
       {
-        "text": "que seas más listo",
+        "text": "quiero que seas más lista",
         "userDefined": false
       }
     ],
@@ -78,10 +78,10 @@
     "updated": 0
   },
   {
-    "id": "687f0307-b3e3-4bba-bd06-027a99a1f601",
+    "id": "47146c20-16f5-4cf9-9268-a0dd40eb7e9f",
     "data": [
       {
-        "text": "quiero que seas más lista",
+        "text": "que seas más listo",
         "userDefined": false
       }
     ],

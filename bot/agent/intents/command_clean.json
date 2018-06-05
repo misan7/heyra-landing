@@ -1,0 +1,29 @@
+{
+  "id": "c85079b8-6952-4a69-bf5e-2ce974434b38",
+  "name": "command_clean",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "remove",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Listo. Volvamos a empezar."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527777103,
+  "fallbackIntent": false,
+  "events": []
+}

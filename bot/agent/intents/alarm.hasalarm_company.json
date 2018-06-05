@@ -3,7 +3,8 @@
   "name": "alarm.hasalarm_company",
   "auto": true,
   "contexts": [
-    "await_hasalarm"
+    "await_hasalarm",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -16,12 +17,12 @@
           "lifespan": 0
         },
         {
-          "name": "alarm_companyname",
+          "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
         },
         {
-          "name": "company_name",
+          "name": "await_alarmcompany",
           "parameters": {},
           "lifespan": 5
         }
@@ -57,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527696648,
+  "lastUpdate": 1527782212,
   "fallbackIntent": false,
   "events": []
 }

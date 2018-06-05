@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a6dbfc34-79ff-4018-b958-9277034bbad2",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527756209
+  },
+  {
+    "id": "50e197b6-15e0-4ac4-8086-10fc810ea1d7",
+    "data": [
+      {
+        "text": "es de ",
+        "userDefined": false
+      },
+      {
+        "text": "vacaciones",
+        "alias": "alarmType_Home",
+        "meta": "@alarmType_Home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527756209
+  }
+]

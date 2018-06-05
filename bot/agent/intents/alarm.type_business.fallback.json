@@ -4,7 +4,8 @@
   "auto": true,
   "contexts": [
     "alarm_type_business",
-    "alarmbotsalarmtypebusiness-followup"
+    "alarmbotsalarmtypebusiness-followup",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -19,6 +20,11 @@
           "name": "alarmbotsalarmtypebusiness-followup",
           "parameters": {},
           "lifespan": 1
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -26,7 +32,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Dato relevante. Tengo que saber el tamaño del negocio."
+          "speech": "Es un dato relevante. Tengo que saber el tamaño del negocio para ofrecerte una mejor recomendación."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -36,7 +42,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527614014,
+  "lastUpdate": 1527778617,
   "fallbackIntent": true,
   "events": []
 }

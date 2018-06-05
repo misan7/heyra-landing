@@ -1,0 +1,54 @@
+{
+  "id": "8926e665-7f55-4771-838f-36b50b2edb89",
+  "name": "alarm.privacy_accept",
+  "auto": true,
+  "contexts": [
+    "await_privacy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_privacy",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_alarmtype",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ffdabeab-d53e-4b6a-92ff-18ed2c34534e",
+          "required": false,
+          "name": "accept_privacy",
+          "value": "true",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿La alarma es para una vivienda o un negocio?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528107366,
+  "fallbackIntent": false,
+  "events": []
+}

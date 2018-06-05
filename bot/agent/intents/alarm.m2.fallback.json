@@ -1,0 +1,42 @@
+{
+  "id": "6981764c-3c2c-4b63-b42b-1a03479f586c",
+  "name": "alarm.m2.fallback",
+  "auto": true,
+  "contexts": [
+    "await_m2",
+    "accept_privacy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_m2",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Para continuar, es importante que me des un número de m2 estimados."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527778587,
+  "fallbackIntent": true,
+  "events": []
+}

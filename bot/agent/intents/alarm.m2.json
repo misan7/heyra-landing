@@ -3,7 +3,8 @@
   "name": "alarm.m2",
   "auto": true,
   "contexts": [
-    "await_m2"
+    "await_m2",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -18,6 +19,11 @@
           "name": "await_m2",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -34,10 +40,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": [
-            "¿Cual es el código postal?",
-            "¿Cuál es el código postal donde se encuentra?"
-          ]
+          "speech": "¿Cuál es el tu código postal?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -47,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527694851,
+  "lastUpdate": 1527778578,
   "fallbackIntent": false,
   "events": []
 }

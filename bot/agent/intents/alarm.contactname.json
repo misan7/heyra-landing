@@ -3,7 +3,8 @@
   "name": "alarm.contactname",
   "auto": true,
   "contexts": [
-    "await_contactname"
+    "await_contactname",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -18,15 +19,20 @@
           "name": "await_contactphone",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
           "id": "c88ef518-534e-4a84-99a8-c5ce17be6053",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
           "isList": false
         }
       ],
@@ -36,7 +42,7 @@
           "lang": "es",
           "speech": [
             "¿Un teléfono de contacto?",
-            "¿Tú numero de teléfono?"
+            "¿Tu numero de teléfono?"
           ]
         }
       ],
@@ -47,7 +53,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527697768,
+  "lastUpdate": 1527778491,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,30 +1,6 @@
 [
   {
-    "id": "d846a432-eb2d-4f2b-a5c3-94d97a55864d",
-    "data": [
-      {
-        "text": "👎",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527695023
-  },
-  {
-    "id": "58dbe60f-ea79-448a-9b24-a3f84b9acfd9",
-    "data": [
-      {
-        "text": "aun no",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527684478
-  },
-  {
-    "id": "a8a6f7e6-228e-4ee7-b5bc-6083acd60d98",
+    "id": "f8700336-84bf-4c03-b3e2-ef78002bebc5",
     "data": [
       {
         "text": "nunca",
@@ -33,22 +9,22 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527684478
+    "updated": 1527781618
   },
   {
-    "id": "6947b317-a2b6-4865-b17f-c6b9a6f455ec",
+    "id": "e5515a55-5079-441e-95ff-084c0952c170",
     "data": [
       {
-        "text": "no me han robado",
+        "text": "👎",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527684478
+    "updated": 1527781618
   },
   {
-    "id": "d101acc1-11e5-4f33-a662-84f63041e7bc",
+    "id": "43a6c714-e3cc-4eba-a2ee-439f84da681f",
     "data": [
       {
         "text": "no",
@@ -57,6 +33,83 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527684478
+    "updated": 1527781618
+  },
+  {
+    "id": "f9821d36-e31d-4760-8884-eaa9c4a5dfbe",
+    "data": [
+      {
+        "text": "nunca me han robado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527781618
+  },
+  {
+    "id": "4aeafa82-34cb-4a5f-831a-ac3aad049e0e",
+    "data": [
+      {
+        "text": "aun no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527781618
+  },
+  {
+    "id": "b2c9f043-0718-4e01-8ae4-53182829f72e",
+    "data": [
+      {
+        "text": "a mí no me han robado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527781618
+  },
+  {
+    "id": "6ce446ff-492c-4e1a-bea8-e75efaca4ed6",
+    "data": [
+      {
+        "text": "yo no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527781618
+  },
+  {
+    "id": "10695e70-d427-466f-8359-c0105dfd0829",
+    "data": [
+      {
+        "text": "ni ",
+        "userDefined": false
+      },
+      {
+        "text": "uno",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527781618
+  },
+  {
+    "id": "d34537d1-1947-41c3-890b-d42f6957911e",
+    "data": [
+      {
+        "text": "no me han robado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527781618
   }
 ]

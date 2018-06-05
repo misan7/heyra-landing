@@ -3,7 +3,8 @@
   "name": "alarm.zipcode",
   "auto": true,
   "contexts": [
-    "await_zipcode"
+    "await_zipcode",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -26,9 +27,9 @@
           "lifespan": 0
         },
         {
-          "name": "alarm_zipcode",
+          "name": "accept_privacy",
           "parameters": {},
-          "lifespan": 1
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -45,7 +46,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "¿Ha sido afectado por los robos de la zona?"
+          "speech": "¿Has sido afectado por los robos de la zona?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -55,7 +56,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527691942,
+  "lastUpdate": 1527779701,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content';
 import atob from 'atob';
 import groupBy from 'lodash/groupBy';
@@ -16,6 +17,18 @@ export const OfferPageTemplate = ({
   const PageContent = contentComponent || Content;
   return (
     <div>
+      <Helmet>
+        <meta property="og:title" content="Descuento promocional" />
+        <meta
+          property="og:description"
+          content="Descuento sólo hasta el 30 de junio de 2018"
+        />
+        <meta
+          property="og:image"
+          content="https://alarmbots.com/images/promotion.jpg"
+        />
+        <meta name="theme-color" content="#18374f" />>
+      </Helmet>
       <section id="home" className="s-home s-offer target-section">
         <div className="overlay" />
         <div className="shadow-overlay" />

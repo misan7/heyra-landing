@@ -3,7 +3,8 @@
   "name": "alarm.contactphone",
   "auto": true,
   "contexts": [
-    "await_contactphone"
+    "await_contactphone",
+    "accept_privacy"
   ],
   "responses": [
     {
@@ -14,6 +15,11 @@
           "name": "await_contactphone",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -50,7 +56,7 @@
   "priority": 750000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527697950,
+  "lastUpdate": 1527779021,
   "fallbackIntent": false,
   "events": []
 }
