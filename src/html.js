@@ -42,8 +42,8 @@ module.exports = class HTML extends React.Component {
           <link rel="stylesheet" href="/css/base.css" />
           <link rel="stylesheet" href="/css/vendor.css" />
           <link rel="stylesheet" href="/css/main.css" />
-          <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-          <link rel="icon" href="favicon.ico" type="image/x-icon" />
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
           <script src="/js/modernizr.js" />
           <script src="/js/pace.min.js" />
         </head>
