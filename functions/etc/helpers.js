@@ -138,10 +138,10 @@ const getOffer = (agent, platform, userId) => {
   const stringify = (obj) =>
     Buffer(JSON.stringify(obj), 'binary').toString('base64');
 
-  const { companyName } = agent.parameters;
+  const { alarm_companyname } = agent.parameters;
   const hash = stringify({ userId, platform });
 
-  switch (companyName) {
+  switch (alarm_companyname) {
     case 'Securitas': {
       offer = {
         name: 'OFFER_TYCO',
