@@ -1,6 +1,20 @@
 [
   {
-    "id": "9e42d135-bc41-44b5-96e3-6c3cbd5c7f63",
+    "id": "74f4e831-6a3d-4145-86c5-016527bf36e8",
+    "data": [
+      {
+        "text": "si",
+        "alias": "alarm_visit",
+        "meta": "@response_true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528275949
+  },
+  {
+    "id": "3acf7155-e27b-4886-acac-a09b8d1334d2",
     "data": [
       {
         "text": "por favor",
@@ -12,22 +26,10 @@
     "updated": 1527693146
   },
   {
-    "id": "0c53c033-a666-4251-94d4-297a7d1cbe4d",
+    "id": "899fa10f-71e8-450a-99ac-482a1ea036e9",
     "data": [
       {
-        "text": "si",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527693146
-  },
-  {
-    "id": "2ffcfabe-af47-4f76-bfae-53cc17c49e4a",
-    "data": [
-      {
-        "text": "Si, quiero ",
+        "text": "si, quiero ",
         "userDefined": false
       },
       {
@@ -42,10 +44,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528123998
+    "updated": 1528275949
   },
   {
-    "id": "cded9122-4d6c-44ad-bdd8-4b462ce3d2e2",
+    "id": "65a8b29a-7d78-44d7-8df3-127e83d1fbc6",
     "data": [
       {
         "text": "si quiero",
@@ -57,7 +59,7 @@
     "updated": 1527693146
   },
   {
-    "id": "da8f0f2d-651b-46d6-9b46-2be02009a92d",
+    "id": "f111312c-9b79-4b4a-98c3-1fa64ee62efc",
     "data": [
       {
         "text": "quiero",
@@ -67,17 +69,5 @@
     "isTemplate": false,
     "count": 0,
     "updated": 1527693146
-  },
-  {
-    "id": "10df23cc-0782-4e84-a532-14f4fba9d161",
-    "data": [
-      {
-        "text": "👍",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527695217
   }
 ]
