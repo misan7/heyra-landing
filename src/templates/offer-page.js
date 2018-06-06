@@ -16,8 +16,6 @@ export const OfferPageTemplate = ({
   contentComponent
 }) => {
   const PageContent = contentComponent || Content;
-
-  alarm_type = 'home';
   const cost = alarm_type === 'home' ? '49' : '99';
 
   return (
@@ -125,8 +123,9 @@ export const OfferPageTemplate = ({
             <p>
               Sin embargo no podrán participar en la presente promoción ya
               clientes que tuvieran contratado el servicio de alarma con {title}{' '}
-              o aquellos clientes que hubieran causado baja en
-              {title} en los 3 meses anteriores al comienzo de la misma.
+              en la misma dirección de instalación o aquellos clientes que
+              hubieran causado baja en {title} en los 3 meses anteriores al
+              comienzo de la misma.
             </p>
             <p>
               Esta oferta no será acumulable, en ningún caso, a otras ofertas o
