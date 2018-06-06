@@ -26,10 +26,10 @@ export default class IndexPage extends React.Component {
           slogan={slogan}
           backgroundVideo={backgroundVideo}
         />
-        <About />
+        {/* <About />
         <Statistics {...about} />
         <Networks />
-        <Contact />
+        <Contact /> */}
       </div>
     );
   }

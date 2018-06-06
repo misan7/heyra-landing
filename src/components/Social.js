@@ -11,13 +11,13 @@ const networks = [
     class: 'whatsapp',
     bot: true
   },
-  {
-    title: isMobile ? 'Facebook' : 'Facebook Messenger',
-    color: '#04bcfd',
-    link: () => 'https://m.me/2080068382275303',
-    class: 'facebook',
-    bot: true
-  },
+  // {
+  //   title: isMobile ? 'Facebook' : 'Facebook Messenger',
+  //   color: '#04bcfd',
+  //   link: () => 'https://m.me/2080068382275303',
+  //   class: 'facebook',
+  //   bot: true
+  // },
   {
     title: 'Telegram',
     color: '#449eda',
