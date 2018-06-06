@@ -26,7 +26,7 @@ const Networks = () => (
             href={bot.link()}
             title="true"
             style={{ fontSize: '20pt' }}
-            className={`${bot.class} smoothscroll btn btn--stroke`}
+            className={`${bot.class} btn btn--stroke`}
           >
             <i className={`fab fa-${bot.class}`} />
             <span>{` ${bot.title}`}</span>
