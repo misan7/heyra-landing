@@ -34,6 +34,13 @@
           "name": "alarm_stole",
           "value": "true",
           "isList": false
+        },
+        {
+          "id": "93059350-c8e9-4248-ac52-555918daa76e",
+          "dataType": "@response_true",
+          "name": "alarm_stole_response",
+          "value": "$alarm_stole_response",
+          "isList": false
         }
       ],
       "messages": [
@@ -58,7 +65,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527779662,
+  "lastUpdate": 1528276465,
   "fallbackIntent": false,
   "events": []
 }

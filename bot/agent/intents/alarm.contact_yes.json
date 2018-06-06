@@ -26,7 +26,15 @@
           "lifespan": 5
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "500a6667-e6fc-41fa-8a07-46ba5db540d7",
+          "dataType": "@response_true",
+          "name": "alarm_visit",
+          "value": "$alarm_visit",
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
@@ -44,7 +52,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528123998,
+  "lastUpdate": 1528275949,
   "fallbackIntent": false,
   "events": []
 }

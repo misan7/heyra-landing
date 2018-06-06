@@ -1,18 +1,20 @@
 [
   {
-    "id": "2031152c-7cad-4dbc-bc66-21e76b7d6fc8",
+    "id": "63f6766b-4115-4916-b09f-d38d58002345",
     "data": [
       {
         "text": "si",
-        "userDefined": false
+        "alias": "alarm_type_response",
+        "meta": "@response_true",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527758339
+    "updated": 1528276145
   },
   {
-    "id": "1058a98b-0c72-49ba-accb-009ee1b0497d",
+    "id": "b8257eae-3807-40d5-af02-b8527b73818f",
     "data": [
       {
         "text": "es mi ",
@@ -30,7 +32,7 @@
     "updated": 1528202613
   },
   {
-    "id": "985027de-9f95-419a-8fb2-9369166f40e2",
+    "id": "e700d990-cb2c-46d9-b2bd-2152b9af5577",
     "data": [
       {
         "text": "mi ",
@@ -57,7 +59,7 @@
     "updated": 1528202613
   },
   {
-    "id": "e611b871-58e1-43a1-a1ad-67b67347c383",
+    "id": "76b866ac-9d87-4560-8f52-7249503ba3f7",
     "data": [
       {
         "text": "es mi ",
@@ -75,7 +77,7 @@
     "updated": 1528202613
   },
   {
-    "id": "1864e668-ae2e-4797-b047-c0aa37b494fd",
+    "id": "4e4d0911-4b50-4400-9f75-17f39569d276",
     "data": [
       {
         "text": "normalmente",
@@ -87,7 +89,7 @@
     "updated": 1527761718
   },
   {
-    "id": "e46f5fa0-2301-4c4b-ad3d-47b2b49cc862",
+    "id": "a36c822a-06b8-4b93-917c-b75be9b49440",
     "data": [
       {
         "text": "la ",
@@ -109,7 +111,7 @@
     "updated": 1528202613
   },
   {
-    "id": "b80e3196-14ce-4265-acd4-77f8349c88fb",
+    "id": "9669d555-8240-46e5-b9d1-b1b7fe2a68be",
     "data": [
       {
         "text": "sí que lo es",

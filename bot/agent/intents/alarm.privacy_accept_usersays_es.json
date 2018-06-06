@@ -1,38 +1,34 @@
 [
   {
-    "id": "d421055b-9838-428c-907b-7f30316aa34e",
+    "id": "c88e225b-7376-4e37-b99a-cd5786e1233e",
     "data": [
       {
-        "text": "acepto",
+        "text": "estoy ",
+        "userDefined": false
+      },
+      {
+        "text": "de acuerdo",
+        "alias": "accept_privacy",
+        "meta": "@response_true",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527776282
+    "updated": 1528276046
   },
   {
-    "id": "d302507b-a8f3-4214-9bf9-0c89228d2537",
-    "data": [
-      {
-        "text": "ok",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1528107366
-  },
-  {
-    "id": "d8475ca1-52e5-49dd-b2d9-8ab4e0bb29e4",
+    "id": "ff38f7f3-7ca1-4dc6-971a-fbe50b1b3998",
     "data": [
       {
         "text": "si",
-        "userDefined": false
+        "alias": "accept_privacy",
+        "meta": "@response_true",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527776282
+    "updated": 1528275225
   }
 ]

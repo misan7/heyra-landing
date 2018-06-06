@@ -13,6 +13,28 @@ const nodemailer = require('nodemailer');
 
 admin.initializeApp(functions.config().firebase);
 
+const checkAlarmType = (alarm_type) => {
+  const isHome = /home_/;
+
+  if (isHome.test(alarm_type)) {
+    const isHabitual = /home_habitual/;
+    return {
+      name: 'home',
+      type: isHabitual.test(alarm_type) ? 'habitual' : 'vacations',
+      title: `Tipo: Domicilio ${
+        isHabitual.test(alarm_type) ? 'Habitual' : 'Segunda residencia'
+      }`
+    };
+  } else {
+    const isNormal = /business_normal/;
+    return {
+      name: 'business',
+      type: isNormal.test(alarm_type) ? 'normal' : 'industrial',
+      title: `Tipo: Empresa ${isNormal.test(alarm_type) ? 'Pequeña' : 'Grande'}`
+    };
+  }
+};
+
 const Notification = ({ user, pass, notification }) => {
   const transport = nodemailer.createTransport({
     service: 'gmail',
@@ -20,33 +42,23 @@ const Notification = ({ user, pass, notification }) => {
   });
 
   return {
-    createUser: ({
-      alarm_phonenumber,
-      alarm_size,
-      alarm_stole,
-      alarm_type,
-      alarm_withalarm,
-      alarm_zipcode,
-      alarm_contactname,
-      alarm_companyname,
-      alarm_location
-    }) => {
+    createUser: ({ parameters }) => {
+      const {
+        alarm_phonenumber,
+        alarm_size,
+        alarm_stole,
+        alarm_type,
+        alarm_withalarm,
+        alarm_zipcode,
+        alarm_contactname,
+        alarm_companyname,
+        alarm_location
+      } = parameters;
+
       const isHome = /home_/;
       const YesNo = (value) => (value === 'true' ? 'Si' : 'No');
 
-      let type = '';
-
-      if (isHome.test(alarm_type)) {
-        const isHabitual = /home_habitual/;
-        type = `Tipo: Domicilio ${
-          isHabitual.test(alarm_type) ? 'Habitual' : 'Segunda residencia'
-        }`;
-      } else {
-        const isNormal = /business_normal/;
-        type = `Tipo: Empresa ${
-          isNormal.test(alarm_type) ? 'Pequeña' : 'Grande'
-        }`;
-      }
+      let type = checkAlarmType(alarm_type).title;
 
       let data = [
         `Nombre: ${alarm_contactname}`,
@@ -132,16 +144,21 @@ const User = (userId) =>
       })
   );
 
-const getOffer = (agent, platform, userId) => {
+const getOffer = ({ agent, platform, userId, parameters }) => {
   let offer = {};
 
   const stringify = (obj) =>
     Buffer(JSON.stringify(obj), 'binary').toString('base64');
 
-  const { companyName } = agent.parameters;
-  const hash = stringify({ userId, platform });
+  const { alarm_companyname, alarm_type } = agent.parameters;
 
-  switch (companyName) {
+  const hash = stringify({
+    userId,
+    platform,
+    alarm_type: checkAlarmType(alarm_type).name
+  });
+
+  switch (alarm_companyname) {
     case 'Securitas': {
       offer = {
         name: 'OFFER_TYCO',
@@ -164,4 +181,4 @@ const getOffer = (agent, platform, userId) => {
   agent.setFollowupEvent(offer);
 };
 
-module.exports = { Notification, User, getOffer };
+module.exports = { Notification, User, getOffer, checkAlarmType };

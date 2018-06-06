@@ -11,10 +11,13 @@ export const OfferPageTemplate = ({
   url,
   title,
   subtitle,
+  alarm_type,
   content,
   contentComponent
 }) => {
   const PageContent = contentComponent || Content;
+  const cost = alarm_type === 'home' ? '49' : '99';
+
   return (
     <div>
       <Helmet>
@@ -35,9 +38,28 @@ export const OfferPageTemplate = ({
         <div className="home-content">
           <div className="row home-content__main">
             <h3>Tú oferta</h3>
-            <h1>Descuento promocional</h1>
-            <h1 className="discount">-499€</h1>
-            <h3>Descuento sólo hasta el 30 de junio de 2018</h3>
+            {alarm_type &&
+              alarm_type === 'home' && (
+                <div>
+                  <h1>
+                    La Instalación de tu alarma de hogar por{' '}
+                    <strike>199 €</strike>
+                  </h1>
+                </div>
+              )}
+            {alarm_type &&
+              alarm_type === 'business' && (
+                <div>
+                  <h1>
+                    La Instalación de tu alarma de negocio por{' '}
+                    <strike>199 €</strike>
+                  </h1>
+                </div>
+              )}
+            <h1 className="discount">{cost} €</h1>
+            <h3>
+              IVA NO INCLUIDO. Descuento válido hasta el 30 de junio de 2018
+            </h3>
           </div>
           <div className="home-content__scroll">
             <a href="#services" className="scroll-link smoothscroll">
@@ -55,10 +77,67 @@ export const OfferPageTemplate = ({
             <PageContent content={content} />
           </div>
         </div>
-        <div className="row section-header">
+        <div className="row section-header has-bottom-sep">
           <a href={url} className="contact smoothscroll btn">
             Solicita una visita
           </a>
+        </div>
+        <div className="row section-header">
+          <div className="col-full">
+            <h5>
+              Promoción especial INSTALACIÓN POR {cost} EUROS (impuestos
+              indirectos no incluidos)
+            </h5>
+            <h6>Primera. OBJETO DE LA PROMOCIÓN, PARTICIPANTES Y DURACIÓN</h6>
+            <p>
+              BotSpecialist, S.L. sociedad limitada, y referenciada de aquí en
+              adelante BotSpecialist lanza desde el 1 y hasta el último día del
+              mes presente una promoción especial relativa a su gama de
+              productos a través de la cual:
+            </p>
+            <p>
+              A) Los nuevos usuarios que se den de alta en el servicio de alarma
+              , en las fechas indicadas del 1 y hasta el último día del mes
+              presente, disfrutarán de una instalación con us coste de {cost}{' '}
+              EUROS (i.i. no incluidos).
+            </p>
+            <p>
+              No estarán promocionadas: - La cuota mensual del servicio de
+              alarma.
+            </p>
+            <p>
+              - Tampoco estarán promocionados otros gastos u otros costes en los
+              que el cliente pudiera incurrir (como traslados por mantenimiento
+              del personal técnico o recambios de uno o varios de los elementos
+              del equipo de seguridad instalado en el domicilio
+              correspondiente).
+            </p>
+            <h6>Segunda. ÁMBITO DE APLICACIÓN Y MECÁNICA</h6>
+            <p>
+              La presente promoción que es gratuita y voluntaria, aplica
+              exclusivamente a nuevos clientes a partir del 1 del mes presente
+              que decidan contratar, en las fechas indicadas, el servicio de
+              alarma ofrecido por {title}, los cuales disfrutarán de los
+              beneficios ya descritos.
+            </p>
+            <p>
+              Sin embargo no podrán participar en la presente promoción ya
+              clientes que tuvieran contratado el servicio de alarma con {title}{' '}
+              en la misma dirección de instalación o aquellos clientes que
+              hubieran causado baja en {title} en los 3 meses anteriores al
+              comienzo de la misma.
+            </p>
+            <p>
+              Esta oferta no será acumulable, en ningún caso, a otras ofertas o
+              promociones ofrecidas por {title}
+            </p>
+            <p>
+              * El precio del equipo a instalar está sujeto a un Plan de
+              Instalación que se realizará de forma gratuita por personal
+              técnico de {title} con carácter previo a la contratación del
+              servicio.
+            </p>
+          </div>
         </div>
       </section>
     </div>
@@ -69,6 +148,7 @@ OfferPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
+  alarm_type: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func
 };
@@ -97,6 +177,7 @@ const OfferPage = ({ location, data }) => {
       url={url}
       title={post.frontmatter.title}
       subtitle={post.frontmatter.subtitle}
+      alarm_type={user.alarm_type}
       content={post.html}
     />
   );
