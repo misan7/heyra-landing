@@ -34,6 +34,13 @@
           "name": "alarm_type",
           "value": "$alarm_type",
           "isList": false
+        },
+        {
+          "id": "1286b292-aa14-4e8b-b39e-a7421418e6d0",
+          "dataType": "@response_true",
+          "name": "alarm_type_response",
+          "value": "$alarm_type_response",
+          "isList": false
         }
       ],
       "messages": [
@@ -50,7 +57,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528202613,
+  "lastUpdate": 1528276145,
   "fallbackIntent": false,
   "events": []
 }

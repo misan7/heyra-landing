@@ -29,8 +29,9 @@
         {
           "id": "ffdabeab-d53e-4b6a-92ff-18ed2c34534e",
           "required": false,
+          "dataType": "@response_true",
           "name": "accept_privacy",
-          "value": "true",
+          "value": "$accept_privacy",
           "isList": false
         }
       ],
@@ -48,7 +49,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528107366,
+  "lastUpdate": 1528276046,
   "fallbackIntent": false,
   "events": []
 }

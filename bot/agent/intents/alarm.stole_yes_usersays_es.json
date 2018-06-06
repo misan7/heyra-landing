@@ -1,6 +1,6 @@
 [
   {
-    "id": "05865a32-5369-4d01-ab94-d52d9678cc70",
+    "id": "46c5bd3f-6604-46cf-8c03-a54d45d4e246",
     "data": [
       {
         "text": "han robado al vecino",
@@ -12,19 +12,7 @@
     "updated": 1527692072
   },
   {
-    "id": "e320e41b-748f-4833-a195-2b3db8eef4b0",
-    "data": [
-      {
-        "text": "👌",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527692072
-  },
-  {
-    "id": "6f7ea03c-cea8-438c-a630-e289953bc555",
+    "id": "624c8b97-b016-4ece-947b-b7b7010522bd",
     "data": [
       {
         "text": "a mis vecinos",
@@ -36,19 +24,7 @@
     "updated": 1527777035
   },
   {
-    "id": "d2967bf4-e5e4-405a-9aac-12f0cc4c6980",
-    "data": [
-      {
-        "text": "👍",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527692072
-  },
-  {
-    "id": "150c1e53-790e-4c75-b83a-973ab72e2c75",
+    "id": "f76a10fe-80c1-41a2-b72b-7595a62b69c4",
     "data": [
       {
         "text": "alguna vez",
@@ -60,19 +36,21 @@
     "updated": 1527777035
   },
   {
-    "id": "9e64bd65-6cb4-48a9-856a-d0c2c347a392",
+    "id": "7059ddfe-44ad-4c98-9b93-46dc2f4a5aad",
     "data": [
       {
         "text": "si",
-        "userDefined": false
+        "alias": "alarm_stole_response",
+        "meta": "@response_true",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527692072
+    "updated": 1528276465
   },
   {
-    "id": "be1d51fd-2845-4a93-8fcd-545f5dfac7e9",
+    "id": "ae791441-ca2d-44b7-a928-9a85a33b5d89",
     "data": [
       {
         "text": "varias veces",
@@ -84,7 +62,7 @@
     "updated": 1527692072
   },
   {
-    "id": "49663e1e-3b66-4d65-beee-1bcad165e510",
+    "id": "28a7860f-056e-45cf-9c62-1e89e89832cd",
     "data": [
       {
         "text": "me han robado",
@@ -96,7 +74,7 @@
     "updated": 1527692072
   },
   {
-    "id": "960c2c49-0e1a-4731-803d-42127a7ee981",
+    "id": "7b8f1f2b-3adf-4b98-8c6d-4bd590baacb6",
     "data": [
       {
         "text": "más ",

@@ -9,7 +9,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "offer.send",
+      "action": "",
       "affectedContexts": [
         {
           "name": "await_contact",
@@ -27,7 +27,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "Lamento escuchar eso."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -35,9 +35,9 @@
     }
   ],
   "priority": 750000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527778467,
+  "lastUpdate": 1528274815,
   "fallbackIntent": false,
   "events": []
 }

@@ -10,11 +10,14 @@ const Networks = () => (
         <h1 className="display-2">
           La mejor experiencia, en cualquier plataforma
         </h1>
+        <h3>Elige tu app de mensajería favorita y chatea con AlarmBots</h3>
       </div>
     </div>
 
     <div
-      className="row about-stats stats block-1-3 block-m-1-2 block-mob-full"
+      className={`row about-stats stats block-1-${
+        bots().length
+      } block-m-1-2 block-mob-full`}
       data-aos="fade-up"
     >
       {bots().map((bot) => (
@@ -22,9 +25,11 @@ const Networks = () => (
           <a
             href={bot.link()}
             title="true"
-            className={`clients__slide ${bot.class}`}
+            style={{ fontSize: '20pt' }}
+            className={`${bot.class} smoothscroll btn btn--stroke`}
           >
             <i className={`fab fa-${bot.class}`} />
+            <span>{` ${bot.title}`}</span>
           </a>
         </div>
       ))}

@@ -1,18 +1,6 @@
 [
   {
-    "id": "2249acaa-a95b-4bb8-8968-733aaec2ef45",
-    "data": [
-      {
-        "text": "👍",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1527777962
-  },
-  {
-    "id": "141b7c31-558a-4eae-872a-bab02d8c98b1",
+    "id": "723d2c14-54c6-4c5e-a4c7-d2802ed42494",
     "data": [
       {
         "text": "tengo ya ",
@@ -33,19 +21,21 @@
     "updated": 1527777962
   },
   {
-    "id": "072162bf-7ed8-4cb8-bcb5-127daec1e0f8",
+    "id": "3726adc8-754d-49cf-8018-042670906137",
     "data": [
       {
         "text": "si",
-        "userDefined": false
+        "alias": "alarm_withalarm_response",
+        "meta": "@response_true",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527777962
+    "updated": 1528276096
   },
   {
-    "id": "a52815c1-cdde-4e46-9af6-bc0c77f0e602",
+    "id": "e38308e0-cf13-4f8a-844e-a6347873f351",
     "data": [
       {
         "text": "tengo alarma",
@@ -57,7 +47,7 @@
     "updated": 1527777962
   },
   {
-    "id": "bb583565-53a2-4aca-a5f1-e768f9403044",
+    "id": "5a5cfb06-2808-48d2-a81f-d1ba9c247aa2",
     "data": [
       {
         "text": "si tengo",

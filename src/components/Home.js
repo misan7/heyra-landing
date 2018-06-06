@@ -72,7 +72,7 @@ class Home extends Component {
                 onTypingDone={this.done}
                 cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0 }}
               >
-                Usa la Inteligencia Artificial para comparar alarmas desde tu{' '}
+                Compara sistemas de alarma para hogar o negocio desde tu{' '}
               </Typist>
 
               {this.state.typing && (

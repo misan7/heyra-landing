@@ -41,9 +41,16 @@ exports.fulfillment = functions.https.onRequest((request, response) => {
             }. ClientName: ${clientName}.`
           );
 
+          const actionsParams = {
+            agent,
+            clientName,
+            userId: user.userId,
+            parameters
+          };
+
           const actions = {
-            offerSend: () => getOffer(agent, clientName, user.userId),
-            notificationSend: () => notification.createUser(parameters)
+            offerSend: () => getOffer(actionsParams),
+            notificationSend: () => notification.createUser(actionsParams)
           };
 
           if (agent.action) {

@@ -1,37 +1,38 @@
 {
-  "id": "46d6408a-c4cc-477e-9237-cd76473c6b93",
-  "name": "zipcode",
+  "id": "11f0cf4c-46f0-4e22-b182-bca36a4177f9",
+  "name": "alarm.companyname.none",
   "auto": true,
   "contexts": [
-    "await_zipcode"
+    "await_alarmcompany",
+    "accept_privacy"
   ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "offer.send",
       "affectedContexts": [
         {
-          "name": "zipcode",
+          "name": "await_alarmcompany",
           "parameters": {},
-          "lifespan": 10
+          "lifespan": 0
         },
         {
-          "name": "await_stole",
+          "name": "accept_privacy",
           "parameters": {},
-          "lifespan": 10
+          "lifespan": 5
         },
         {
-          "name": "alarmbotszipcode-followup",
+          "name": "alarm_withalarm",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "e87455bb-c934-400e-8501-02be6f3d7bd2",
+          "id": "cab50bcb-28af-447e-878e-2403b245cc00",
           "required": false,
-          "dataType": "@sys.zip-code",
-          "name": "zip-code",
-          "value": "$zip-code",
+          "name": "alarm_companyname",
+          "value": "\"Other\"",
           "isList": false
         }
       ],
@@ -39,7 +40,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "¿Le han robado o a sus vecinos?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -47,9 +48,9 @@
     }
   ],
   "priority": 750000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527509964,
+  "lastUpdate": 1528274667,
   "fallbackIntent": false,
   "events": []
 }
