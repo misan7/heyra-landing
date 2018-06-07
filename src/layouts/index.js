@@ -23,7 +23,10 @@ const TemplateWrapper = ({
       }}
     >
       <meta name="description" content={slogan} />
-      <meta name="theme-color" content="#070708" />>
+      <meta name="theme-color" content="#070708" />
+      <meta name="twitter:site" content="@AlarmbotsES" />
+      <meta name="og:type" content="website" />
+      <meta name="og:site_name" content="Alarmbots" />
       <link
         rel="icon"
         type="image/png"
@@ -36,6 +39,7 @@ const TemplateWrapper = ({
         href="images/favicon-16x16.png"
         sizes="16x16"
       />
+      <html lang="es" />
     </Helmet>
     <Navbar isHome={location.pathname === '/'} />
     <div id="Content"> {children()} </div>

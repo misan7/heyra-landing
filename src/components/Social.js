@@ -36,14 +36,14 @@ const networks = (type) => {
     {
       title: 'Twitter',
       color: '#449eda',
-      link: '#twitter',
+      link: 'https://twitter.com/AlarmbotsES',
       class: 'twitter',
       bot: false
     },
     {
       title: 'Instagram',
       color: '#449eda',
-      link: '#instagram',
+      link: 'https://www.instagram.com/alarmbotses/',
       class: 'instagram',
       bot: false
     }
