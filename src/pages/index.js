@@ -16,7 +16,7 @@ export default class IndexPage extends React.Component {
     const {
       allMarkdownRemark: { edges: posts },
       site: {
-        siteMetadata: { slogan, subtitle, backgroundVideo, about }
+        siteMetadata: { slogan, subtitle, about }
       }
     } = data;
 
@@ -24,12 +24,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <div>
-        <Home
-          title={subtitle}
-          slogan={slogan}
-          backgroundVideo={backgroundVideo}
-          type={type}
-        />
+        <Home title={subtitle} slogan={slogan} type={type} />
         <About />
         <Statistics {...about} />
         <Networks type={type} />
@@ -54,7 +49,6 @@ export const pageQuery = graphql`
       siteMetadata {
         slogan
         subtitle
-        backgroundVideo
         about {
           title
           subtitle

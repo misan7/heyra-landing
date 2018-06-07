@@ -167,9 +167,8 @@ const OfferPage = ({ location, data }) => {
   }
 
   const platform = user.platform || 'whatsapp';
-  const url = groupBy(networks, 'class')[platform][0].link(
-    'Si, quiero una visita'
-  );
+  const url = groupBy(networks('Si, quiero una visita'), 'class')[platform][0]
+    .link;
 
   return (
     <OfferPageTemplate

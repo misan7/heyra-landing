@@ -2,12 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Alarmbots`,
     subtitle: `El comparador inteligente`,
-    slogan: `Usa la Inteligencia Artificial para comparar alarmas desde tu WhatsApp`,
-    backgroundVideo: `aE9zjhlcmYI`,
+    slogan: `Compara gratis alarmas para hogar o negocio desde tu Whatsapp`,
     about: {
       title: `Somos`,
       subtitle: `AlarmBots`,
-      description: `La inteligencia artificial que busca la mejor opción para proteger tu hogar y negocio`,
+      description: `Compara gratis alarmas para hogar o negocio desde tu Whatsapp`,
       totals: {
         business: 12,
         analyzed: 4681,
