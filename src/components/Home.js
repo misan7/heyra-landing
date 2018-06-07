@@ -32,7 +32,6 @@ class Home extends Component {
 
     let typeTitle = 'Compara gratis alarmas para hogar o negocio desde tu';
     let typeColor = '#8A817A';
-    let homeClass = `s-home target-section s-home-${type}`;
 
     switch (type) {
       case 'business':
@@ -41,10 +40,8 @@ class Home extends Component {
         break;
     }
 
-    console.log(type);
-
     return (
-      <section id="home" className={homeClass}>
+      <section id="home" className="s-home target-section">
         <Helmet>
           <meta name="description" content={`${typeTitle} Whatsapp`} />
           <meta name="theme-color" content={typeColor} />>

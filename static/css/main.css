@@ -1941,13 +1941,13 @@ input::-moz-focus-inner {
     background: #000000;
 }
 
-.s-home-none {
+.s-none #home.s-home {
     background: url('../images/bg-none.jpg');
     background-size: cover;
     background-position-x: center;
 }
 
-.s-home-business {
+.s-business #home.s-home {
     background: url('/images/bg-business.jpg');
     background-size: cover;
     background-position-x: center;
