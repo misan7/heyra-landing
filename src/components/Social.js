@@ -13,7 +13,7 @@ const networks = (type) => {
 
   return [
     {
-      title: 'Whatsapp',
+      title: 'WhatsApp',
       color: '#01e676',
       link: `https://api.whatsapp.com/send?phone=34699914244&text=${message}`,
       class: 'whatsapp',
@@ -36,14 +36,14 @@ const networks = (type) => {
     {
       title: 'Twitter',
       color: '#449eda',
-      link: '#twitter',
+      link: 'https://twitter.com/AlarmbotsES',
       class: 'twitter',
       bot: false
     },
     {
       title: 'Instagram',
       color: '#449eda',
-      link: '#instagram',
+      link: 'https://www.instagram.com/alarmbotses/',
       class: 'instagram',
       bot: false
     }

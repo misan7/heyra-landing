@@ -81,7 +81,7 @@ class Home extends Component {
                 Inicia la experiencia
               </a>
               <a
-                href="#about"
+                href="#services"
                 className="moreabout smoothscroll btn btn--stroke"
               >
                 Saber más

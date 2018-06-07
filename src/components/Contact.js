@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import NetlifyForm from 'react-netlify-form';
 
-import Social from './Social';
-
 const Contact = () => (
   <section id="contact" className="s-contact">
     <div className="overlay" />
@@ -74,7 +72,7 @@ const Contact = () => (
                     </div>
                     <div className="form-field">
                       <button className="full-width btn--primary">
-                        Continuar
+                        Enviar
                       </button>
                     </div>
                   </fieldset>
@@ -96,8 +94,7 @@ const Contact = () => (
       </div>
       <div className="contact-secondary">
         <div className="contact-info">
-          <h3 className="h6 hide-on-fullwidth">Redes sociales</h3>
-          <Social className="contact-social" />
+          <h3 className="h6 hide-on-fullwidth">Política de privacidad</h3>
         </div>
       </div>
     </div>

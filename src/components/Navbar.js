@@ -51,20 +51,20 @@ class Navbar extends Component {
                   </li>
                   <li>
                     <a
-                      href="#about"
-                      className="smoothscroll"
-                      onClick={() => this.toggle()}
-                    >
-                      <span>Somos</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
                       href="#services"
                       className="smoothscroll"
                       onClick={() => this.toggle()}
                     >
-                      <span>La mejor opción</span>
+                      <span>Sobre nosotros</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#about"
+                      className="smoothscroll"
+                      onClick={() => this.toggle()}
+                    >
+                      <span>Estadísticas</span>
                     </a>
                   </li>
                   <li>
