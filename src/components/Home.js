@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import classNames from 'classnames';
 
 import Typist from 'react-typist';
 import Social, { bots } from './Social';
@@ -33,6 +32,7 @@ class Home extends Component {
 
     let typeTitle = 'Compara gratis alarmas para hogar o negocio desde tu';
     let typeColor = '#8A817A';
+    let homeClass = `s-home target-section s-home-${type}`;
 
     switch (type) {
       case 'business':
@@ -44,10 +44,7 @@ class Home extends Component {
     console.log(type);
 
     return (
-      <section
-        id="home"
-        className={classNames('s-home target-section', `s-home-${type}`)}
-      >
+      <section id="home" className={homeClass}>
         <Helmet>
           <meta name="description" content={`${typeTitle} Whatsapp`} />
           <meta name="theme-color" content={typeColor} />>
