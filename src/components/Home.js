@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import classNames from 'classnames';
 
 import Typist from 'react-typist';
 import Social, { bots } from './Social';
@@ -42,10 +41,7 @@ class Home extends Component {
     }
 
     return (
-      <section
-        id="home"
-        className={classNames('s-home target-section', `s-home-${type}`)}
-      >
+      <section id="home" className="s-home target-section">
         <Helmet>
           <meta name="description" content={`${typeTitle} Whatsapp`} />
           <meta name="theme-color" content={typeColor} />>

@@ -15,7 +15,13 @@ const TemplateWrapper = ({
   }
 }) => (
   <div id="Wrapper">
-    <Helmet title={subtitle} titleTemplate={`%s - ${title}`}>
+    <Helmet
+      title={subtitle}
+      titleTemplate={`%s - ${title}`}
+      bodyAttributes={{
+        class: `s-${(location.search && location.search.substr(1)) || 'none'}`
+      }}
+    >
       <meta name="description" content={slogan} />
       <meta name="theme-color" content="#070708" />>
       <link
