@@ -55,7 +55,6 @@ class Home extends Component {
             <h3>{title}</h3>
             <h1 className="home-title">
               <Typist
-                key="home"
                 startDelay={2000}
                 onTypingDone={this.done}
                 cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0 }}
@@ -64,11 +63,7 @@ class Home extends Component {
               </Typist>
 
               {this.state.typing && (
-                <Typist
-                  key="network"
-                  avgTypingSpeed={40}
-                  onTypingDone={this.done}
-                >
+                <Typist avgTypingSpeed={40} onTypingDone={this.done}>
                   {bots(type).map((bot) => (
                     <span key={bot.class} className={bot.class}>
                       <a style={{ color: bot.color }} href={bot.link}>
