@@ -44,8 +44,13 @@ module.exports = class HTML extends React.Component {
           <link rel="stylesheet" href="/css/main.css" />
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-          <script src="/js/modernizr.js" />
-          <script src="/js/pace.min.js" />
+          <link rel="canonical" href="https://alarmbots.com" />
+          <link rel="canonical" href="https://www.alarmbots.com" />
+          <link rel="canonical" href="https://alarmbots.es" />
+          <link rel="canonical" href="https://www.alarmbots.es" />
+          <link rel="canonical" href="https://alarmacerovision.com" />
+          <link rel="canonical" href="https://alarmacerovision.es" />
+          <link rel="canonical" href="https://alarmbots.netlify.com" />
         </head>
         <body id="top" {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

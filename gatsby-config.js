@@ -61,6 +61,19 @@ module.exports = {
         respectDNT: true,
         exclude: [`/preview/**`]
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name:
+          'Alarmbots - Compara gratis alarmas para hogar o negocio desde tu Whatsapp',
+        short_name: 'Alarmbots',
+        start_url: '/',
+        background_color: '#070708',
+        theme_color: '#070708',
+        display: 'minimal-ui',
+        icon: 'static/images/icon.jpg'
+      }
     }
   ]
 };

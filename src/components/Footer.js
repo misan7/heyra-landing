@@ -3,14 +3,15 @@ import NetlifyForm from 'react-netlify-form';
 import Link from 'gatsby-link';
 
 import Logo from '../img/logo.svg';
+import Social from './Social';
 
 const Footer = () => (
   <footer>
     <div className="row footer-main">
       <div className="col-six tab-full left footer-desc">
         <img className="footer-logo" src={Logo} />
-        La Inteligencia Artificial que busca la mejor opción para proteger tu
-        hogar y negocio
+        <p>Compara gratis alarmas para hogar o negocio desde tu Whatsapp</p>
+        <Social className="contact-social" />
       </div>
 
       <NetlifyForm name="Callme">
