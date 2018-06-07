@@ -51,6 +51,10 @@ module.exports = class HTML extends React.Component {
           <link rel="canonical" href="https://alarmacerovision.com" />
           <link rel="canonical" href="https://alarmacerovision.es" />
           <link rel="canonical" href="https://alarmbots.netlify.com" />
+          <meta
+            name="google-site-verification"
+            content="a8WS0o4hgeS_klEUhTfMY9f2y4S0xj2PihEKpTcaQOY"
+          />
         </head>
         <body id="top" {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
