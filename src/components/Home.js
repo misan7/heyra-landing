@@ -41,6 +41,8 @@ class Home extends Component {
         break;
     }
 
+    console.log(type);
+
     return (
       <section
         id="home"

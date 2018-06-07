@@ -22,6 +22,8 @@ export default class IndexPage extends React.Component {
 
     const type = (location.search && location.search.substr(1)) || 'none';
 
+    console.log(location, type);
+
     return (
       <div>
         <Home
