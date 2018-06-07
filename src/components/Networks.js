@@ -23,7 +23,7 @@ const Networks = () => (
       {bots().map((bot) => (
         <div key={bot.class} className="col-block stats__col ">
           <a
-            href={bot.link()}
+            href={bot.link}
             title="true"
             style={{ fontSize: '20pt' }}
             className={`${bot.class} btn btn--stroke`}
