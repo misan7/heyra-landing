@@ -75,9 +75,13 @@ class Home extends Component {
         <div className="home-content">
           <div
             className="row home-content__main"
-            style={{ textAlign: 'center', paddingTop: '10rem' }}
+            style={{
+              textAlign: 'center',
+              paddingTop: '10rem',
+              paddingRight: '0px'
+            }}
           >
-            <h1 style={{ fontSize: '80pt' }}>
+            <h1 style={{ fontSize: '40pt' }}>
               {!this.state.typing2 && (
                 <Typist
                   startDelay={2000}
@@ -109,10 +113,10 @@ class Home extends Component {
 
               {this.state.typing2 && (
                 <Typist avgTypingDelay={60} cursor={{ show: false }}>
-                  <div style={{ paddingTop: '15rem' }}>
+                  <div style={{ paddingTop: '9rem' }}>
                     <span
                       style={{
-                        fontSize: '180pt',
+                        fontSize: '80pt',
                         fontFamily: 'Hind Guntur',
                         letterSpacing: '-2px',
                         lineHeight: '0'
@@ -123,7 +127,7 @@ class Home extends Component {
                     <Typist.Delay ms={500} />
                     <p
                       style={{
-                        fontSize: '50pt'
+                        fontSize: '20pt'
                       }}
                     >
                       Inicia la experiencia
