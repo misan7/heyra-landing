@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
+
 import Home from '../components/Home';
 import About from '../components/About';
 import Statistics from '../components/Statistics';
@@ -10,7 +11,7 @@ import Contact from '../components/Contact';
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props;
+    const { location, data } = this.props;
 
     const {
       allMarkdownRemark: { edges: posts },
@@ -19,16 +20,19 @@ export default class IndexPage extends React.Component {
       }
     } = data;
 
+    const type = (location.search && location.search.substr(1)) || 'none';
+
     return (
       <div>
         <Home
           title={subtitle}
           slogan={slogan}
           backgroundVideo={backgroundVideo}
+          type={type}
         />
         <About />
         <Statistics {...about} />
-        <Networks />
+        <Networks type={type} />
         <Contact />
       </div>
     );

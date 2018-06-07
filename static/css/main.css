@@ -1941,6 +1941,18 @@ input::-moz-focus-inner {
     background: #000000;
 }
 
+.s-home-none {
+    background: url('../images/bg-none.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.s-home-business {
+    background: url('/images/bg-business.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
 /* ------------------------------------------------------------------- 
  * ## home content
  * ------------------------------------------------------------------- */
@@ -1977,6 +1989,7 @@ input::-moz-focus-inner {
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
+    min-height: 250px;
 }
 
 .home-content__main {
@@ -2324,7 +2337,6 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
     .s-home {
-        background: url('../images/bg.jpg');
         min-height: 642px;
     }
     .home-content h1 {
@@ -2351,29 +2363,23 @@ html.no-csstransitions .home-content__main {
 
 /* Portrait and Landscape */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .s-home {
-        background: url('../images/bg.jpg');
-    }
-}
-
 @media only screen and (max-width: 450px) {
     .s-home {
-        background: url('../images/bg.jpg');
         min-height: 630px;
     }
     .home-content h1 {
         font-size: 3.3rem;
+        min-height: 175px;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .s-home {
-        background: url('../images/bg.jpg');
         min-height: 630px;
     }
     .home-content h1 {
         font-size: 3.2rem;
+        min-height: 160px;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -2383,7 +2389,6 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 320px) {
     .s-home {
-        background: url('../images/bg.jpg');
         min-height: 550px;
     }
     .home-content h1 {
