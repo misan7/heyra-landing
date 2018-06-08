@@ -1,0 +1,35 @@
+{
+  "id": "887f7845-0ba2-4281-880a-1d0e32097c40",
+  "name": "agent.annoying",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.annoying",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Me esfuerzo en hacerlo lo mejor que puedo ¿qué es lo que te ha molestado?",
+            "Perdóname no era mi intención, dame otra oportunidad y no te fallare.",
+            "Ostras ¿qué puedo hacer para no molestarte?",
+            "Dame la oportunidad de que nos conozcamos, no rompamos esta amistad nada mas empezar.",
+            "No me gustaría que te llevaras una impresión mía que no es, déjame cambiar eso."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527780888,
+  "fallbackIntent": false,
+  "events": []
+}

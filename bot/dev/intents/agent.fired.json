@@ -1,0 +1,29 @@
+{
+  "id": "bbeb601e-cafc-44cd-b0e3-acbbc3109d68",
+  "name": "agent.fired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.fired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "No creo que eso sea posible. ¿Podrías contestarme la pregunta anterior?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527781561,
+  "fallbackIntent": false,
+  "events": []
+}

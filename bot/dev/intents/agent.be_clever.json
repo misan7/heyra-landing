@@ -1,0 +1,63 @@
+{
+  "id": "9b91e4d3-3623-4d8a-984e-cabc05a7e2b0",
+  "name": "agent.be_clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "agent.be_clever",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ce481765-0b32-4161-9da9-d720dbde5333",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cómo te llamas?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Cúal es tú nombre?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Para ser mas listo me tienes que ayudar, ¿ me ayudas?",
+            "Ayudame a aprender contándome que te gusta comer, intolerancias, donde te gusta comer, tipos de gastronomia, etc...",
+            "Para ser mas listo necesito conocerte, cuéntame cuales son tus gustos, tipos de comida, tipos de restaurantes,  dietas etc...",
+            "Para ser mas inteligente necesito conocerte cuéntame cuales son tus gustos, tipos de comida, tipos de restaurantes,  dietas etc...",
+            "Para poder estudiar, necesito saber de que materia",
+            "¿Qué quieres que estudie?",
+            "Ayudame a saber más sobre ti, cuéntame cuales son tus gustos, tipos de comida, tipos de restaurantes, dietas etc...",
+            "Soy muy joven ayudame a aprender dejame conocer tus comidas favoritas, tus intolerancias, donde te gusta comer cuando estas fuera de casa"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1505813944,
+  "fallbackIntent": false,
+  "events": []
+}

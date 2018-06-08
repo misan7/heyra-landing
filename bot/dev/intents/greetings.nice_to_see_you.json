@@ -1,0 +1,32 @@
+{
+  "id": "d4002e1b-ea6d-4f7e-bdbc-36149a653164",
+  "name": "greetings.nice_to_see_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings.nice_to_see_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Gracias, siempre es un placer verte de nuevo, ¿que puedo hacer por ti?",
+            "Gracias, yo tambien me alegro de verte ¿en que puedo ayudarte?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502195254081,
+  "fallbackIntent": false,
+  "events": []
+}
