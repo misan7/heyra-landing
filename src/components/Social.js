@@ -1,6 +1,7 @@
 import React from 'react';
 import { isMobile } from 'react-device-detect';
 import filter from 'lodash/filter';
+import first from 'lodash/first';
 
 const networks = (type) => {
   let message = 'Hola';
@@ -16,7 +17,7 @@ const networks = (type) => {
       title: 'WhatsApp',
       color: '#01e676',
       link: `https://api.whatsapp.com/send?phone=34699914244&text=${message}`,
-      class: 'whatsapp',
+      name: 'whatsapp',
       bot: true
     },
     // {
@@ -30,21 +31,21 @@ const networks = (type) => {
       title: 'Telegram',
       color: '#449eda',
       link: 'https://telegram.me/AlarmBotsBot',
-      class: 'telegram',
+      name: 'telegram',
       bot: true
     },
     {
       title: 'Twitter',
       color: '#449eda',
       link: 'https://twitter.com/AlarmbotsES',
-      class: 'twitter',
+      name: 'twitter',
       bot: false
     },
     {
       title: 'Instagram',
       color: '#449eda',
       link: 'https://www.instagram.com/alarmbotses/',
-      class: 'instagram',
+      name: 'instagram',
       bot: false
     }
   ];
@@ -54,7 +55,7 @@ const Social = (props) => (
   <ul {...props}>
     {networks(props.type) &&
       networks(props.type).map((network) => (
-        <li key={network.class}>
+        <li key={network.name}>
           <a href={network.link}>
             <i className={`fab fa-${network.class}`} />
           </a>
@@ -64,6 +65,7 @@ const Social = (props) => (
 );
 
 const bots = (type) => filter(networks(type), { bot: true });
+const btn = (name, type) => first(filter(networks(type), { name, bot: true }));
 
-export { networks, bots };
+export { networks, bots, btn };
 export default Social;

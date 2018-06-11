@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Typist from 'react-typist';
-import Social, { bots } from './Social';
+import Social, { bots, btn } from './Social';
 import 'react-typist/dist/Typist.css';
 
 class Home extends Component {
@@ -29,6 +29,9 @@ class Home extends Component {
 
   render() {
     const { title, slogan, background, backgroundVideo, type } = this.props;
+    const network = btn('whatsapp');
+
+    console.log(network);
 
     let typeTitle = 'Compara gratis alarmas para hogar o negocio desde tu';
     let typeColor = '#8A817A';
@@ -65,7 +68,7 @@ class Home extends Component {
               {this.state.typing && (
                 <Typist avgTypingSpeed={40} onTypingDone={this.done}>
                   {bots(type).map((bot) => (
-                    <span key={bot.class} className={bot.class}>
+                    <span key={bot.name} className={bot.name}>
                       <a style={{ color: bot.color }} href={bot.link}>
                         {bot.title}
                       </a>
@@ -77,7 +80,7 @@ class Home extends Component {
               )}
             </h1>
             <div className="home-content__buttons">
-              <a href="#clients" className="contact smoothscroll btn">
+              <a href={network.link} className={`${network.name} contact btn`}>
                 Comienza a chatear
               </a>
               <a

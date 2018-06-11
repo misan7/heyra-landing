@@ -42,6 +42,11 @@ module.exports = class HTML extends React.Component {
           <link rel="stylesheet" href="/css/base.css" />
           <link rel="stylesheet" href="/css/vendor.css" />
           <link rel="stylesheet" href="/css/main.css" />
+          <link
+            rel="stylesheet"
+            href="https://cdn.rawgit.com/digitalbreed/jquery.fbmessenger/v0.0.9/dist/jquery.fbmessenger.css"
+          />
+
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="canonical" href="https://alarmbots.com" />
@@ -68,6 +73,7 @@ module.exports = class HTML extends React.Component {
           <script src="/js/jquery-3.2.1.min.js" />
           <script src="/js/plugins.js" />
           <script src="/js/main.js" />
+          <script src="https://cdn.rawgit.com/digitalbreed/jquery.fbmessenger/v0.0.9/dist/jquery.fbmessenger.min.js" />
         </body>
       </html>
     );

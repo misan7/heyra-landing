@@ -24,14 +24,14 @@ const Networks = () => {
         data-aos="fade-up"
       >
         {bots().map((bot) => (
-          <div key={bot.class} className="col-block stats__col ">
+          <div key={bot.name} className="col-block stats__col ">
             <a
               href={bot.link}
               title="true"
               style={{ fontSize: '20pt' }}
-              className={`${bot.class} btn btn--stroke`}
+              className={`${bot.name} btn btn--stroke`}
             >
-              <i className={`fab fa-${bot.class}`} />
+              <i className={`fab fa-${bot.name}`} />
               <span>{` ${bot.title}`}</span>
             </a>
           </div>

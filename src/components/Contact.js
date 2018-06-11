@@ -1,6 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import NetlifyForm from 'react-netlify-form';
+import Link from 'gatsby-link';
 
 const Contact = () => (
   <section id="contact" className="s-contact">
@@ -95,6 +95,14 @@ const Contact = () => (
       <div className="contact-secondary">
         <div className="contact-info">
           <h3 className="h6 hide-on-fullwidth">Política de privacidad</h3>
+          <p>
+            Al pulsar sobre enviar entendemos que has leido y aprobado la
+            información sobre el tratamiento de tus datos de carácter personal
+            contenida en la
+          </p>{' '}
+          <Link to="/page/privacy-web">
+            Política de privacidad y Aviso Legal
+          </Link>
         </div>
       </div>
     </div>

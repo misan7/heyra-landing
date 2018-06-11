@@ -15,6 +15,7 @@ admin.initializeApp(functions.config().firebase);
 
 const checkAlarmType = (alarm_type) => {
   const isHome = /home_/;
+  const isBusiness = /business_/;
 
   if (isHome.test(alarm_type)) {
     const isHabitual = /home_habitual/;
@@ -25,7 +26,7 @@ const checkAlarmType = (alarm_type) => {
         isHabitual.test(alarm_type) ? 'Habitual' : 'Segunda residencia'
       }`
     };
-  } else {
+  } else if (isBusiness.test(alarm_type)) {
     const isNormal = /business_normal/;
     return {
       name: 'business',
@@ -33,6 +34,8 @@ const checkAlarmType = (alarm_type) => {
       title: `Tipo: Empresa ${isNormal.test(alarm_type) ? 'Pequeña' : 'Grande'}`
     };
   }
+
+  return false;
 };
 
 const Notification = ({ user, pass, notification }) => {
@@ -157,6 +160,8 @@ const getOffer = ({ agent, platform, userId, parameters }) => {
     platform,
     alarm_type: checkAlarmType(alarm_type).name
   });
+
+  console.log('AlarmType: ' + JSON.stringify(checkAlarmType(alarm_type)));
 
   switch (alarm_companyname) {
     case 'Securitas': {

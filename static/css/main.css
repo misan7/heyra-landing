@@ -2560,6 +2560,9 @@ html.no-csstransitions .home-content__main {
     .about__line {
         height: 7.2rem;
     }
+    .btn--stroke {
+        min-width: 282px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
