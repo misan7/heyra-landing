@@ -78,7 +78,7 @@ class Home extends Component {
             </h1>
             <div className="home-content__buttons">
               <a href="#clients" className="contact smoothscroll btn">
-                Comienza a hablar
+                Comienza a chatear
               </a>
               <a
                 href="#services"

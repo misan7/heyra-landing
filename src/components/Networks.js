@@ -9,14 +9,11 @@ const Networks = () => {
     <section id="clients" className="s-clients">
       <div className="row section-header" data-aos="fade-up">
         <div className="col-full">
-          <h3 className="subhead">El comparador inteligente</h3>
+          <h3 className="subhead">El Chatbot que compara alarmas </h3>
           <h1 className="display-2">
-            El chatbot que compara alarmas para hogar o negocio
+            El chat inteligente que compara alarmas para hogar o negocio
           </h1>
-          <h3>
-            Busca la mejor opción en base a tu perfil desde la aplicación de
-            mensajería que usas habitualmente
-          </h3>
+          <h3>Selecciona la aplicación de mensajería que usas habitualmente</h3>
         </div>
       </div>
 
