@@ -27,7 +27,7 @@ const Footer = () => (
                   <input
                     type="text"
                     name="Phone"
-                    placeholder="Número de teléfono"
+                    placeholder="Núm. de teléfono"
                     required
                   />
                   <input type="submit" name="subscribe" value="Llámame" />

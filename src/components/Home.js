@@ -31,14 +31,13 @@ class Home extends Component {
     const { title, slogan, background, backgroundVideo, type } = this.props;
     const network = btn('whatsapp');
 
-    console.log(network);
-
-    let typeTitle = 'Compara gratis alarmas para hogar o negocio desde tu';
+    let typeTitle =
+      'El bot que compara gratis alarmas para hogar o negocio desde tu';
     let typeColor = '#8A817A';
 
     switch (type) {
       case 'business':
-        typeTitle = 'Compara gratis alarmas para tu negocio desde';
+        typeTitle = 'El bot que compara gratis alarmas para tu negocio desde';
         typeColor = '#E2E0D1';
         break;
     }

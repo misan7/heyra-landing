@@ -29,6 +29,9 @@ module.exports = class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+          <meta name="keywords" content="alarmas para casa, alarmas hogar, sistemas de alarmas, sistemas de seguridad para casa, instalación de alarmas, alarmas para negocios" />
+          <meta name="author" content="BotSpecialist" />
+
           {this.props.headComponents}
           <TypographyStyle typography={typography} />
           {css}
@@ -39,13 +42,13 @@ module.exports = class HTML extends React.Component {
             integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
             crossorigin="anonymous"
           />
-          <link rel="stylesheet" href="/css/base.css" />
-          <link rel="stylesheet" href="/css/vendor.css" />
-          <link rel="stylesheet" href="/css/main.css" />
           <link
             rel="stylesheet"
             href="https://cdn.rawgit.com/digitalbreed/jquery.fbmessenger/v0.0.9/dist/jquery.fbmessenger.css"
           />
+          <link rel="stylesheet" href="/css/base.css" />
+          <link rel="stylesheet" href="/css/vendor.css" />
+          <link rel="stylesheet" href="/css/main.css" />
 
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -73,7 +76,7 @@ module.exports = class HTML extends React.Component {
           <script src="/js/jquery-3.2.1.min.js" />
           <script src="/js/plugins.js" />
           <script src="/js/main.js" />
-          <script src="https://cdn.rawgit.com/digitalbreed/jquery.fbmessenger/v0.0.9/dist/jquery.fbmessenger.min.js" />
+          <script src="/js/jquery.fbmessenger.js" />
         </body>
       </html>
     );

@@ -818,25 +818,25 @@ label>input[type="radio"] {
  * ------------------------------------------------------------------- */
 
 ::-webkit-input-placeholder {
-    color: #828282;
+    color: #efefef;
 }
 
 :-moz-placeholder {
-    color: #828282;
+    color: #efefef;
     /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-    color: #828282;
+    color: #efefef;
     /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-    color: #828282;
+    color: #efefef;
 }
 
 .placeholder {
-    color: #828282 !important;
+    color: #efefef !important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2368,8 +2368,12 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 3.3rem;
-        min-height: 175px;
+        font-size: 3.1rem;
+        min-height: 210px;
+    }
+    .home-content__main {
+        padding-top: 15.2rem;
+        width: auto;
     }
 }
 
@@ -2378,11 +2382,11 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 3.2rem;
-        min-height: 160px;
+        font-size: 3.1rem;
+        min-height: 190px;
     }
     .home-content__main {
-        padding-top: 16.2rem;
+        padding-top: 15.2rem;
         width: auto;
     }
 }
@@ -2581,7 +2585,6 @@ html.no-csstransitions .home-content__main {
 
 .s-services {
     padding-top: 16.2rem;
-    padding-bottom: 13.2rem;
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
@@ -3292,7 +3295,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea,
 .contact-content select {
     color: rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin-bottom: .9rem;
 }
 
@@ -3317,33 +3320,33 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #efefef;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;
+    color: #efefef;
     /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;
+    color: #efefef;
     /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #efefef;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #efefef !important;
 }
 
 .contact-primary,
@@ -3698,25 +3701,25 @@ footer .row {
 }
 
 .footer-subscribe #mc-form input[type="text"]::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #efefef;
 }
 
 .footer-subscribe #mc-form input[type="text"]:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #efefef;
     /* Firefox 18- */
 }
 
 .footer-subscribe #mc-form input[type="text"]::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #efefef;
     /* Firefox 19+ */
 }
 
 .footer-subscribe #mc-form input[type="text"]:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: #efefef;
 }
 
 .footer-subscribe #mc-form input[type="text"].placeholder {
-    color: rgba(255, 255, 255, 0.2) !important;
+    color: #efefef !important;
 }
 
 .footer-subscribe #mc-form input[type=submit] {
@@ -3991,6 +3994,136 @@ img.kit {
 @media only screen and (max-width: 400px) {
     .s-offer .discount {
         font-size: 40pt;
+    }
+}
+
+/* ------------------------------------------------------------------- 
+ * Chatbot
+ * ------------------------------------------------------------------- */
+
+#chatbot-wrapper {
+    overflow: hidden;
+    height: 850px;
+}
+
+#chatbot-content {
+    transform: scale(0.8);
+    transform-origin: 0% 0%;
+    margin: 0 30%;
+}
+
+#chatbot {
+    position: relative;
+    background-image: url('/images/iphone.png');
+    width: 750px;
+    height: 1082px;
+    text-align: center;
+}
+
+div.finger {
+    background-image: url('/images/finger.png');
+    width: 337px;
+    height: 199px;
+    position: absolute;
+    z-index: 100;
+    left: 179px;
+    top: 656px;
+}
+
+div.screen-content {
+    position: absolute;
+    top: 9.8985%;
+    bottom: 42.5%;
+    left: 12.65%;
+    right: 31.5%;
+    background: #000;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.jsm-chat-content .jsm-bot-info {
+    border-bottom: 0;
+}
+
+.jsm-bot-info * {
+    display: none;
+}
+
+.jsm-bot-welcome-message {
+    display: none;
+}
+
+.jsm-battery-image {
+    margin-top: 3px;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.jsm-input-message-handle {
+    display: none;
+}
+
+.jsm-status-navbar {
+    height: 13%;
+}
+
+@media only screen and (max-width: 900px) {
+    #chatbot-wrapper {
+        overflow: hidden;
+        height: 540px;
+    }
+
+    #chatbot-content {
+        transform: scale(0.5);
+        margin: 0 9%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #chatbot-wrapper {
+        overflow: hidden;
+        height: 755px;
+    }
+
+    #chatbot-content {
+        transform: scale(0.7);
+        margin: 0 18%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #chatbot-wrapper {
+        overflow: hidden;
+        height: 540px;
+    }
+
+    #chatbot-content {
+        transform: scale(0.5);
+        margin: 0 9%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #chatbot-wrapper {
+        overflow: hidden;
+        height: 540px;
+    }
+
+    #chatbot-content {
+        transform: scale(0.5);
+        margin: 0 9%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #chatbot-wrapper {
+        overflow: hidden;
+        height: 540px;
+    }
+
+    #chatbot-content {
+        transform: scale(0.5);
+        margin: 0 3%;
     }
 }
 

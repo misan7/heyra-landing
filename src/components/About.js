@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Chatbot from './Chatbot';
 
 const About = () => (
   <section id="services" className="s-services">
@@ -59,9 +59,10 @@ const About = () => (
         </div>
       </div>
     </div>
+    <div id="chatbot-wrapper" className="row" data-aos="fade-up">
+      <Chatbot />
+    </div>
   </section>
 );
-
-About.propTypes = {};
 
 export default About;
