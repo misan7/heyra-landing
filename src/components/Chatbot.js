@@ -90,12 +90,6 @@ export default class Chatbot extends Component {
         '08520',
         { delay: 2000, timestamp: now }
       )
-      .fbMessenger(
-        'message',
-        'left',
-        '¿Cuál es el tu código postal?',
-        { delay: 500, timestamp: now }
-      )
       .fbMessenger('run');
   }
   render() {
