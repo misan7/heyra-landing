@@ -1,5 +1,5 @@
 ---
-templateKey: page
+templateKey: privacy
 title: Politica de privacidad
 subtitle: privacidad
 date: 2018-06-01T15:04:10.000Z

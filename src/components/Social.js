@@ -10,6 +10,9 @@ const networks = (type) => {
     case 'business':
       message = 'Hola, tengo una empresa';
       break;
+    case 'accept':
+      message = 'Acepto';
+      break;
   }
 
   return [

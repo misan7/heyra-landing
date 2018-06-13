@@ -13,7 +13,7 @@ const nodemailer = require('nodemailer');
 
 admin.initializeApp(functions.config().firebase);
 
-const checkAlarmType = (alarm_type = 'home_habitual') => {
+const getAlarmType = (alarm_type = 'home_habitual') => {
   const isHome = /home_/;
   const isBusiness = /business_/;
 
@@ -38,6 +38,20 @@ const checkAlarmType = (alarm_type = 'home_habitual') => {
   return false;
 };
 
+const Collaborator = (companyName) => {
+  switch (companyName) {
+    case 'Securitas':
+      return { name: 'Rafael Rudilla' };
+    case 'Tyco':
+      return { name: 'Ana Olivar' };
+    default:
+      return { name: 'Rafael Rudilla' };
+  }
+};
+
+const stringify = (obj) =>
+  Buffer(JSON.stringify(obj), 'binary').toString('base64');
+
 const Notification = ({ user, pass, notification }) => {
   const transport = nodemailer.createTransport({
     service: 'gmail',
@@ -45,65 +59,78 @@ const Notification = ({ user, pass, notification }) => {
   });
 
   return {
-    createUser: ({ parameters }) => {
-      const {
-        alarm_phonenumber,
-        alarm_size,
-        alarm_stole,
-        alarm_type,
-        alarm_withalarm,
-        alarm_zipcode,
-        alarm_contactname,
-        alarm_companyname,
-        alarm_location
-      } = parameters;
+    createUser: ({ agent, parameters }) =>
+      new Promise((resolve, reject) => {
+        const {
+          alarm_phonenumber,
+          alarm_size,
+          alarm_stole,
+          alarm_type,
+          alarm_withalarm,
+          alarm_zipcode,
+          alarm_contactname,
+          alarm_companyname,
+          alarm_location
+        } = parameters;
 
-      const isHome = /home_/;
-      const YesNo = (value) => (value === 'true' ? 'Si' : 'No');
+        const YesNo = (value) => (value === 'true' ? 'Si' : 'No');
 
-      let type = checkAlarmType(alarm_type).title;
+        let type = getAlarmType(alarm_type).title;
 
-      let data = [
-        `Nombre: ${alarm_contactname}`,
-        `Teléfono: ${alarm_phonenumber}`,
-        type,
-        `Tamaño: ${alarm_size} m2`,
-        `Robo: ${YesNo(alarm_stole)}`,
-        `Tiene alarma: ${YesNo(alarm_withalarm)}`
-      ];
+        let data = [
+          `Nombre: ${alarm_contactname}`,
+          `Teléfono: ${alarm_phonenumber}`,
+          type,
+          `Tamaño: ${alarm_size} m2`,
+          `Robo: ${YesNo(alarm_stole)}`,
+          `Tiene alarma: ${YesNo(alarm_withalarm)}`
+        ];
 
-      if (alarm_zipcode) {
-        data = concat(data, [`Código postal: ${alarm_zipcode}`]);
-      } else if (alarm_location) {
-        data = concat(data, [`Ciudad: ${alarm_location}`]);
-      }
+        if (alarm_zipcode) {
+          data = concat(data, [`Código postal: ${alarm_zipcode}`]);
+        } else if (alarm_location) {
+          data = concat(data, [`Ciudad: ${alarm_location}`]);
+        }
 
-      if (alarm_withalarm === 'true' && alarm_companyname) {
-        data = concat(data, [`Compañía: ${alarm_companyname}`]);
-      }
+        if (alarm_withalarm === 'true' && alarm_companyname) {
+          data = concat(data, [`Compañía: ${alarm_companyname}`]);
+        }
 
-      return transport.sendMail({
-        from: 'Alarmbots <info@alarmbots.com>',
-        to: notification,
-        subject: 'Solicitud de información',
-        text: data.join('\n')
-      });
-    }
+        transport
+          .sendMail({
+            from: 'Alarmbots <info@alarmbots.com>',
+            to: notification,
+            subject: 'Solicitud de información',
+            text: data.join('\n')
+          })
+          .then(() =>
+            resolve(
+              agent.setFollowupEvent({
+                name: 'CONTACT_FINISH',
+                parameters: {
+                  collaborator: Collaborator(alarm_companyname).name,
+                  contactname: alarm_contactname
+                }
+              })
+            )
+          );
+      })
   };
 };
 
-const User = (userId) =>
+const User = (sessionId) =>
   new Promise((resolve, reject) =>
     admin
       .firestore()
       .collection('users')
-      .where('userId', '==', userId)
+      .where('sessionId', '==', sessionId)
       .limit(1)
       .get()
       .then((snapshot) => {
         const now = () => new Date().toISOString();
-        const isOriginal = /\.original/;
+
         const extractParameters = (contexts) => {
+          const isOriginal = /\.original/;
           let values = {};
           map(contexts, 'parameters').forEach((obj) =>
             defaults(values, omitBy(obj, (val, key) => isOriginal.test(key)))
@@ -111,14 +138,12 @@ const User = (userId) =>
           return values;
         };
 
-        const methods = (ref, userId) => ({
-          userId,
+        const methods = (ref, sessionId) => ({
+          sessionId,
           ref,
           addContexts: (intentName, contexts) =>
             new Promise((resolve, reject) => {
               const parameters = extractParameters(contexts);
-
-              console.log('Parameters: ' + JSON.stringify(parameters));
 
               ref
                 .collection('contexts')
@@ -126,42 +151,45 @@ const User = (userId) =>
                 .then(() =>
                   ref
                     .update(parameters)
-                    .then(() => resolve(parameters))
+                    .then(() => ref.get())
+                    .then((snapshot) => resolve(snapshot.data()))
                     .catch(reject)
                 );
-            })
+            }),
+          data: () =>
+            new Promise((resolve, reject) =>
+              ref
+                .get()
+                .then((snapshot) => resolve(snapshot.data()))
+                .catch(reject)
+            )
         });
 
         const doc = snapshot.docs[0];
 
         if (doc) {
-          return resolve(methods(doc.ref, userId));
+          return resolve(methods(doc.ref, sessionId));
         }
 
         admin
           .firestore()
           .collection('users')
-          .add({ userId, created_at: now() })
-          .then((ref) => resolve(methods(ref, userId)))
+          .add({ sessionId, created_at: now() })
+          .then((ref) => resolve(methods(ref, sessionId)))
           .catch(reject);
       })
   );
 
-const getOffer = ({ agent, platform, userId, parameters }) => {
+const getOffer = ({ agent, sessionId, parameters }) => {
   let offer = {};
 
-  const stringify = (obj) =>
-    Buffer(JSON.stringify(obj), 'binary').toString('base64');
-
-  const { alarm_companyname, alarm_type } = agent.parameters;
+  const { alarm_companyname, alarm_type } = parameters;
 
   const hash = stringify({
-    userId,
-    platform,
-    alarm_type: checkAlarmType(alarm_type).name
+    sessionId,
+    platform: getPlatform(agent),
+    alarm_type: getAlarmType(alarm_type).name
   });
-
-  console.log('Parameters: ' + JSON.stringify(agent.parameters));
 
   switch (alarm_companyname) {
     case 'Securitas': {
@@ -186,4 +214,15 @@ const getOffer = ({ agent, platform, userId, parameters }) => {
   agent.setFollowupEvent(offer);
 };
 
-module.exports = { Notification, User, getOffer, checkAlarmType };
+const getInfo = (agent) => {
+  const parameters = {
+    platform:
+      (agent.originalRequest && agent.originalRequest.source) || 'whatsapp'
+  };
+
+  parameters.hash = stringify(parameters);
+
+  return parameters;
+};
+
+module.exports = { Notification, User, getOffer, getInfo, getAlarmType };
