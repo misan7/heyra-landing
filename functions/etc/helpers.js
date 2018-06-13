@@ -13,7 +13,7 @@ const nodemailer = require('nodemailer');
 
 admin.initializeApp(functions.config().firebase);
 
-const checkAlarmType = (alarm_type) => {
+const checkAlarmType = (alarm_type = 'home_habitual') => {
   const isHome = /home_/;
   const isBusiness = /business_/;
 
@@ -161,7 +161,7 @@ const getOffer = ({ agent, platform, userId, parameters }) => {
     alarm_type: checkAlarmType(alarm_type).name
   });
 
-  console.log('AlarmType: ' + JSON.stringify(checkAlarmType(alarm_type)));
+  console.log('Parameters: ' + JSON.stringify(agent.parameters));
 
   switch (alarm_companyname) {
     case 'Securitas': {

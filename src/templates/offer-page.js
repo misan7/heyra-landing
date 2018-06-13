@@ -5,7 +5,7 @@ import Content, { HTMLContent } from '../components/Content';
 import atob from 'atob';
 import groupBy from 'lodash/groupBy';
 
-import { networks } from '../components/Social';
+import { networks, btn } from '../components/Social';
 
 export const OfferPageTemplate = ({
   url,
@@ -167,8 +167,7 @@ const OfferPage = ({ location, data }) => {
   }
 
   const platform = user.platform || 'whatsapp';
-  const url = groupBy(networks('Si, quiero una visita'), 'class')[platform][0]
-    .link;
+  const url = btn(platform).link;
 
   return (
     <OfferPageTemplate
