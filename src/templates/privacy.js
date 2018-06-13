@@ -38,9 +38,18 @@ PrivacyTemplate.propTypes = {
   url: PropTypes.string
 };
 
-const Privacy = ({ data }) => {
+const Privacy = ({ location, data }) => {
   const { markdownRemark: post } = data;
+
+  if (!location.search) {
+    return <div />;
+  }
+
   const parameters = JSON.parse(atob(location.search.substring(1)));
+
+  if (!parameters) {
+    return <div />;
+  }
 
   return (
     <PrivacyTemplate
