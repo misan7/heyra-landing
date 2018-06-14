@@ -8,6 +8,8 @@ const hour = (date) => {
 };
 
 export default class Chatbot extends Component {
+  state = { isActive: false };
+
   componentDidMount() {
     this.$el = $(this.el);
 
@@ -20,7 +22,7 @@ export default class Chatbot extends Component {
         leftUser: 'left',
         rightUser: 'right',
         locale: 'es',
-        loop: false,
+        loop: true,
         displayedCarrier: ''
       })
       .fbMessenger('start', { delay: 0, timestamp: now })
@@ -74,7 +76,8 @@ export default class Chatbot extends Component {
   }
 
   onChange(isVisible) {
-    if (isVisible && this.$el) {
+    if (isVisible && this.$el && !this.state.isActive) {
+      this.setState({ isActive: true });
       this.$el.fbMessenger('run');
     }
   }
