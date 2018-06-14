@@ -39,6 +39,30 @@ const TemplateWrapper = ({
         href="images/favicon-16x16.png"
         sizes="16x16"
       />
+      <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "url": "https://alarmbots.com",
+          "name": "AlarmBots",
+          "description": {slogan},
+          "logo": "https://alarmbots.com/images/icon.jpg",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+34-646947931",
+            "contactType": "technical support",
+            "areaServed": "ES",
+            "availableLanguage": "Spanish"
+          },
+          "sameAs": [
+            "https://www.facebook.com/alarmbots",
+            "https://www.instagram.com/Alarmbots/",
+            "https://twitter.com/AlarmbotsES",
+            "https://api.whatsapp.com/send?phone=34699914244&text=Hola",
+            "https://telegram.me/AlarmBotsBot"
+          ]
+        }
+      </script>
       <html lang="es" />
     </Helmet>
     <Navbar isHome={location.pathname === '/'} />

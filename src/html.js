@@ -29,7 +29,10 @@ module.exports = class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="keywords" content="alarmas para casa, alarmas hogar, sistemas de alarmas, sistemas de seguridad para casa, instalación de alarmas, alarmas para negocios" />
+          <meta
+            name="keywords"
+            content="bot, chatbot, whatsapp, alarma, sistema de alarma, sistemas de protección, alarmas para casa, alarmas hogar, sistemas de alarmas, sistemas de seguridad para casa, instalación de alarmas, alarmas para negocios"
+          />
           <meta name="author" content="BotSpecialist" />
 
           {this.props.headComponents}
