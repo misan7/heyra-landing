@@ -1,0 +1,53 @@
+{
+  "id": "3a3b43a2-45d5-45ea-8373-e8807880a5fd",
+  "name": "alarm.privacy_nocontinue",
+  "auto": true,
+  "contexts": [
+    "await_form",
+    "await_privacy",
+    "await_privacy_deny"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_form",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_privacy",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_privacy_deny",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "No te preocupes, no molestaré más."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Toda información será eliminada."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528980655,
+  "fallbackIntent": false,
+  "events": []
+}

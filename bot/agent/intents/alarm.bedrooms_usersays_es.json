@@ -1,0 +1,165 @@
+[
+  {
+    "id": "e975977d-ca2e-4bf7-bc1e-5fb5c5e286e6",
+    "data": [
+      {
+        "text": "me parece que ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "f044b97d-15b7-42fe-a924-30aa424cf447",
+    "data": [
+      {
+        "text": "mas o menos ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "ff025b1b-9c70-4a91-844b-84c3c055530d",
+    "data": [
+      {
+        "text": "2",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " estancias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "a7a479d5-d49f-4bfb-bd6f-714aa521f37c",
+    "data": [
+      {
+        "text": "1",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "estancia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "57ceaf70-bb41-4ee0-8949-d5b6965f55dc",
+    "data": [
+      {
+        "text": "2",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " habitaciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "71ebdfaf-6c50-4709-a01c-8d9ef418858a",
+    "data": [
+      {
+        "text": "1",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " habitación",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "cada8d94-961f-45e1-a802-d5c4928ec72a",
+    "data": [
+      {
+        "text": "diaria que ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "5afadad3-8428-4db1-bf30-ebb77b668b76",
+    "data": [
+      {
+        "text": "4",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  },
+  {
+    "id": "cce8a228-f9dd-4951-b982-a0d536a6d098",
+    "data": [
+      {
+        "text": "unas ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "alarm_bedrooms",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528978075
+  }
+]

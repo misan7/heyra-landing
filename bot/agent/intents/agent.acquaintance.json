@@ -14,11 +14,8 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Soy alarmbots, tu asistente personal de alimentación y haré que comer vuelva a ser un verdadero placer. ¿Empezamos?",
-            "Mi nombre es alarmbots tu asistente personal de alimentación , y juntos conseguiremos que comer sea un verdadero placer. Empezamos?",
-            "Me llamo alarmbots, y soy su asistente personal, me gustaría conocerte mas. Háblame de ti, tus comida preferida, intolerancias, etc.",
-            "Mi nombre es alarmbots, soy tu asistente personal de alimentación, y  voy ha hacer que comas sano y bien. Háblame de ti, tus comida preferida, intolerancias, etc.",
-            "Me llamo alarmbots, soy tu asistente personal de alimentación, y te voy aconsejar que comer y donde.¿Empezamos?"
+            "Soy Alarmbots, el bot que compara gratis alarmas para hogar o negocio.",
+            "Me llamo Alarmbots, y tengo la mejor oferta para la protección de tu hogar o negocio"
           ]
         }
       ],
@@ -29,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195741,
+  "lastUpdate": 1528975239,
   "fallbackIntent": false,
   "events": []
 }

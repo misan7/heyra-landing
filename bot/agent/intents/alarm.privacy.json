@@ -1,0 +1,54 @@
+{
+  "id": "666f397c-10f2-4828-80fb-0e1225346112",
+  "name": "alarm.privacy",
+  "auto": true,
+  "contexts": [
+    "await_form"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_form",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_privacy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Antes de continuar, necesito que leas y apruebes la información sobre el tratamiento de tus datos de carácter personal contenida en este link: https://alarmbots.com/page/privacy-bot/?#PRIVACY.hash"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Cuando los hayas leído, dime, ¿estás de acuerdo?",
+            "¿Te parece bien?",
+            "¿Aceptas?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528973309,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "PRIVACY"
+    }
+  ]
+}

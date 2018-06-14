@@ -39,14 +39,8 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Para ser mas listo me tienes que ayudar, ¿ me ayudas?",
-            "Ayudame a aprender contándome que te gusta comer, intolerancias, donde te gusta comer, tipos de gastronomia, etc...",
-            "Para ser mas listo necesito conocerte, cuéntame cuales son tus gustos, tipos de comida, tipos de restaurantes,  dietas etc...",
-            "Para ser mas inteligente necesito conocerte cuéntame cuales son tus gustos, tipos de comida, tipos de restaurantes,  dietas etc...",
-            "Para poder estudiar, necesito saber de que materia",
-            "¿Qué quieres que estudie?",
-            "Ayudame a saber más sobre ti, cuéntame cuales son tus gustos, tipos de comida, tipos de restaurantes, dietas etc...",
-            "Soy muy joven ayudame a aprender dejame conocer tus comidas favoritas, tus intolerancias, donde te gusta comer cuando estas fuera de casa"
+            "Para ser mas listo me tienes que ayudar, ¿me ayudas?",
+            "Para ser mas listo necesito conocerte."
           ]
         }
       ],
@@ -57,7 +51,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1505813944,
+  "lastUpdate": 1528979998,
   "fallbackIntent": false,
   "events": []
 }

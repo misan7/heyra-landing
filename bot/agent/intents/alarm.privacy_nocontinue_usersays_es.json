@@ -1,0 +1,60 @@
+[
+  {
+    "id": "aea51c33-2445-4134-84ec-5db852416727",
+    "data": [
+      {
+        "text": "paso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528980655
+  },
+  {
+    "id": "6db7b954-1b98-4801-a3aa-68215cb11c3a",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528980655
+  },
+  {
+    "id": "8cd6ec24-4e1e-48dc-a7f7-c6aedff2009f",
+    "data": [
+      {
+        "text": "no ",
+        "userDefined": false
+      },
+      {
+        "text": "acepto",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528980655
+  },
+  {
+    "id": "e4b602d8-5e2f-4eaf-8535-2b1490f9b99a",
+    "data": [
+      {
+        "text": "no ",
+        "userDefined": false
+      },
+      {
+        "text": "quiero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528980655
+  }
+]

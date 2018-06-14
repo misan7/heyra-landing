@@ -1,0 +1,43 @@
+{
+  "id": "2d5a6d7f-67ff-4def-89ff-9bacf8afd764",
+  "name": "alarm_contactfinish",
+  "auto": true,
+  "contexts": [
+    "await_contactfinish"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_contactfinish",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Gracias #CONTACT_FINISH.contactname. En breve el comercial de #CONTACT_FINISH.companyname se pondrá en contacto contigo.",
+            "Gracias #CONTACT_FINISH.contactname, todo listo. El comercial de #CONTACT_FINISH.companyname se pondrá en contacto contigo."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528904911,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "CONTACT_FINISH"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "9272330a-c130-41e6-900f-318454d796e2",
+    "data": [
+      {
+        "text": "para que",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528980578
+  },
+  {
+    "id": "4e0fea0a-cd11-42ac-9c56-79fa07bacc5c",
+    "data": [
+      {
+        "text": "no ",
+        "userDefined": false
+      },
+      {
+        "text": "quiero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528980578
+  }
+]

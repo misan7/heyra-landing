@@ -26,6 +26,11 @@
           "name": "accept_privacy",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "await_contactfinish",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
@@ -33,28 +38,12 @@
           "id": "a0815171-8cdc-4b9f-bb92-3a9d3e0a67ae",
           "required": false,
           "dataType": "@sys.phone-number",
-          "name": "phone-number",
-          "value": "$phone-number",
-          "isList": false
-        },
-        {
-          "id": "e6588e4d-f43c-46c8-8cdb-7395c02cd83a",
-          "required": false,
           "name": "alarm_phonenumber",
-          "value": "$phone-number",
+          "value": "$alarm_phonenumber",
           "isList": false
         }
       ],
-      "messages": [
-        {
-          "type": 0,
-          "lang": "es",
-          "speech": [
-            "En breve nos pondremos en contacto contigo.",
-            "Gracias, todo listo. Nos pondremos en contacto contigo."
-          ]
-        }
-      ],
+      "messages": [],
       "defaultResponsePlatforms": {},
       "speech": []
     }
@@ -62,7 +51,7 @@
   "priority": 750000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528458119,
+  "lastUpdate": 1528898113,
   "fallbackIntent": false,
   "events": []
 }

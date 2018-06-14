@@ -25,12 +25,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "He dado con la mejor opción basada en tus respuestas."
-        },
-        {
-          "type": 0,
-          "lang": "es",
-          "speech": "Puedes conocer todos los detalles en el siguiente enlace:"
+          "speech": "He dado con la mejor opción basada en tus respuestas. Puedes conocer todos los detalles en el siguiente enlace:"
         },
         {
           "type": 0,
@@ -50,7 +45,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457306,
+  "lastUpdate": 1528462182,
   "fallbackIntent": false,
   "events": [
     {

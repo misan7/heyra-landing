@@ -1,0 +1,55 @@
+{
+  "id": "9a36037e-dbf0-47a0-969a-a7268f1238c7",
+  "parentId": "72fb292f-8a90-4a77-854c-12462f869cf1",
+  "rootParentId": "72fb292f-8a90-4a77-854c-12462f869cf1",
+  "name": "alarm.location - fallback",
+  "auto": false,
+  "contexts": [
+    "alarmlocation-followup",
+    "await_form"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "await_stole",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "alarmlocation-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_location",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Este lugar no aparece en el mapa."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿En qué localidad se efectuaría la instalación de la alarma?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528905580,
+  "fallbackIntent": true,
+  "events": []
+}

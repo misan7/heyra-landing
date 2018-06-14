@@ -1,6 +1,6 @@
 [
   {
-    "id": "0e66d8bd-6fb7-4b0a-abb7-46f08a095351",
+    "id": "5f03702e-f4b2-49de-97ea-79ecec96b479",
     "data": [
       {
         "text": "Es el ",
@@ -8,31 +8,31 @@
       },
       {
         "text": "000000000",
-        "alias": "phone-number",
+        "alias": "alarm_phonenumber",
         "meta": "@sys.phone-number",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527779021
+    "updated": 1528898113
   },
   {
-    "id": "f5eb0f97-1948-4696-b41d-806b188b4915",
+    "id": "80e7b8c3-4b28-4b0a-94dd-6cb002e33db0",
     "data": [
       {
         "text": "000000000",
-        "alias": "phone-number",
+        "alias": "alarm_phonenumber",
         "meta": "@sys.phone-number",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527697897
+    "updated": 1528898113
   },
   {
-    "id": "086faefe-ce9f-4ba3-a504-0517128d3bd0",
+    "id": "2e5054b2-f24c-43f4-8168-efb8b0174bcb",
     "data": [
       {
         "text": "Mi teléfono es ",
@@ -40,13 +40,13 @@
       },
       {
         "text": "000000000",
-        "alias": "phone-number",
+        "alias": "alarm_phonenumber",
         "meta": "@sys.phone-number",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1527779021
+    "updated": 1528898113
   }
 ]

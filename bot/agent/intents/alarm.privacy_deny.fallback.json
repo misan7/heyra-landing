@@ -1,0 +1,47 @@
+{
+  "id": "f3c2db30-ee6e-4334-8612-4ca673e2424b",
+  "name": "alarm.privacy_deny.fallback",
+  "auto": true,
+  "contexts": [
+    "await_form",
+    "await_privacy_deny"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_form",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_privacy_deny",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_privacy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Has cambiado de opinión y estás de acuerdo con el tratamiento de datos de carácter personal?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528461281,
+  "fallbackIntent": true,
+  "events": []
+}

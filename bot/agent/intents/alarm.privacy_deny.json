@@ -3,7 +3,8 @@
   "name": "alarm.privacy_deny",
   "auto": true,
   "contexts": [
-    "await_form"
+    "await_form",
+    "await_privacy"
   ],
   "responses": [
     {
@@ -18,27 +19,31 @@
           "name": "await_form",
           "parameters": {},
           "lifespan": 5
-        }
-      ],
-      "parameters": [
+        },
         {
-          "id": "d02768cc-2fc3-42b5-9831-f6dec37929fa",
-          "required": false,
-          "name": "privacy",
-          "value": "false",
-          "isList": false
+          "name": "await_privacy_deny",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
-          "speech": "Lo siento, pero no puedo ayudarte, si no aceptas las políticas de privacidad y condiciones de uso."
+          "speech": [
+            "Lo siento, pero no puedo ayudarte, si no aceptas las políticas de privacidad y condiciones de uso.",
+            "No deben asustarte, no haremos nada que Facebook no haría."
+          ]
         },
         {
           "type": 0,
           "lang": "es",
-          "speech": "Espero verte pronto."
+          "speech": [
+            "Cuando los hayas leído, dime, ¿estás de acuerdo?",
+            "¿Te parece bien?",
+            "¿Aceptas?"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -48,7 +53,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457358,
+  "lastUpdate": 1528980682,
   "fallbackIntent": false,
   "events": []
 }

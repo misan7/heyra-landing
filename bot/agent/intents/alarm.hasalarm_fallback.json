@@ -1,0 +1,59 @@
+{
+  "id": "7bdd1b6d-9edb-4150-86a3-a7fd76491711",
+  "name": "alarm.hasalarm_fallback",
+  "auto": true,
+  "contexts": [
+    "await_hasalarm",
+    "await_form"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_hasalarm",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_form",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6951c380-e1e2-4a98-be23-9c53babaf0dd",
+          "required": false,
+          "name": "alarm_withalarm",
+          "value": "false",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Sabes que me dedico a comparar sistemas de seguridad, ¿verdad?",
+            "Seguro que te sentirás más protegido.",
+            "Ya verás como cambias de idea."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Entonces, ¿tienes alarma?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528980578,
+  "fallbackIntent": false,
+  "events": []
+}
