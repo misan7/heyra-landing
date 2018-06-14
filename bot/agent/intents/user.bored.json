@@ -13,7 +13,19 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Va, que me lanzo.",
+            "Probemos con el humor.",
+            "Ahí va un chiste."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Había una vez un gato con 16 vidas lo atropello un 4x4 y se murió.",
+            "¿Cómo maldice un pollo a otro pollo? ¡Caldito seas!"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +35,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254093,
+  "lastUpdate": 1528991318,
   "fallbackIntent": false,
   "events": []
 }

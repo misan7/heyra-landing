@@ -1,0 +1,110 @@
+[
+  {
+    "id": "c0ff8598-4cee-42cf-bbfe-aa5888317178",
+    "data": [
+      {
+        "text": "borrame",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979643
+  },
+  {
+    "id": "039fea35-b807-430b-9859-1c5ddaed6124",
+    "data": [
+      {
+        "text": "elimina mis datos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979643
+  },
+  {
+    "id": "71b02133-87a2-4025-a14d-0fe890a9bff5",
+    "data": [
+      {
+        "text": "privacidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979643
+  },
+  {
+    "id": "8119c509-2ee6-443f-8377-3d931e686dfa",
+    "data": [
+      {
+        "text": "no he podido validar la autorización de la RGPD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979615
+  },
+  {
+    "id": "89f3251d-b224-44dc-85d6-68a8c0e382b2",
+    "data": [
+      {
+        "text": "no he podido validar la autorización de la GDPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979615
+  },
+  {
+    "id": "023fa3b1-9b91-4a54-9f2f-83c25cdb9bf6",
+    "data": [
+      {
+        "text": "no cumples la RGPD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979615
+  },
+  {
+    "id": "a0021a48-8062-494e-91db-c5f876644f9c",
+    "data": [
+      {
+        "text": "no cumples la GDPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979615
+  },
+  {
+    "id": "f7569ad2-a5e3-4d5e-9042-32fede6e4265",
+    "data": [
+      {
+        "text": "GDPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979615
+  },
+  {
+    "id": "c8827d26-7c82-4892-a716-35d3d77d2c87",
+    "data": [
+      {
+        "text": "RGPD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528979615
+  }
+]

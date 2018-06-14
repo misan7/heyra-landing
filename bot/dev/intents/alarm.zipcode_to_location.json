@@ -31,7 +31,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Ok, no te preocupes. ¿En qué localidad se efectuaría la instalación de la alarma?"
+          "speech": [
+            "Ok, no te preocupes. ¿En qué localidad se efectuaría la instalación de la alarma?",
+            "Si no lo sabes, dime al menos la ciudad."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -41,7 +44,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457838,
+  "lastUpdate": 1528974376,
   "fallbackIntent": true,
   "events": []
 }

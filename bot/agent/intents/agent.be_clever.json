@@ -14,26 +14,7 @@
           "lifespan": 5
         }
       ],
-      "parameters": [
-        {
-          "id": "ce481765-0b32-4161-9da9-d720dbde5333",
-          "required": true,
-          "dataType": "@sys.any",
-          "name": "name",
-          "value": "$name",
-          "prompts": [
-            {
-              "lang": "es",
-              "value": "¿Cómo te llamas?"
-            },
-            {
-              "lang": "es",
-              "value": "¿Cúal es tú nombre?"
-            }
-          ],
-          "isList": false
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
@@ -51,7 +32,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528979998,
+  "lastUpdate": 1528991507,
   "fallbackIntent": false,
   "events": []
 }

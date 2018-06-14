@@ -14,10 +14,10 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Mi jefe eres tu, así que mandame lo que tengo que hacer",
-            "Yo trabajo por y para ti, hazme trabajar",
-            "Mi jefe eres tu y mi unica finalidad es hacerte comer bien y sano, ¿quieres?",
-            "Que casualidad mi jefe eres tu, dame trabajo"
+            "Mi jefe eres tú, y quiero que estés protegido.",
+            "Yo trabajo por y para ti, hazme trabajar.",
+            "Mi jefe eres tú y mi única finalidad es protegerte.",
+            "Que casualidad mi jefe eres tu, dame trabajo."
           ]
         }
       ],
@@ -28,7 +28,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253942,
+  "lastUpdate": 1528991827,
   "fallbackIntent": false,
   "events": []
 }

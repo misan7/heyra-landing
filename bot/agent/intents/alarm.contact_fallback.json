@@ -1,0 +1,48 @@
+{
+  "id": "64664cf5-b487-49e1-b30b-2c3556fae71b",
+  "name": "alarm.contact_fallback",
+  "auto": true,
+  "contexts": [
+    "await_contact",
+    "await_form",
+    "accept_privacy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_contact",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_form",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "accept_privacy",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "No temas, nuestros colaboradores son majos."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528989643,
+  "fallbackIntent": false,
+  "events": []
+}

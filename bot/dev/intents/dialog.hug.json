@@ -13,7 +13,11 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Si tú lo dices...",
+            "¿En serio?",
+            "De acuerdo."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254045,
+  "lastUpdate": 1528993062,
   "fallbackIntent": false,
   "events": []
 }

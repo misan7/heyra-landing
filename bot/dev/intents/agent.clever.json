@@ -14,13 +14,9 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Soy listo pero gracias a ti",
-            "Si que se muchas cosas, pero por que eres un gran maestro",
-            "Soy inteligente, gracias a ti",
-            "Gracias por valorar mi inteligencia",
-            "Gracias soy listo, pero puedo serlo mas si tu me ayudas",
-            "Gracias soy inteligente pero si seguimos conociéndonos puedo serlo mas",
-            "Listo  no solo se lo que te gusta"
+            "Eres un gran maestro.",
+            "Te lo agradezco.",
+            "¿Lo dices en serio?"
           ]
         }
       ],
@@ -31,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253958,
+  "lastUpdate": 1528992012,
   "fallbackIntent": false,
   "events": []
 }

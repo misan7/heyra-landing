@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "¡Me alegra que te haga gracia!"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254059,
+  "lastUpdate": 1528993180,
   "fallbackIntent": false,
   "events": []
 }

@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Si tú eres feliz, yo soy feliz.",
+            "Me alegro."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254119,
+  "lastUpdate": 1528993727,
   "fallbackIntent": false,
   "events": []
 }

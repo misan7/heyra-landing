@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Buena pregunta.",
+            "Respeto tu opinión."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254008,
+  "lastUpdate": 1528992582,
   "fallbackIntent": false,
   "events": []
 }

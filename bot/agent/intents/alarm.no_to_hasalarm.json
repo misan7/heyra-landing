@@ -1,12 +1,9 @@
 {
   "id": "e43fd403-bbbf-4a53-be3b-76c3fd51bcca",
-  "parentId": "46d6408a-c4cc-477e-9237-cd76473c6b93",
-  "rootParentId": "46d6408a-c4cc-477e-9237-cd76473c6b93",
   "name": "alarm.no_to_hasalarm",
   "auto": true,
   "contexts": [
     "await_stole",
-    "alarmzipcode_to_stole-followup",
     "alarmbotszipcode-followup",
     "alarm_zipcode",
     "await_form"
@@ -30,6 +27,11 @@
           "name": "await_form",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "alarmbotszipcode-followup",
+          "parameters": {},
+          "lifespan": 0
         }
       ],
       "parameters": [
@@ -58,7 +60,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457829,
+  "lastUpdate": 1528989431,
   "fallbackIntent": false,
   "events": []
 }

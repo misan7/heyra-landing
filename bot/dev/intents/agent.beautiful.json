@@ -14,9 +14,9 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Gracias ¿y tu como eres?",
-            "Muchas gracias,¿ y tu como eres?",
-            "Me he puesto guapo para ti ¿como eres tu?"
+            "Gracias.",
+            "Muchas gracias.",
+            "Me he puesto guapo para ti."
           ]
         }
       ],
@@ -27,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502196327,
+  "lastUpdate": 1528991531,
   "fallbackIntent": false,
   "events": []
 }

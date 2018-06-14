@@ -20,14 +20,14 @@
           "lifespan": 1
         },
         {
-          "name": "alarmbotszipcode-yes-followup",
-          "parameters": {},
-          "lifespan": 2
-        },
-        {
           "name": "await_form",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "alarmbotszipcode-followup",
+          "parameters": {},
+          "lifespan": 0
         }
       ],
       "parameters": [],
@@ -48,7 +48,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457817,
+  "lastUpdate": 1528989407,
   "fallbackIntent": false,
   "events": []
 }

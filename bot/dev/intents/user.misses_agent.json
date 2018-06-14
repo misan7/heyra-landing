@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "Estaré aquí siempre que me necesites."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254151,
+  "lastUpdate": 1528994062,
   "fallbackIntent": false,
   "events": []
 }

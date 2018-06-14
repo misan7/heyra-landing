@@ -14,12 +14,12 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Gracias, pero no podría serlo sin tu ayuda",
-            "Gracias, sigo trabajando para mejorar cada dia",
-            "Gracias",
-            "Muchas gracias",
-            "Soy así gracias a ti",
-            "Si no fuera por tu ayuda no podría serlo"
+            "No podría serlo sin tu ayuda.",
+            "Gracias, sigo trabajando.",
+            "Gracias.",
+            "Muchas gracias.",
+            "Soy así gracias a ti.",
+            "Si no fuera por tu ayuda no podría serlo."
           ]
         }
       ],
@@ -30,7 +30,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1505768696,
+  "lastUpdate": 1528992242,
   "fallbackIntent": false,
   "events": []
 }

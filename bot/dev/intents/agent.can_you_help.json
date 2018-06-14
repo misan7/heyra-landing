@@ -14,8 +14,8 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Claro que te ayudo para eso estoy aqui",
-            "Pideme lo que quieras y te ayudare"
+            "Claro que te ayudo para eso estoy aquí.",
+            "Pide lo que quieras."
           ]
         }
       ],
@@ -26,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253950,
+  "lastUpdate": 1528991894,
   "fallbackIntent": false,
   "events": []
 }

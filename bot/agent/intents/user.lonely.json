@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "Lo lamento. Conmigo siempre podrás hablar."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254139,
+  "lastUpdate": 1528994003,
   "fallbackIntent": false,
   "events": []
 }

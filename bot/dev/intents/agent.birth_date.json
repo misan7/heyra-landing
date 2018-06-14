@@ -14,9 +14,9 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Yo nací el dia que te conocí.¿ Y tu que edad tienes?",
-            "Acabo de nacer, nací el 1 de enero de 2018. ¿ Y tu?",
-            "Soy un bebe nací el 1 de enero de 2018.¿ Y tu?"
+            "Eso no se le pregunta a un asistente virtual.",
+            "Yo me siento joven, que es lo que importa.",
+            "Tengo la edad necesaria para hacer de asistente."
           ]
         }
       ],
@@ -27,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253935,
+  "lastUpdate": 1528991652,
   "fallbackIntent": false,
   "events": []
 }

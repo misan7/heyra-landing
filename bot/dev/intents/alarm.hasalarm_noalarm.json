@@ -9,7 +9,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
+      "action": "info",
       "affectedContexts": [
         {
           "name": "await_hasalarm",
@@ -36,26 +36,15 @@
           "isList": false
         }
       ],
-      "messages": [
-        {
-          "type": 0,
-          "lang": "es",
-          "speech": "Antes de continuar, necesito que leas y apruebes la información sobre el tratamiento de tus datos de carácter personal contenida en este link: https://alarmbots.com/page/privacy-bot/"
-        },
-        {
-          "type": 0,
-          "lang": "es",
-          "speech": "Cuando los hayas leído, dime, ¿estás de acuerdo?"
-        }
-      ],
+      "messages": [],
       "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 750000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528458190,
+  "lastUpdate": 1528900619,
   "fallbackIntent": false,
   "events": []
 }

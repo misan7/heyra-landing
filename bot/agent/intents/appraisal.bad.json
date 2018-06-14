@@ -7,9 +7,21 @@
     {
       "resetContexts": false,
       "action": "appraisal.bad",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "await_comment",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
-      "messages": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿El qué?"
+        }
+      ],
       "defaultResponsePlatforms": {},
       "speech": []
     }
@@ -17,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1526479128,
+  "lastUpdate": 1528992780,
   "fallbackIntent": false,
   "events": []
 }

@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "Preferiría que me hablaras tú."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254018,
+  "lastUpdate": 1528992623,
   "fallbackIntent": false,
   "events": []
 }

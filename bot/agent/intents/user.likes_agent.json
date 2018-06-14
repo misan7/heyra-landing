@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "¿Tu crees? Ya me gustaría...",
+            "Muy bien. ¿Volvemos al trabajo?"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254135,
+  "lastUpdate": 1528993951,
   "fallbackIntent": false,
   "events": []
 }

@@ -14,11 +14,8 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Aburrido yo? Ponme a prueba y veras",
-            "Aburrida yo? ponme a prueba y veras",
-            "Te aburres conmigo !!! Vamos a cambiar eso",
-            "Por que dices que soy super aburrido? Si casi no se nada de ti",
-            "Aburridooooo!!! comooooo??? Voy a hacer que cambies de opinion"
+            "Eso pasa por ponerte ha hablar con bots.",
+            "No me digas eso."
           ]
         }
       ],
@@ -29,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253938,
+  "lastUpdate": 1528991801,
   "fallbackIntent": false,
   "events": []
 }

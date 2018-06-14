@@ -3,7 +3,6 @@
   "name": "alarm.welcome_fallback",
   "auto": true,
   "contexts": [
-    "await_alarmtype",
     "await_form"
   ],
   "responses": [
@@ -11,12 +10,12 @@
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "await_alarmtype",
+          "name": "await_form",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 5
         },
         {
-          "name": "await_form",
+          "name": "await_alarmtype",
           "parameters": {},
           "lifespan": 5
         }
@@ -26,10 +25,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": [
-            "Hola de nuevo.",
-            "Saludos."
-          ]
+          "speech": "No se si podré ayudarte, solo se de alarmas de hogar o negocios."
         },
         {
           "type": 0,
@@ -44,7 +40,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457798,
+  "lastUpdate": 1528975179,
   "fallbackIntent": true,
   "events": []
 }

@@ -1,42 +1,60 @@
 [
   {
-    "id": "b20eedc7-e436-4d77-a963-202b8c4568d4",
+    "id": "c1c3b276-d49d-417c-b8c4-68c090c37a1e",
     "data": [
       {
-        "text": "eres un cómico",
+        "text": "eres un ",
         "userDefined": false
+      },
+      {
+        "text": "cómico",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1528992202
   },
   {
-    "id": "04ff5e2c-343d-4037-aa2c-bce69f3358f6",
+    "id": "c15345c8-a800-4be1-ae81-03a2d3871c06",
     "data": [
       {
-        "text": "eres tan chistoso",
+        "text": "eres tan ",
         "userDefined": false
+      },
+      {
+        "text": "chistoso",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1528992202
   },
   {
-    "id": "e02fd347-3bd8-4164-a23e-2a6ef6a6bf9a",
+    "id": "87f51e9f-cb83-4a0f-98ee-8c7c7652c456",
     "data": [
       {
-        "text": "eres graciosa",
+        "text": "eres ",
         "userDefined": false
+      },
+      {
+        "text": "graciosa",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1528992202
   },
   {
-    "id": "5e90bf2a-b2e3-4f46-896e-fbb56ea029c7",
+    "id": "fdc4a8e2-bcc2-4fea-acb0-19f7857c6ffa",
     "data": [
       {
         "text": "me haces reír",
@@ -45,22 +63,28 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1528992202
   },
   {
-    "id": "a84b4655-4fcc-4f25-a3de-f333b7b00315",
+    "id": "9dae41a1-4820-43f6-a653-2e88e0117e3d",
     "data": [
       {
-        "text": "eres muy gracioso",
+        "text": "eres muy ",
         "userDefined": false
+      },
+      {
+        "text": "gracioso",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
+    "updated": 1528992202
   },
   {
-    "id": "4823e716-366a-4108-8bad-afc1d8df5751",
+    "id": "191354f9-2bd2-41aa-b78a-a938a96469a8",
     "data": [
       {
         "text": "que gracioso eres",
@@ -69,30 +93,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "bf0adba7-661b-4342-9831-d1f5b9c89b7d",
-    "data": [
-      {
-        "text": "eres tan divertida",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "2f09e14a-0fe4-455a-92f5-23463a29e1fb",
-    "data": [
-      {
-        "text": "creo que eres muy graciosa",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
+    "updated": 1528992202
   }
 ]

@@ -13,11 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": [
-            "Muy bien ¿y tu?",
-            "Muy bien, gracias ¿y tu?",
-            "Bien ¿y tu?"
-          ]
+          "speech": "No me puedo quejar."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -27,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254076,
+  "lastUpdate": 1528993356,
   "fallbackIntent": false,
   "events": []
 }

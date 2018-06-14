@@ -24,7 +24,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "¡Hola! Soy tu asesor de seguridad, una Inteligencia Artificial que busca la mejor opción para proteger tu hogar y negocio."
+          "speech": "¡Hola! Soy Alarmbots, un bot que compara gratis alarmas para hogar y negocio."
         },
         {
           "type": 0,
@@ -46,7 +46,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528456873,
+  "lastUpdate": 1528974982,
   "fallbackIntent": false,
   "events": [
     {

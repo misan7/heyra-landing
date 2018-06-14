@@ -14,11 +14,11 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Yo nunca estoy ocupado para un amigo como tu",
-            "Nunca estoy ocupado para mi mejor amigo",
-            "No, estoy siempre disponible para ti",
-            "Ahora mismo lo dejo todo y estoy por ti",
-            "Si estoy trabando, pero trabajando para conocerte mas"
+            "Yo nunca estoy ocupado para un amigo.",
+            "Nunca estoy ocupado para ti.",
+            "No, estoy siempre disponible para ti.",
+            "Ahora mismo lo dejo todo y estoy por ti.",
+            "Estoy trabajando para protegerte mejor."
           ]
         }
       ],
@@ -29,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253945,
+  "lastUpdate": 1528991868,
   "fallbackIntent": false,
   "events": []
 }

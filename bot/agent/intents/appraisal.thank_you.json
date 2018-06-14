@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "No se merecen.",
+            "¡Faltaría más!"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254033,
+  "lastUpdate": 1528992871,
   "fallbackIntent": false,
   "events": []
 }

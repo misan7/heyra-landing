@@ -1,19 +1,21 @@
 {
-  "id": "3a8240b7-96bf-4ec5-a0dd-86ee2bd01371",
-  "name": "agent.sure",
+  "id": "8eac00c6-8c26-493a-96e2-74ad2c7c2fc3",
+  "name": "agent.RGPD",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "agent.sure",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "No te preocupes, estamos entre amigos.",
+            "No te preocupes, no hará nada que Facebook no haría."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +25,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254015,
+  "lastUpdate": 1528979643,
   "fallbackIntent": false,
   "events": []
 }

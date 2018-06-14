@@ -14,8 +14,11 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Vale amig@ aqui estaré esperándote",
-            "Vale amig@ aqui estaré esperándote, no tardes"
+            "Estaré esperándote",
+            "Vale amig@ aqui estaré esperándote, no tardes",
+            "Adiós! Aloha! Arrivederci! Ciao! Au Revoir! Bon Voyage! Sayonara!",
+            "De acuerdo. Nos vemos...",
+            "¡Sal a comerte el mundo!"
           ]
         }
       ],
@@ -26,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254065,
+  "lastUpdate": 1528993327,
   "fallbackIntent": false,
   "events": []
 }

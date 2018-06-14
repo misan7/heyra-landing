@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "¿Es por algo que he dicho? Me iré si me dices adiós.",
+            "¡Adiós!"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254189,
+  "lastUpdate": 1528994304,
   "fallbackIntent": false,
   "events": []
 }

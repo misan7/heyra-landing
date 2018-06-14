@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "No creo que eso sea posible. ¿Podrías contestarme la pregunta anterior?"
+          "speech": [
+            "De acuerdo.",
+            "¿He hecho algo malo? Si de verdad quieres que me vaya, al menos dime adiós."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527781561,
+  "lastUpdate": 1528992139,
   "fallbackIntent": false,
   "events": []
 }

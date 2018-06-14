@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Si tú lo dices...",
+            "Funciono perfectamente y todos mis circuitos se encuentra operativos."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254169,
+  "lastUpdate": 1528994224,
   "fallbackIntent": false,
   "events": []
 }

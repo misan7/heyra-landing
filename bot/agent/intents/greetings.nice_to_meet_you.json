@@ -13,10 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": [
-            "Gracias, yo tambien estoy encantado de conocerte. Hablame de ti",
-            "Gracias, yo tambien estoy encantado de conocerte. Cuéntame cosas sobre ti"
-          ]
+          "speech": "El placer es mutuo."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -26,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254078,
+  "lastUpdate": 1528993396,
   "fallbackIntent": false,
   "events": []
 }

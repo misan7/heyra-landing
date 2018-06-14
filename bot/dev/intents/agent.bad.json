@@ -15,10 +15,8 @@
           "lang": "es",
           "speech": [
             "Me esfuerzo en hacerlo lo mejor que puedo.",
-            "¿Malo yo? ¿por que me dices eso?",
-            "Pues ayudame ha hacerlo mejor",
-            "Si me dejas conocerte lo hare mejor ¿me dejas?",
-            "¿Malo yo? si hago lo que me pides!"
+            "Con tu ayuda, lo haré mejor.",
+            "Si me dejas, lo hace mejor."
           ]
         }
       ],
@@ -29,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502201431,
+  "lastUpdate": 1528991487,
   "fallbackIntent": false,
   "events": []
 }

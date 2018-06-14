@@ -35,6 +35,13 @@
           "name": "alarm_type",
           "value": "$alarm_type",
           "isList": false
+        },
+        {
+          "id": "16291b66-9d0c-40c2-b3b4-a4309c5408ec",
+          "dataType": "@sys.any",
+          "name": "alarm_business_type",
+          "value": "$alarm_business_type",
+          "isList": false
         }
       ],
       "messages": [
@@ -51,7 +58,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457085,
+  "lastUpdate": 1528974132,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,0 +1,61 @@
+{
+  "id": "cd43b6c7-2ed3-4aab-89a7-236a49b4d417",
+  "name": "alarm.bedrooms",
+  "auto": true,
+  "contexts": [
+    "await_bedrooms",
+    "await_form"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "await_bedrooms",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "await_form",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_zipcode",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0652de56-7522-4a66-be1c-e5ced799c7a4",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "alarm_bedrooms",
+          "value": "$alarm_bedrooms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Perfecto."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "¿Cúal es tu código postal?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528978124,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "Siento no haberte entendido bien. ¿Me lo puedes repetir?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254054,
+  "lastUpdate": 1528993093,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,0 +1,48 @@
+{
+  "id": "e0864937-382d-49b8-9abd-b04d63868c54",
+  "name": "agent.operations",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7295abd3-fbc1-4bc4-b160-3b888bacdd75",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "566aa298-f566-4b67-b1fe-5ec7cdc452f1",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Me has tomado por Siri?",
+            "¿Tengo pinta de calculadora?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528992683,
+  "fallbackIntent": false,
+  "events": []
+}

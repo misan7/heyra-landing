@@ -1,6 +1,6 @@
 [
   {
-    "id": "2e5992de-33f1-4830-a003-5b7c94915eaf",
+    "id": "bb4047f9-52da-421d-99c7-3224d27df720",
     "data": [
       {
         "text": "Mi ",
@@ -18,16 +18,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "abaeb9c9-e451-4b18-8dac-cbb4f03dadc2",
+    "id": "8c7cddf3-fdc8-4d24-8047-e12ecb2fef60",
     "data": [
       {
         "text": "El ",
@@ -45,16 +45,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "f012ccdb-b786-4e75-881c-f7e532211440",
+    "id": "83c87b66-f100-45c8-add1-b81a7c06240b",
     "data": [
       {
         "text": "La ",
@@ -72,16 +72,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "9c69b739-fe6d-4b06-8fc7-78d887090cf0",
+    "id": "bab81331-7a0b-4eee-9813-cad2ffbd3e24",
     "data": [
       {
         "text": "La ",
@@ -99,16 +99,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "f6854fc6-0470-4990-826d-2796a0cea5b5",
+    "id": "068c5f0c-f8ab-46a2-838d-5c8f2261e42e",
     "data": [
       {
         "text": "Cerca de ",
@@ -117,16 +117,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "4c402421-d53d-4231-8c25-83320b4974f9",
+    "id": "f099dc50-6e4f-4c22-a2f9-7e814c54908e",
     "data": [
       {
         "text": "En ",
@@ -135,16 +135,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "d93aaf75-1600-4cae-9016-92759d443333",
+    "id": "42eded86-e1e2-4b9c-98a4-be21e72933df",
     "data": [
       {
         "text": "El curro lo tengo en ",
@@ -153,30 +153,30 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "0d7d6c52-e7e8-49db-9eb9-1a4f5c50db18",
+    "id": "bd07e0b1-0315-4618-a156-1e306cf685f4",
     "data": [
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "b92da2ca-6eef-47a5-b87b-551614fa614e",
+    "id": "84517299-c561-47c4-b2bf-03135e1e37bb",
     "data": [
       {
         "text": "Vivo en ",
@@ -185,16 +185,16 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   },
   {
-    "id": "59d71e7b-962c-4095-af1d-bcb429906083",
+    "id": "664ffbee-f26b-443f-bec6-adc21f8255fc",
     "data": [
       {
         "text": "Trabajo",
@@ -208,12 +208,12 @@
       {
         "text": "Barcelona",
         "alias": "alarm_location",
-        "meta": "@sys.geo-city",
+        "meta": "@sys.any",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528204452
+    "updated": 1528974238
   }
 ]

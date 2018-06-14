@@ -25,13 +25,18 @@
           "name": "await_form",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "alarmlocation-followup",
+          "parameters": {},
+          "lifespan": 2
         }
       ],
       "parameters": [
         {
           "id": "d08a48ad-193a-4a64-8a69-3df53e38119a",
           "required": false,
-          "dataType": "@sys.geo-city",
+          "dataType": "@sys.any",
           "name": "alarm_location",
           "value": "$alarm_location",
           "isList": false
@@ -41,7 +46,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "¿Te han robado a ti o a tus vecinos?"
+          "speech": [
+            "¿Te han robado a ti o a tus vecinos?",
+            "¿Has sufrido un robo?"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -51,7 +59,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457274,
+  "lastUpdate": 1528974459,
   "fallbackIntent": false,
   "events": []
 }

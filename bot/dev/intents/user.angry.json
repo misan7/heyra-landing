@@ -13,7 +13,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": "Ya sabes lo que dicen sobre culpar al mensajero."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254088,
+  "lastUpdate": 1528993463,
   "fallbackIntent": false,
   "events": []
 }

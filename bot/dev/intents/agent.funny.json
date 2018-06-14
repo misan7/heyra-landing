@@ -8,12 +8,23 @@
       "resetContexts": false,
       "action": "agent.funny",
       "affectedContexts": [],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "1ac69eb3-be89-45a5-b214-1ef392706153",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Como quieras.",
+            "Si insistes."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +34,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253967,
+  "lastUpdate": 1528992202,
   "fallbackIntent": false,
   "events": []
 }

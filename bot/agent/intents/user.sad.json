@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            ":(",
+            "Por lo que tengo entendido, la vida a veces es triste, a veces bonita, y a veces todo lo contrario."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254162,
+  "lastUpdate": 1528994156,
   "fallbackIntent": false,
   "events": []
 }

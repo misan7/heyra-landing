@@ -13,7 +13,13 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Para nada.",
+            "Que bromista eres.",
+            "¿Qué le dice un dos a un cero? ¡Veinte conmigo!",
+            "¿Qué le dice una impresora a otra impresora? ¿Esa hoja es tuya o es impresión mía?",
+            "¿Qué le dice un techo a otro techo? Techo de menos."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254132,
+  "lastUpdate": 1528993904,
   "fallbackIntent": false,
   "events": []
 }

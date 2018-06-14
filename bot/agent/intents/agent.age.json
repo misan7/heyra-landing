@@ -23,8 +23,8 @@
             "No tengo permiso para responder a esa pregunta, en la primera cita.",
             "Tengo edad suficiente para hacer de asistente.",
             "Te dejare con la intriga, la edad no es un cosa relevante, ¿no crees?",
-            "Si quieres saber mi edad  conozcamos mas, cuéntame cosas de ti.",
-            "La edad suficiente para que tengamos una buena amistad."
+            "La edad suficiente para que tengamos una buena amistad.",
+            "Tengo la edad suficiente para ser tu asistente."
           ]
         }
       ],
@@ -35,7 +35,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1527780824,
+  "lastUpdate": 1528991674,
   "fallbackIntent": false,
   "events": []
 }

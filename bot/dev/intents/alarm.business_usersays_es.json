@@ -1,6 +1,96 @@
 [
   {
-    "id": "5e2e07d0-9c19-41de-98c2-24cdb833eee5",
+    "id": "be0be980-3aed-4b00-b43a-12a5b180bfb0",
+    "data": [
+      {
+        "text": "trabajo",
+        "alias": "alarm_type",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "misiles",
+        "alias": "alarm_business_type",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528974132
+  },
+  {
+    "id": "b290960e-72aa-4384-aebe-2f2d63f27494",
+    "data": [
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "negocio",
+        "alias": "alarm_type",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "misiles",
+        "alias": "alarm_business_type",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528974132
+  },
+  {
+    "id": "fba3f5e1-8cef-470f-a2ae-c0659ab44c71",
+    "data": [
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "empresa",
+        "alias": "alarm_type",
+        "meta": "@alarmType_Business",
+        "userDefined": false
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "misiles",
+        "alias": "alarm_business_type",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528974132
+  },
+  {
+    "id": "9610e21c-c9a6-4cf3-9191-2219412d2607",
     "data": [
       {
         "text": "un",
@@ -20,10 +110,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "1274c6d0-cffd-4788-9ebe-b0115c8d80a0",
+    "id": "960b180a-4c19-4245-88c2-d6c755d0237f",
     "data": [
       {
         "text": "trabajo",
@@ -34,10 +124,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "8857d1c8-0b01-4c0d-92f2-0e13e54817ec",
+    "id": "a7833afb-97ef-4555-ba57-473f4a0d8af3",
     "data": [
       {
         "text": "tengo ",
@@ -61,10 +151,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "2b8b53ee-fdd3-4a25-a264-46854bd53391",
+    "id": "e940c9e7-bd36-4c0f-9514-e8fc7d53e08a",
     "data": [
       {
         "text": "tengo ",
@@ -88,10 +178,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "841b56e7-35fd-4f85-a036-cdb42b158464",
+    "id": "7136a8c1-2333-425d-ae32-fb419de30156",
     "data": [
       {
         "text": "trabajo",
@@ -120,10 +210,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "e49d17ba-4807-422c-a4ea-dcba83f57add",
+    "id": "4c07d70a-a986-4d84-9007-7e1dfb79605f",
     "data": [
       {
         "text": "busco proteger mi ",
@@ -138,10 +228,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "25eb881f-067c-47bb-9119-6198b323bd93",
+    "id": "0dd6a57e-9cf5-4f80-b028-58e4b4218694",
     "data": [
       {
         "text": "es ",
@@ -165,10 +255,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   },
   {
-    "id": "2920c8fd-c5f4-4bfc-b591-3a4a64488e0f",
+    "id": "77449818-fd33-4a86-8b63-ca8f38424dea",
     "data": [
       {
         "text": "trabajo",
@@ -197,6 +287,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528200105
+    "updated": 1528974132
   }
 ]

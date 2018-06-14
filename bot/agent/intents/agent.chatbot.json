@@ -14,10 +14,9 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Soy un robot con sentimientos, ¿ es un problema eso?",
-            "Soy un chatbot, pero eso no va ha impedir que seamos amigos",
-            "Soy un bot, pero quiero ser tu amigo y conocerte mas, ¿me dejas?",
-            "SI soy un robot, quiero ser tu amigo ¿me dejas serlo?"
+            "Soy un robot con sentimientos.",
+            "Soy un chatbot, pero eso no va ha impedir que seamos amigos.",
+            "SI, soy un robot."
           ]
         }
       ],
@@ -28,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195253953,
+  "lastUpdate": 1528991934,
   "fallbackIntent": false,
   "events": []
 }

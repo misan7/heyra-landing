@@ -13,10 +13,15 @@
         {
           "name": "await_m2",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "await_form",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "await_bedrooms",
           "parameters": {},
           "lifespan": 5
         }
@@ -26,7 +31,7 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Para continuar, es importante que me des un número de m2 estimados."
+          "speech": "Puedo hacerme una idea, si me dices cuantas estancias hay."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -36,7 +41,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528457294,
+  "lastUpdate": 1528977882,
   "fallbackIntent": true,
   "events": []
 }
