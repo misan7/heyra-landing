@@ -39,13 +39,13 @@ const TemplateWrapper = ({
         href="images/favicon-16x16.png"
         sizes="16x16"
       />
-      <script type="application/ld+json">
+      <script type="application/ld+json">{`
         {
           "@context": "http://schema.org",
           "@type": "Organization",
           "url": "https://alarmbots.com",
           "name": "AlarmBots",
-          "description": {slogan},
+          "description": "El bot que compara gratis alarmas para hogar o negocio desde tu WhatsApp",
           "logo": "https://alarmbots.com/images/icon.jpg",
           "contactPoint": {
             "@type": "ContactPoint",
@@ -62,7 +62,7 @@ const TemplateWrapper = ({
             "https://telegram.me/AlarmBotsBot"
           ]
         }
-      </script>
+      `}</script>
       <html lang="es" />
     </Helmet>
     <Navbar isHome={location.pathname === '/'} />
