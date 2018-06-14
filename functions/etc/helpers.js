@@ -13,6 +13,17 @@ const nodemailer = require('nodemailer');
 
 admin.initializeApp(functions.config().firebase);
 
+const getInfo = (agent) => {
+  const parameters = {
+    platform:
+      (agent.originalRequest && agent.originalRequest.source) || 'whatsapp'
+  };
+
+  parameters.hash = stringify(parameters);
+
+  return parameters;
+};
+
 const getAlarmType = (alarm_type = 'home_habitual') => {
   const isHome = /home_/;
   const isBusiness = /business_/;
@@ -36,17 +47,6 @@ const getAlarmType = (alarm_type = 'home_habitual') => {
   }
 
   return false;
-};
-
-const Collaborator = (companyName) => {
-  switch (companyName) {
-    case 'Securitas':
-      return { name: 'Rafael Rudilla' };
-    case 'Tyco':
-      return { name: 'Ana Olivar' };
-    default:
-      return { name: 'Rafael Rudilla' };
-  }
 };
 
 const stringify = (obj) =>
@@ -108,7 +108,7 @@ const Notification = ({ user, pass, notification }) => {
               agent.setFollowupEvent({
                 name: 'CONTACT_FINISH',
                 parameters: {
-                  collaborator: Collaborator(alarm_companyname).name,
+                  companyname: alarm_companyname,
                   contactname: alarm_contactname
                 }
               })
@@ -187,7 +187,7 @@ const getOffer = ({ agent, sessionId, parameters }) => {
 
   const hash = stringify({
     sessionId,
-    platform: getPlatform(agent),
+    platform: getInfo(agent).platform,
     alarm_type: getAlarmType(alarm_type).name
   });
 
@@ -212,17 +212,6 @@ const getOffer = ({ agent, sessionId, parameters }) => {
   }
 
   agent.setFollowupEvent(offer);
-};
-
-const getInfo = (agent) => {
-  const parameters = {
-    platform:
-      (agent.originalRequest && agent.originalRequest.source) || 'whatsapp'
-  };
-
-  parameters.hash = stringify(parameters);
-
-  return parameters;
 };
 
 module.exports = { Notification, User, getOffer, getInfo, getAlarmType };
