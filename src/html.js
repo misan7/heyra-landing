@@ -62,6 +62,7 @@ module.exports = class HTML extends React.Component {
           <link rel="canonical" href="https://alarmacerovision.com" />
           <link rel="canonical" href="https://alarmacerovision.es" />
           <link rel="canonical" href="https://alarmbots.netlify.com" />
+          <link rel="alternate" hreflang="es" href="https://alarmbots.com" />
           <meta
             name="google-site-verification"
             content="a8WS0o4hgeS_klEUhTfMY9f2y4S0xj2PihEKpTcaQOY"
