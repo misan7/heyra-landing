@@ -12,16 +12,16 @@
           "id": "7295abd3-fbc1-4bc4-b160-3b888bacdd75",
           "required": false,
           "dataType": "@sys.number",
-          "name": "number",
-          "value": "$number",
+          "name": "number-one",
+          "value": "$number-one",
           "isList": false
         },
         {
           "id": "566aa298-f566-4b67-b1fe-5ec7cdc452f1",
           "required": false,
           "dataType": "@sys.number",
-          "name": "number1",
-          "value": "$number1",
+          "name": "number-two",
+          "value": "$number-two",
           "isList": false
         }
       ],
@@ -42,7 +42,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528992683,
+  "lastUpdate": 1529049959,
   "fallbackIntent": false,
   "events": []
 }

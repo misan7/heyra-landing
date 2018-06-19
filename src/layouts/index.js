@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ChatBot from '../components/ChatBot';
 
 const TemplateWrapper = ({
   children,
@@ -15,6 +16,7 @@ const TemplateWrapper = ({
   }
 }) => (
   <div id="Wrapper">
+    <ChatBot />
     <Helmet
       title={subtitle}
       titleTemplate={`%s - ${title}`}

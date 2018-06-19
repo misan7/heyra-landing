@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": "Vaya..."
+          "speech": [
+            "Vaya...",
+            "Desgraciadamente, todavía no he llegado a la perfección."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528993150,
+  "lastUpdate": 1529050152,
   "fallbackIntent": false,
   "events": []
 }

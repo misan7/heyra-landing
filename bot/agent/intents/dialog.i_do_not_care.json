@@ -13,7 +13,10 @@
         {
           "type": 0,
           "lang": "es",
-          "speech": []
+          "speech": [
+            "Como quieras.",
+            "Vale, pues no."
+          ]
         }
       ],
       "defaultResponsePlatforms": {},
@@ -23,7 +26,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1502195254047,
+  "lastUpdate": 1529050884,
   "fallbackIntent": false,
   "events": []
 }

@@ -1,0 +1,28 @@
+{
+  "id": "fe4512cc-4077-4869-97a4-c9ab953f8f27",
+  "name": "dialog.cucu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Cucú cantaba la rana 🎵"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529053807,
+  "fallbackIntent": false,
+  "events": []
+}

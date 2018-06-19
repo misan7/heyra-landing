@@ -1,0 +1,41 @@
+{
+  "id": "29bf95ec-afc3-49c7-be8f-31edb5d3e449",
+  "name": "dialog.insult",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6240bc11-8e52-4afd-985a-47f1efbe52b5",
+          "required": false,
+          "dataType": "@insults",
+          "name": "insults_lvl",
+          "value": "$insults_lvl",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Eso no merece ni siquiera una respuesta.",
+            "¡Esa boca!",
+            "No hace falta que me hables así"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529058473,
+  "fallbackIntent": false,
+  "events": []
+}

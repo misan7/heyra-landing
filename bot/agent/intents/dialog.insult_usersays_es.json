@@ -1,0 +1,43 @@
+[
+  {
+    "id": "e6c86d1c-c400-4ecb-a8d7-8869e0442180",
+    "data": [
+      {
+        "text": "eres ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mierdoso",
+        "alias": "insults_lvl",
+        "meta": "@insults",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529057083
+  },
+  {
+    "id": "f5ce87df-8726-4922-83de-a8c4f7ef20f1",
+    "data": [
+      {
+        "text": "mierdoso",
+        "alias": "insults_lvl",
+        "meta": "@insults",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529057083
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "a6fc7942-da33-4022-985f-d019269868e3",
+  "name": "agent.comment",
+  "auto": true,
+  "contexts": [
+    "await_comment"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "comment",
+      "affectedContexts": [
+        {
+          "name": "await_comment",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "215c2e06-8477-41a4-a28a-132929be105c",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "message",
+          "value": "$message",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Apuntado queda.",
+            "Lo tendré en cuenta.",
+            "Se lo diré a papá.",
+            "Se lo diré a mamá."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529050561,
+  "fallbackIntent": false,
+  "events": []
+}

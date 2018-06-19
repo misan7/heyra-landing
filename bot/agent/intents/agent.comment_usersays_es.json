@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c6dc8029-e1ec-42f7-a0c2-b15563f30ee4",
+    "data": [
+      {
+        "text": "algo",
+        "alias": "message",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529050561
+  }
+]

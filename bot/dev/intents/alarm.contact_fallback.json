@@ -27,7 +27,15 @@
           "lifespan": 5
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "a8a663ad-1d45-4429-9bff-7d222df4f0ab",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
@@ -42,7 +50,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528989643,
+  "lastUpdate": 1529052118,
   "fallbackIntent": false,
   "events": []
 }

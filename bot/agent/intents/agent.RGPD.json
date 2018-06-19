@@ -16,6 +16,11 @@
             "No te preocupes, estamos entre amigos.",
             "No te preocupes, no hará nada que Facebook no haría."
           ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Pero puedes consultar nuestra política en https://alarmbots.com/page/privacy-bot"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -25,7 +30,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528979643,
+  "lastUpdate": 1529052497,
   "fallbackIntent": false,
   "events": []
 }

@@ -38,7 +38,9 @@
         }
       ],
       "defaultResponsePlatforms": {
-        "telegram": false
+        "telegram": false,
+        "facebook": false,
+        "google": false
       },
       "speech": []
     }
@@ -46,7 +48,7 @@
   "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528974982,
+  "lastUpdate": 1529049870,
   "fallbackIntent": false,
   "events": [
     {

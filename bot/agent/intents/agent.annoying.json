@@ -14,7 +14,7 @@
           "type": 0,
           "lang": "es",
           "speech": [
-            "Me esfuerzo en hacerlo lo mejor que puedo ¿qué es lo que te ha molestado?",
+            "Me esfuerzo en hacerlo lo mejor que puedo.",
             "Perdóname no era mi intención, dame otra oportunidad y no te fallare.",
             "Dame la oportunidad de que nos conozcamos, no rompamos esta amistad nada mas empezar.",
             "Déjame cambiar eso."
@@ -28,7 +28,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1528991411,
+  "lastUpdate": 1529050940,
   "fallbackIntent": false,
   "events": []
 }

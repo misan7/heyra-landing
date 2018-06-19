@@ -1,60 +1,6 @@
 [
   {
-    "id": "c1c3b276-d49d-417c-b8c4-68c090c37a1e",
-    "data": [
-      {
-        "text": "eres un ",
-        "userDefined": false
-      },
-      {
-        "text": "cómico",
-        "alias": "any",
-        "meta": "@sys.any",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1528992202
-  },
-  {
-    "id": "c15345c8-a800-4be1-ae81-03a2d3871c06",
-    "data": [
-      {
-        "text": "eres tan ",
-        "userDefined": false
-      },
-      {
-        "text": "chistoso",
-        "alias": "any",
-        "meta": "@sys.any",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1528992202
-  },
-  {
-    "id": "87f51e9f-cb83-4a0f-98ee-8c7c7652c456",
-    "data": [
-      {
-        "text": "eres ",
-        "userDefined": false
-      },
-      {
-        "text": "graciosa",
-        "alias": "any",
-        "meta": "@sys.any",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1528992202
-  },
-  {
-    "id": "fdc4a8e2-bcc2-4fea-acb0-19f7857c6ffa",
+    "id": "f84c6c6e-6b4b-416c-aa4a-49a6cd003da2",
     "data": [
       {
         "text": "me haces reír",
@@ -63,28 +9,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528992202
+    "updated": 1529057163
   },
   {
-    "id": "9dae41a1-4820-43f6-a653-2e88e0117e3d",
-    "data": [
-      {
-        "text": "eres muy ",
-        "userDefined": false
-      },
-      {
-        "text": "gracioso",
-        "alias": "any",
-        "meta": "@sys.any",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1528992202
-  },
-  {
-    "id": "191354f9-2bd2-41aa-b78a-a938a96469a8",
+    "id": "efb1a657-83d2-47f3-86cf-a0719acea025",
     "data": [
       {
         "text": "que gracioso eres",
@@ -93,6 +21,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1528992202
+    "updated": 1529057163
   }
 ]
