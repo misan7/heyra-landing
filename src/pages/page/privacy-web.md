@@ -10,7 +10,7 @@ tags:
 
 #### Condiciones de acceso y utilización de la WEB y los Chatbots
 
-En este apartado se incluye información sobre las condiciones de acceso y utilización del sitio Web alarmbots.com y de los Chatbots que se pueden acceder desde dicho sitio web, y que deben ser conocidas por el usuario, para lo que se recomienda su revisión de forma periódica. Información necesaria a los efectos previstos en la Ley 34/2002 de Servicios de la Sociedad de la Información y de Comercio Electrónico.
+En este apartado se incluye información sobre las condiciones de acceso y utilización del sitio Web www.alarmbots.com y de los Chatbots que se pueden acceder desde dicho sitio web, y que deben ser conocidas por el usuario, para lo que se recomienda su revisión de forma periódica. Información necesaria a los efectos previstos en la Ley 34/2002 de Servicios de la Sociedad de la Información y de Comercio Electrónico.
 
 - Titular: BOTSPECIALIST, S.L.
 - CIF: B-67147579
