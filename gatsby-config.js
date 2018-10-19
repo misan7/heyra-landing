@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Alarmbots`,
-    subtitle: `El comparador inteligente`,
-    slogan: `Compara gratis alarmas para hogar o negocio desde tu Whatsapp`,
+    title: `Heyra`,
+    subtitle: `Heyra`,
+    slogan: `Heyra es la amiga que organiza cenas y eventos con personas afines a tu personalidad y gustos`,
     about: {
       title: `Somos`,
-      subtitle: `AlarmBots`,
-      description: `Compara gratis alarmas para hogar o negocio desde tu Whatsapp`,
+      subtitle: `HEYRA`,
+      description: `Heyra es la amiga que organiza cenas y eventos con personas afines a tu personalidad y gustos`,
       totals: {
         business: 12,
         analyzed: 4681,
@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '1925256160881816'
+        pixelId: "1925256160881816"
       }
     },
     {
@@ -65,14 +65,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name:
-          'Alarmbots - Compara gratis alarmas para hogar o negocio desde tu Whatsapp',
-        short_name: 'Alarmbots',
-        start_url: '/',
-        background_color: '#070708',
-        theme_color: '#070708',
-        display: 'minimal-ui',
-        icon: 'static/images/icon.jpg'
+        name: "Heyra - El Algoritmo de Compatibilidad",
+        short_name: "Heyra",
+        start_url: "/",
+        background_color: "#070708",
+        theme_color: "#070708",
+        display: "minimal-ui",
+        icon: "static/images/icon.jpg"
       }
     }
   ]
