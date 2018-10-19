@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
+import React from "react";
+import PropTypes from "prop-types";
+import Link from "gatsby-link";
 
-import Home from '../components/Home';
-import About from '../components/About';
-import Statistics from '../components/Statistics';
-import Works from '../components/Works';
-import Networks from '../components/Networks';
-import Contact from '../components/Contact';
+import Home from "../components/Home";
+import About from "../components/About";
+import Statistics from "../components/Statistics";
+import Works from "../components/Works";
+import Networks from "../components/Networks";
+import Contact from "../components/Contact";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -20,7 +20,7 @@ export default class IndexPage extends React.Component {
       }
     } = data;
 
-    const type = (location.search && location.search.substr(1)) || 'none';
+    const type = (location.search && location.search.substr(1)) || "none";
 
     return (
       <div>

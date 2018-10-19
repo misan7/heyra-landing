@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const range = (min, max) => Math.round(min + Math.random() * (max - min));
 
@@ -16,7 +16,7 @@ const Statistics = ({ title, subtitle, description, totals }) => (
         <p>{description}</p>
       </div>
     </div>
-    <div
+    {/* <div
       className="row about-stats stats block-1-3 block-m-1-2 block-mob-full"
       data-aos="fade-up"
     >
@@ -36,7 +36,7 @@ const Statistics = ({ title, subtitle, description, totals }) => (
         </div>
         <h5>Clientes protegidos</h5>
       </div>
-    </div>
+    </div> */}
     <div className="about__line" />
   </section>
 );
