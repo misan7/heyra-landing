@@ -53,8 +53,8 @@ const About = () => (
         <div className="service-text">
           <h3 className="h2">Rápido</h3>
           <p>
-            Unas simples preguntas mediante WhatsApp, y tendré todo lo necesario
-            para asesorarte.
+            Organizo eventos con personas parecidas a ti en gustos para que
+            ahorres tiempo.
           </p>
         </div>
       </div>
