@@ -26,7 +26,7 @@ const Networks = () => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className={`row about-stats stats
           block-1-2
           block-m-1-1 block-mob-full`}
@@ -45,7 +45,7 @@ const Networks = () => {
             </a>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
