@@ -1638,7 +1638,12 @@ input::-moz-focus-inner {
     transition: all 0.3s ease-in-out;
 }
 
+.header-logo .site-logo {
+    display: flex;
+}
+
 .header-logo a img {
+    height: 60px;
     margin: 0 auto;
 }
 
@@ -3920,13 +3925,13 @@ footer .row {
 .go-top a:visited {
     text-decoration: none;
     border: 0 none;
+    border-radius: 32px;
     display: block;
     height: 60px;
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: black;
-    color: rgba(255, 255, 255, 0.5);
+    background: #ebc300;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
@@ -3942,6 +3947,7 @@ footer .row {
 .go-top a:hover,
 .go-top a:focus {
     color: #FFFFFF;
+    box-shadow: 0 0 3px 1px white;
 }
 
 /* ------------------------------------------------------------------- 
