@@ -9,7 +9,9 @@ const Footer = () => (
   <footer>
     <div className="row footer-main">
       <div className="col-six tab-full left footer-desc">
-        <img className="footer-logo" src={Logo} />
+        <Link to="/">
+          <img className="footer-logo" src={Logo} />
+        </Link>
         <Social className="contact-social" />
       </div>
 

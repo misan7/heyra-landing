@@ -3788,7 +3788,7 @@ footer .row {
 
 .footer-logo {
     margin-bottom: 17px;
-
+    border-radius: 11px;
     display: block;
     margin: -.6rem 0 3.6rem 0;
     padding: 0;
@@ -3800,6 +3800,10 @@ footer .row {
     color: transparent;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.footer-logo:hover {
+    box-shadow: 0 0 8px 1px white;
 }
 
 .footer-social {
