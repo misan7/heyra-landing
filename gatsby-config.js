@@ -4,9 +4,13 @@ module.exports = {
     subtitle: `Heyra`,
     slogan: `Heyra es la amiga que organiza cenas y eventos con personas afines a tu personalidad y gustos`,
     about: {
-      title: `Somos`,
+      title: `Hola, me llamo`,
       subtitle: `HEYRA`,
-      description: `Heyra es la amiga que organiza cenas y eventos con personas afines a tu personalidad y gustos`,
+      firstDescription: `Voy a ser tu asistente personal, estoy dotada de inteligencia
+          artificial y mi propósito es ayudarte a conocer gente cómo tú.`,
+      secDescription: `Te voy a escuchar y a conocer, ¡estoy impaciente por hablar contigo!
+          Puedo buscarte un restaurante y reservar una mesa para ti y tu match,
+          tengo mis contactos ¿sabes? Solamente necesito conocer tus gustos.`,
       totals: {
         business: 12,
         analyzed: 4681,

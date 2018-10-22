@@ -2465,7 +2465,7 @@ html.no-csstransitions .home-content__main {
 
 .s-about {
     padding-top: 16.2rem;
-    padding-bottom: 9rem;
+    padding-bottom: 16.2rem;
     background-color: #E8BB00;
     color: #010507;
     position: relative;
@@ -2654,8 +2654,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-services {
-    padding-top: 20.4rem;
-    padding-bottom: 20.4rem;
+    padding-top: 16.2rem;
+    padding-bottom: 16.2rem;
     background-color: #FFFFFF;
     color: #757575;
     position: relative;

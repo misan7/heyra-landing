@@ -5,8 +5,8 @@ const About = () => (
   <section id="services" className="s-services">
     <div className="row section-header has-bottom-sep" data-aos="fade-up">
       <div className="col-full">
-        <h3 className="subhead">Encantada de conocerte</h3>
-        <h1 className="display-2">Me llamo Heyra</h1>
+        <h3 className="subhead">Algunas cosas que puedo hacer</h3>
+        <h1 className="display-2">Por ti</h1>
       </div>
     </div>
     <div className="row services-list block-1-2 block-tab-full">

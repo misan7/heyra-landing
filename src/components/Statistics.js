@@ -3,7 +3,13 @@ import PropTypes from "prop-types";
 
 const range = (min, max) => Math.round(min + Math.random() * (max - min));
 
-const Statistics = ({ title, subtitle, description, totals }) => (
+const Statistics = ({
+  title,
+  subtitle,
+  firstDescription,
+  secDescription,
+  totals
+}) => (
   <section id="about" className="s-about">
     <div className="row section-header has-bottom-sep" data-aos="fade-up">
       <div className="col-full">
@@ -13,7 +19,10 @@ const Statistics = ({ title, subtitle, description, totals }) => (
     </div>
     <div className="row about-desc" data-aos="fade-up">
       <div className="col-full">
-        <p>{description}</p>
+        <p>{firstDescription}</p>
+      </div>
+      <div className="col-full">
+        <p>{secDescription}</p>
       </div>
     </div>
     {/* <div
@@ -44,7 +53,7 @@ const Statistics = ({ title, subtitle, description, totals }) => (
 Statistics.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  description: PropTypes.string,
+  firstDescription: PropTypes.string,
   totals: PropTypes.shape({
     business: PropTypes.number,
     analyzed: PropTypes.number,

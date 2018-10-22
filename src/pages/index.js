@@ -52,7 +52,8 @@ export const pageQuery = graphql`
         about {
           title
           subtitle
-          description
+          firstDescription
+          secDescription
           totals {
             business
             analyzed
