@@ -1,21 +1,20 @@
-import React from 'react';
-import NetlifyForm from 'react-netlify-form';
-import Link from 'gatsby-link';
+import React from "react";
+import NetlifyForm from "react-netlify-form";
+import Link from "gatsby-link";
 
-import Logo from '../img/logo.svg';
-import Social from './Social';
+import Logo from "../img/logo.svg";
+import Social from "./Social";
 
 const Footer = () => (
   <footer>
     <div className="row footer-main">
       <div className="col-six tab-full left footer-desc">
         <img className="footer-logo" src={Logo} />
-        <p>Compara gratis alarmas para hogar o negocio desde tu Whatsapp</p>
         <Social className="contact-social" />
       </div>
 
       <NetlifyForm name="Callme">
-        {(formState) => (
+        {formState => (
           <div className="col-six tab-full right footer-subscribe">
             <h4>¿Te llamamos?</h4>
             <p>
@@ -52,20 +51,20 @@ const Footer = () => (
 
     <div className="row footer-bottom">
       <div className="col-six">
-        <span>Creado con ❤️por BotSpecialist</span>
+        <span>Creado con ❤️ por BotSpecialist</span>
       </div>
 
       <div className="col-six">
         <span>
           <Link to="/">Inicio</Link>
         </span>
-        {'  |  '}
+        {"  |  "}
         <span>
           <Link to="/page/privacy-web">
             Política de privacidad y Aviso Legal
           </Link>
         </span>
-        <div className="go-top" style={{ display: 'block' }}>
+        <div className="go-top" style={{ display: "block" }}>
           <a className="smoothscroll" title="Back to Top" href="#top">
             <i className="icon-arrow-up" aria-hidden="true" />
           </a>
