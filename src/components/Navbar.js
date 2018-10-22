@@ -17,7 +17,9 @@ class Navbar extends Component {
 
     return (
       <header
-        className={classNames("s-header", { "menu-is-open": this.state.show })}
+        className={classNames("s-header", {
+          "menu-is-open": this.state.show
+        })}
       >
         <div className="header-logo">
           <Link to="/">
@@ -84,14 +86,16 @@ class Navbar extends Component {
                 <Social className="header-nav__social" />
               </div>
             </nav>
-            <a
-              className="header-menu-toggle"
-              href="#0"
-              onClick={() => this.toggle()}
-            >
-              <span className="header-menu-text">Menu</span>
-              <span className="header-menu-icon" />
-            </a>
+            <div className="menu-box">
+              <a
+                className="header-menu-toggle"
+                href="#0"
+                onClick={() => this.toggle()}
+              >
+                <span className="header-menu-text">Menu</span>
+                <span className="header-menu-icon" />
+              </a>
+            </div>
           </div>
         )}
       </header>

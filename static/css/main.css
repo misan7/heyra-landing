@@ -1828,6 +1828,16 @@ input::-moz-focus-inner {
  * ## mobile menu toggle 
  * ------------------------------------------------------------------- */
 
+.menu-box {
+    position: fixed;
+    right: 38px;
+    top: 24px;
+    height: 42px;
+    width: 108px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
 .header-menu-toggle {
     position: fixed;
     right: 38px;
