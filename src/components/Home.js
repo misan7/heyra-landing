@@ -29,7 +29,7 @@ class Home extends Component {
 
   render() {
     const { title, slogan, background, backgroundVideo, type } = this.props;
-    const network = btn("whatsapp");
+    /* const network = btn("whatsapp"); */
 
     let typeTitle =
       "El bot que compara gratis alarmas para hogar o negocio desde tu";
@@ -55,7 +55,7 @@ class Home extends Component {
           <div className="row home-content__main">
             <h3>{title}</h3>
             <h1 className="home-title">{title}</h1>
-            <div className="home-content__buttons">
+            {/* <div className="home-content__buttons">
               <a href={network.link} className={`${network.name} contact btn`}>
                 Comienza a chatear
               </a>
@@ -65,7 +65,7 @@ class Home extends Component {
               >
                 Saber más
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="home-content__scroll">
             <a href="#services" className="scroll-link smoothscroll">
