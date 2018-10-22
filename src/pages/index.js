@@ -28,7 +28,7 @@ export default class IndexPage extends React.Component {
         <About />
         <Statistics {...about} />
         <Networks type={type} />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     );
   }
