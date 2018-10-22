@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import classNames from 'classnames';
-import Link from 'gatsby-link';
+import React, { Component } from "react";
+import classNames from "classnames";
+import Link from "gatsby-link";
 
-import Social from './Social';
-import Logo from '../img/logo.svg';
+import Social from "./Social";
+import Logo from "../img/logo.svg";
 
 class Navbar extends Component {
   state = { show: false };
@@ -17,7 +17,7 @@ class Navbar extends Component {
 
     return (
       <header
-        className={classNames('s-header', { 'menu-is-open': this.state.show })}
+        className={classNames("s-header", { "menu-is-open": this.state.show })}
       >
         <div className="header-logo">
           <Link to="/">
@@ -67,7 +67,7 @@ class Navbar extends Component {
                       <span>Estadísticas</span>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="#contact"
                       className="smoothscroll"
@@ -75,7 +75,7 @@ class Navbar extends Component {
                     >
                       <span>Contacto</span>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
                 <p>
                   Si deseas conocer más sobre nosotros, visita nuestros perfiles

@@ -66,7 +66,7 @@ const Social = props => (
     {networks(props.type) &&
       networks(props.type).map(network => (
         <li key={network.name}>
-          <a href={network.link}>
+          <a href={network.link} target="_blank">
             <i className={`fab fa-${network.name}`} />
           </a>
         </li>
