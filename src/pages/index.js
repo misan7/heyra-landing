@@ -27,7 +27,7 @@ export default class IndexPage extends React.Component {
         <Home title={subtitle} slogan={slogan} type={type} />
         <About />
         <Statistics {...about} />
-        <Networks type={type} />
+        {/* <Networks type={type} /> */}
         {/* <Contact /> */}
       </div>
     );
