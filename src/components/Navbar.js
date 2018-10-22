@@ -55,7 +55,7 @@ class Navbar extends Component {
                       className="smoothscroll"
                       onClick={() => this.toggle()}
                     >
-                      <span>Sobre nosotros</span>
+                      <span>Servicios</span>
                     </a>
                   </li>
                   <li>
@@ -64,7 +64,7 @@ class Navbar extends Component {
                       className="smoothscroll"
                       onClick={() => this.toggle()}
                     >
-                      <span>Estadísticas</span>
+                      <span>Descripción</span>
                     </a>
                   </li>
                   {/* <li>
