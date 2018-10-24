@@ -623,10 +623,10 @@ form,
 
 .line-scale-pulse-out>div {
     background-color: #E8BB00;
-    width: 4px;
-    height: 35px;
-    border-radius: 2px;
-    margin: 2px;
+    width: 40px;
+    height: 305px;
+    border-radius: 20px;
+    margin: 20px;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     display: inline-block;

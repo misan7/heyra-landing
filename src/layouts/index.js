@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
 
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import ChatBot from '../components/Chatbot';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ChatBot from "../components/Chatbot";
 
 const TemplateWrapper = ({
   children,
@@ -21,7 +21,7 @@ const TemplateWrapper = ({
       title={subtitle}
       titleTemplate={`%s - ${title}`}
       bodyAttributes={{
-        class: `s-${(location.search && location.search.substr(1)) || 'none'}`
+        class: `s-${(location.search && location.search.substr(1)) || "none"}`
       }}
     >
       <meta name="description" content={slogan} />
@@ -67,7 +67,7 @@ const TemplateWrapper = ({
       `}</script>
       <html lang="es" />
     </Helmet>
-    <Navbar isHome={location.pathname === '/'} />
+    <Navbar isHome={location.pathname === "/"} />
     <div id="Content"> {children()} </div>
     <Footer />
     <div id="preloader">
